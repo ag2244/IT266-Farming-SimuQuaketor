@@ -1,9 +1,0 @@
-﻿Build started 9/22/2020 7:14:45 PM.
-     1>Project "C:\Program Files (x86)\GOG Galaxy\Games\Quake 4\quake4mod\sourceCode\idlib.vcxproj" on node 2 (Build target(s)).
-     1>Lib:
-         idlib.vcxproj -> C:\Program Files (x86)\GOG Galaxy\Games\Quake 4\quake4mod\sourceCode\../Win32/Debug\idLib.lib
-     1>Done Building Project "C:\Program Files (x86)\GOG Galaxy\Games\Quake 4\quake4mod\sourceCode\idlib.vcxproj" (Build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:00.12
