@@ -1,0 +1,5 @@
+AI.cpp:
+-----
+
+idAI::SetEnemy:
+	- Made it return false at the beginning: Effectively, it cannot detect enemies.
