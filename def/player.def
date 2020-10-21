@@ -695,7 +695,7 @@ entityDef player_marine
 	"weapon"						"weapon_blaster"
 	"current_weapon"					"0"
 
-	"pm_jumpheight"						"100"
+	"pm_jumpheight"						"200"
 	"pm_stepsize"						"16"
 	"pm_speed"						"300"  	//DOOM speed was 140
 	"pm_walkspeed"						"500"
