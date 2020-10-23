@@ -1,4 +1,4 @@
-﻿Build started 10/21/2020 5:15:22 PM.
+﻿Build started 10/23/2020 4:43:35 PM.
      1>Project "C:\Program Files (x86)\GOG Galaxy\Games\Quake 4\Farming Simu-Quaketor\source\idlib.vcxproj" on node 2 (Build target(s)).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (../Win32/Release\) contains files shared from another project (Game.vcxproj, MPGame.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>Lib:
@@ -7,4 +7,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.09
+Time Elapsed 00:00:00.27
