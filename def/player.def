@@ -746,7 +746,6 @@ entityDef player_marine
 	"max_ammo_nailgun"					"300"
 	"max_ammo_shotgun"					"50"
 	"max_ammo_hyperblaster"					"400"
-	"max_ammo_napalmgun"					"40"
 	"max_ammo_rocketlauncher"				"40"
 	"max_ammo_grenadelauncher"				"50"
 	"max_ammo_lightninggun"					"400"

@@ -1,21 +1,11 @@
-﻿Build started 10/23/2020 4:43:35 PM.
+﻿Build started 10/23/2020 11:06:42 PM.
      1>Project "C:\Program Files (x86)\GOG Galaxy\Games\Quake 4\Farming Simu-Quaketor\source\game.vcxproj" on node 2 (Build target(s)).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (../Win32/Release\) contains files shared from another project (idLib.vcxproj, MPGame.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W4 /WX- /Ox /Ob1 /Oi /Oy- /D NDEBUG /D _WINDOWS /D _FINAL /D GAME_DLL /D Q4SDK /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MT /GS- /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yu /Fp"../Win32/Release\Game/Game.pch" /Fo"../Win32/Release\Game/" /Fd"../Win32/Release\Gamex86.pdb" /Gd /TP /analyze- /errorReport:prompt game\Game_local.cpp game\Weapon.cpp
-         Game_local.cpp
-     1>game\Game_local.cpp(3718): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
-     1>game\Game_local.cpp(4857): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
-     1>game\Game_local.cpp(8358): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
-     1>game\Game_local.cpp(8373): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
-         Weapon.cpp
-     1>game\Weapon.cpp(2338): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
-         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W4 /WX- /Ox /Ob1 /Oi /Oy- /D NDEBUG /D _WINDOWS /D _FINAL /D GAME_DLL /D Q4SDK /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MT /GS- /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yu /Fp"../Win32/Release\Game/Game.pch" /Fo"../Win32/Release\Game/" /Fd"../Win32/Release\Gamex86.pdb" /Gd /TP /analyze- /errorReport:prompt game\weapon\WeaponTestWeapon.cpp
+         WeaponTestWeapon.cpp
+     1>game\weapon\WeaponTestWeapon.cpp(1): warning C4627: '#include "../../idlib/precompiled.h"': skipped when looking for precompiled header use
+                 Add directive to 'precompiled header (.h) file' or rebuild precompiled header
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(C:\Program Files (x86)\GOG Galaxy\Games\Quake 4\Farming Simu-Quaketor\source\../Win32/Release\Game.dll) does not match the Linker's OutputFile property value (C:\Program Files (x86)\GOG Galaxy\Games\Quake 4\Farming Simu-Quaketor\Win32\Release\Gamex86.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1188,5): warning MSB8012: TargetName(Game) does not match the Linker's OutputFile property value (Gamex86). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
        Link:
@@ -56,7 +46,7 @@
          ../Win32/Release\Game/Target.obj
          ../Win32/Release\Game/TramGate.obj
          ../Win32/Release\Game/Trigger.obj
-         ../Win32/Release\Game/TestWeapon.obj
+         ../Win32/Release\Game/WeaponTestWeapon.obj
          ../Win32/Release\Game/WorldSpawn.obj
          ../Win32/Release\Game/AAS.obj
          ../Win32/Release\Game/AAS_debug.obj
@@ -187,4 +177,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:03.38
+Time Elapsed 00:00:02.53

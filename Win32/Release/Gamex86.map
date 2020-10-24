@@ -1,6 +1,6 @@
  Gamex86
 
- Timestamp is 5f934079 (Fri Oct 23 16:43:37 2020)
+ Timestamp is 5f939a43 (Fri Oct 23 23:06:43 2020)
 
  Preferred load address is 20000000
 
@@ -44,10 +44,10 @@
 
   Address         Publics by Value              Rva+Base       Lib:Object
 
- 0000:00000000       ___guard_fids_count        00000000     <absolute>
- 0000:00000000       __except_list              00000000     <absolute>
  0000:00000000       ___guard_fids_table        00000000     <absolute>
  0000:00000000       ___guard_flags             00000000     <absolute>
+ 0000:00000000       ___guard_fids_count        00000000     <absolute>
+ 0000:00000000       __except_list              00000000     <absolute>
  0000:000005e1       ___safe_se_handler_count   000005e1     <absolute>
  0000:00000000       ___ImageBase               20000000     <linker-defined>
  0001:0000d2a0       ??0idAnimState@@QAE@XZ     2000e2a0 f   Actor.obj
@@ -211,22 +211,22 @@
  0001:00016de0       ?Register_idActor@@YAXXZ   20017de0 f   Actor.obj
  0001:00016de5       ??_9idActor@@$BBNI@AE      20017de5 f i Actor.obj
  0001:00016df0       ??0idDict@@QAE@XZ          20017df0 f i Actor.obj
- 0001:00016f70       ??0debugJumpPoint_s@@QAE@XZ 20017f70 f i Game_Debug.obj
- 0001:00016f70       ??0idStr@@QAE@XZ           20017f70 f i Actor.obj
  0001:00016f70       ??0mpBanInfo_s@@QAE@XZ     20017f70 f i Game_network.obj
- 0001:00016f90       ??0idStaticPState@@QAE@XZ  20017f90 f i Physics_Static.obj
+ 0001:00016f70       ??0idStr@@QAE@XZ           20017f70 f i Actor.obj
+ 0001:00016f70       ??0debugJumpPoint_s@@QAE@XZ 20017f70 f i Game_Debug.obj
  0001:00016f90       ??0gameDebugLine_t@@QAE@XZ 20017f90 f i SysCmds.obj
- 0001:00016f90       ??0traceResult_t@rvObstacleFinder@@QAE@XZ 20017f90 f i AI_Move.obj
- 0001:00016f90       ??0idVec2@@QAE@XZ          20017f90 f i Actor.obj
- 0001:00016f90       ??0trace_t@@QAE@XZ         20017f90 f i Actor.obj
  0001:00016f90       ??0idVec3@@QAE@XZ          20017f90 f i Actor.obj
+ 0001:00016f90       ??0trace_t@@QAE@XZ         20017f90 f i Actor.obj
+ 0001:00016f90       ??0idStaticPState@@QAE@XZ  20017f90 f i Physics_Static.obj
+ 0001:00016f90       ??0idVec2@@QAE@XZ          20017f90 f i Actor.obj
+ 0001:00016f90       ??0traceResult_t@rvObstacleFinder@@QAE@XZ 20017f90 f i AI_Move.obj
  0001:00016fa0       ??1?$idList@VidStr@@@@QAE@XZ 20017fa0 f i Actor.obj
  0001:00017000       ??1idDict@@QAE@XZ          20018000 f i Actor.obj
  0001:00017090       ??1idHashIndex@@QAE@XZ     20018090 f i Actor.obj
- 0001:000170a0       ??1debugJumpPoint_s@@QAE@XZ 200180a0 f i Game_Debug.obj
- 0001:000170a0       ??1idToken@@QAE@XZ         200180a0 f i AF.obj
  0001:000170a0       ??1idStr@@QAE@XZ           200180a0 f i Actor.obj
  0001:000170a0       ??1mpBanInfo_s@@QAE@XZ     200180a0 f i Game_local.obj
+ 0001:000170a0       ??1debugJumpPoint_s@@QAE@XZ 200180a0 f i Game_Debug.obj
+ 0001:000170a0       ??1idToken@@QAE@XZ         200180a0 f i AF.obj
  0001:000170b0       ??4?$idEntityPtr@VidEntity@@@@QAEAAV0@AAV0@@Z 200180b0 f i Actor.obj
  0001:00017100       ??4idMat3@@QAEAAV0@ABV0@@Z 20018100 f i Actor.obj
  0001:00017140       ??_EidStr@@QAEPAXI@Z       20018140 f i Actor.obj
@@ -235,8 +235,8 @@
  0001:00017210       ?Free@Memory@@SAXPAX@Z     20018210 f i Actor.obj
  0001:00017210       ??3@YAXPAX@Z               20018210 f i Actor.obj
  0001:00017240       ?AdjustHealthByDamage@idActor@@UAEXH@Z 20018240 f i Actor.obj
- 0001:00017250       ?Allocate@Memory@@SAPAXI@Z 20018250 f i Actor.obj
  0001:00017250       ??2@YAPAXI@Z               20018250 f i Actor.obj
+ 0001:00017250       ?Allocate@Memory@@SAPAXI@Z 20018250 f i Actor.obj
  0001:00017280       ?Collide@idEntity@@UAE_NABUtrace_t@@ABVidVec3@@AA_N@Z 20018280 f i Actor.obj
  0001:000172a0       ?GetAnimator@idAnimatedEntity@@UBEPBVidAnimator@@XZ 200182a0 f i Actor.obj
  0001:000172b0       ?GetInstance@idEntity@@UBEHXZ 200182b0 f i Actor.obj
@@ -474,26 +474,26 @@
  0001:00027270       ??4idTraceModel@@QAEAAV0@ABV0@@Z 20028270 f i AFEntity.obj
  0001:000274b0       ??4renderEntity_s@@QAEAAU0@ABU0@@Z 200284b0 f i AFEntity.obj
  0001:00027690       ??H@YA?AVidStr@@ABV0@0@Z   20028690 f i AFEntity.obj
- 0001:00027770       ??_GidAFAttachment@@UAEPAXI@Z 20028770 f i AFEntity.obj
  0001:00027770       ??_EidAFAttachment@@UAEPAXI@Z 20028770 f i AFEntity.obj
- 0001:000277a0       ??_GidAFEntity_Generic@@UAEPAXI@Z 200287a0 f i AFEntity.obj
+ 0001:00027770       ??_GidAFAttachment@@UAEPAXI@Z 20028770 f i AFEntity.obj
  0001:000277a0       ??_EidAFEntity_Generic@@UAEPAXI@Z 200287a0 f i AFEntity.obj
+ 0001:000277a0       ??_GidAFEntity_Generic@@UAEPAXI@Z 200287a0 f i AFEntity.obj
  0001:000277d0       ??_EidAFEntity_Gibbable@@UAEPAXI@Z 200287d0 f i AFEntity.obj
  0001:000277d0       ??_GidAFEntity_Gibbable@@UAEPAXI@Z 200287d0 f i AFEntity.obj
  0001:00027800       ??_GidAFEntity_SteamPipe@@UAEPAXI@Z 20028800 f i AFEntity.obj
  0001:00027800       ??_EidAFEntity_SteamPipe@@UAEPAXI@Z 20028800 f i AFEntity.obj
- 0001:00027830       ??_EidAFEntity_ClawFourFingers@@UAEPAXI@Z 20028830 f i AFEntity.obj
- 0001:00027830       ??_GidAFEntity_ClawFourFingers@@UAEPAXI@Z 20028830 f i AFEntity.obj
- 0001:00027830       ??_GidAFEntity_Vehicle@@UAEPAXI@Z 20028830 f i AFEntity.obj
  0001:00027830       ??_EidAFEntity_VehicleSixWheels@@UAEPAXI@Z 20028830 f i AFEntity.obj
- 0001:00027830       ??_EidAFEntity_Vehicle@@UAEPAXI@Z 20028830 f i AFEntity.obj
- 0001:00027830       ??_EidAFEntity_VehicleFourWheels@@UAEPAXI@Z 20028830 f i AFEntity.obj
  0001:00027830       ??_EidAFEntity_Base@@UAEPAXI@Z 20028830 f i AFEntity.obj
- 0001:00027830       ??_GidAFEntity_Base@@UAEPAXI@Z 20028830 f i AFEntity.obj
+ 0001:00027830       ??_GidAFEntity_Vehicle@@UAEPAXI@Z 20028830 f i AFEntity.obj
+ 0001:00027830       ??_GidAFEntity_ClawFourFingers@@UAEPAXI@Z 20028830 f i AFEntity.obj
  0001:00027830       ??_GidAFEntity_VehicleFourWheels@@UAEPAXI@Z 20028830 f i AFEntity.obj
+ 0001:00027830       ??_EidAFEntity_VehicleFourWheels@@UAEPAXI@Z 20028830 f i AFEntity.obj
+ 0001:00027830       ??_EidAFEntity_ClawFourFingers@@UAEPAXI@Z 20028830 f i AFEntity.obj
+ 0001:00027830       ??_EidAFEntity_Vehicle@@UAEPAXI@Z 20028830 f i AFEntity.obj
+ 0001:00027830       ??_GidAFEntity_Base@@UAEPAXI@Z 20028830 f i AFEntity.obj
  0001:00027830       ??_GidAFEntity_VehicleSixWheels@@UAEPAXI@Z 20028830 f i AFEntity.obj
- 0001:00027860       ??_GidAFEntity_WithAttachedHead@@UAEPAXI@Z 20028860 f i AFEntity.obj
  0001:00027860       ??_EidAFEntity_WithAttachedHead@@UAEPAXI@Z 20028860 f i AFEntity.obj
+ 0001:00027860       ??_GidAFEntity_WithAttachedHead@@UAEPAXI@Z 20028860 f i AFEntity.obj
  0001:00027890       ??_GidChain@@UAEPAXI@Z     20028890 f i AFEntity.obj
  0001:00027890       ??_EidMultiModelAF@@UAEPAXI@Z 20028890 f i AFEntity.obj
  0001:00027890       ??_GidMultiModelAF@@UAEPAXI@Z 20028890 f i AFEntity.obj
@@ -539,10 +539,10 @@
  0001:0002d4d0       ??4idFixedWinding@@QAEAAV0@ABV0@@Z 2002e4d0 f i BrittleFracture.obj
  0001:0002d560       ??_EidBrittleFracture@@UAEPAXI@Z 2002e560 f i BrittleFracture.obj
  0001:0002d560       ??_GidBrittleFracture@@UAEPAXI@Z 2002e560 f i BrittleFracture.obj
- 0001:0002d590       ??_GidFixedWinding@@UAEPAXI@Z 2002e590 f i BrittleFracture.obj
  0001:0002d590       ??_EidFixedWinding@@UAEPAXI@Z 2002e590 f i BrittleFracture.obj
- 0001:0002d610       ??_GidWinding@@UAEPAXI@Z   2002e610 f i BrittleFracture.obj
+ 0001:0002d590       ??_GidFixedWinding@@UAEPAXI@Z 2002e590 f i BrittleFracture.obj
  0001:0002d610       ??_EidWinding@@UAEPAXI@Z   2002e610 f i BrittleFracture.obj
+ 0001:0002d610       ??_GidWinding@@UAEPAXI@Z   2002e610 f i BrittleFracture.obj
  0001:0002d690       ?Clear@idFixedWinding@@UAEXXZ 2002e690 f i BrittleFracture.obj
  0001:0002d6a0       ?Clear@idWinding@@UAEXXZ   2002e6a0 f i BrittleFracture.obj
  0001:0002d6f0       ?RegisterClassA@idCamera@@SAXXZ 2002e6f0 f   Camera.obj
@@ -635,22 +635,22 @@
  0001:00034050       ??0?$idInterpolate@M@@QAE@XZ 20035050 f i Camera.obj
  0001:00034090       ??1?$idInterpolate@M@@UAE@XZ 20035090 f i Camera.obj
  0001:000340a0       ??1idDamagable@@UAE@XZ     200350a0 f i Misc.obj
- 0001:000340a0       ??1idTarget@@UAE@XZ        200350a0 f i Target.obj
  0001:000340a0       ??1idCamera@@UAE@XZ        200350a0 f i Camera.obj
+ 0001:000340a0       ??1idTarget@@UAE@XZ        200350a0 f i Target.obj
  0001:000340b0       ??1idDecl@@UAE@XZ          200350b0 f i Camera.obj
  0001:000340c0       ??_E?$idInterpolate@M@@UAEPAXI@Z 200350c0 f i Camera.obj
  0001:000340c0       ??_G?$idInterpolate@M@@UAEPAXI@Z 200350c0 f i Camera.obj
  0001:00034110       ??_G?$idList@VidStr@@@@QAEPAXI@Z 20035110 f i Camera.obj
- 0001:000341a0       ??_GidCameraAnim@@UAEPAXI@Z 200351a0 f i Camera.obj
  0001:000341a0       ??_EidCameraAnim@@UAEPAXI@Z 200351a0 f i Camera.obj
- 0001:000341d0       ??_EidCameraView@@UAEPAXI@Z 200351d0 f i Camera.obj
+ 0001:000341a0       ??_GidCameraAnim@@UAEPAXI@Z 200351a0 f i Camera.obj
  0001:000341d0       ??_GidCameraView@@UAEPAXI@Z 200351d0 f i Camera.obj
- 0001:00034200       ??_EidDecl@@UAEPAXI@Z      20035200 f i Camera.obj
+ 0001:000341d0       ??_EidCameraView@@UAEPAXI@Z 200351d0 f i Camera.obj
  0001:00034200       ??_GidDecl@@UAEPAXI@Z      20035200 f i Camera.obj
+ 0001:00034200       ??_EidDecl@@UAEPAXI@Z      20035200 f i Camera.obj
  0001:00034250       ??_GidDeclCameraDef@@UAEPAXI@Z 20035250 f i Camera.obj
  0001:00034250       ??_EidDeclCameraDef@@UAEPAXI@Z 20035250 f i Camera.obj
- 0001:000342a0       ??_GrvCameraPlayback@@UAEPAXI@Z 200352a0 f i Camera.obj
  0001:000342a0       ??_ErvCameraPlayback@@UAEPAXI@Z 200352a0 f i Camera.obj
+ 0001:000342a0       ??_GrvCameraPlayback@@UAEPAXI@Z 200352a0 f i Camera.obj
  0001:000342d0       ??_ErvCameraPortalSky@@UAEPAXI@Z 200352d0 f i Camera.obj
  0001:000342d0       ??_GrvCameraPortalSky@@UAEPAXI@Z 200352d0 f i Camera.obj
  0001:00034300       ?DefaultDefinition@idDecl@@UBEPBDXZ 20035300 f i Camera.obj
@@ -726,8 +726,8 @@
  0001:00035fa0       ??_ErvClientAFAttachment@@UAEPAXI@Z 20036fa0 f i ClientAFEntity.obj
  0001:00035fd0       ??_GrvClientAFEntity@@UAEPAXI@Z 20036fd0 f i ClientAFEntity.obj
  0001:00035fd0       ??_ErvClientAFEntity@@UAEPAXI@Z 20036fd0 f i ClientAFEntity.obj
- 0001:00036000       ?GetAnimator@rvAnimatedClientEntity@@UBEPBVidAnimator@@XZ 20037000 f i ClientAFEntity.obj
  0001:00036000       ?GetAnimator@rvAnimatedClientEntity@@UAEPAVidAnimator@@XZ 20037000 f i ClientAFEntity.obj
+ 0001:00036000       ?GetAnimator@rvAnimatedClientEntity@@UBEPBVidAnimator@@XZ 20037000 f i ClientAFEntity.obj
  0001:00036010       ?GetRenderEntity@rvClientModel@@UAEPAUrenderEntity_s@@XZ 20037010 f i ClientAFEntity.obj
  0001:00036020       ?RegisterClassA@rvEffect@@SAXXZ 20037020 f   Effect.obj
  0001:000360b0       ?CreateInstance@rvEffect@@SAPAVidClass@@XZ 200370b0 f   Effect.obj
@@ -757,8 +757,8 @@
  0001:00037020       ?Event_Attenuate@rvEffect@@AAEXM@Z 20038020 f   Effect.obj
  0001:00037040       ?Event_IsActive@rvEffect@@AAEXXZ 20038040 f   Effect.obj
  0001:00037080       ?Register_rvEffect@@YAXXZ  20038080 f   Effect.obj
- 0001:00037090       ??B?$rvClientEntityPtr@VrvClientEffect@@@@QBEPAVrvClientEffect@@XZ 20038090 f i Effect.obj
  0001:00037090       ??C?$rvClientEntityPtr@VrvClientEffect@@@@QBEPAVrvClientEffect@@XZ 20038090 f i Effect.obj
+ 0001:00037090       ??B?$rvClientEntityPtr@VrvClientEffect@@@@QBEPAVrvClientEffect@@XZ 20038090 f i Effect.obj
  0001:00037090       ??B?$rvClientEntityPtr@VrvClientAFAttachment@@@@QBEPAVrvClientAFAttachment@@XZ 20038090 f i Player.obj
  0001:00037100       ?ParseSpawnArgsToRenderEntity@idGameEdit@@UAEXPBVidDict@@PAUrenderEntity_s@@@Z 20038100 f   Entity.obj
  0001:000376f0       ?ParseSpawnArgsToRefSound@idGameEdit@@UAEXPBVidDict@@PAUrefSound_t@@@Z 200386f0 f   Entity.obj
@@ -1062,15 +1062,15 @@
  0001:00044a50       ??_E?$idCurve@VidVec3@@@@UAEPAXI@Z 20045a50 f i Entity.obj
  0001:00044a50       ??_G?$idCurve@VidVec3@@@@UAEPAXI@Z 20045a50 f i Entity.obj
  0001:00044b60       ??_G?$idCurve_CatmullRomSpline@VidVec3@@@@UAEPAXI@Z 20045b60 f i Entity.obj
- 0001:00044b60       ??_G?$idCurve_BSpline@VidVec3@@@@UAEPAXI@Z 20045b60 f i Entity.obj
- 0001:00044b60       ??_E?$idCurve_CatmullRomSpline@VidVec3@@@@UAEPAXI@Z 20045b60 f i Entity.obj
- 0001:00044b60       ??_E?$idCurve_NonUniformBSpline@VidVec3@@@@UAEPAXI@Z 20045b60 f i Entity.obj
  0001:00044b60       ??_G?$idCurve_NonUniformBSpline@VidVec3@@@@UAEPAXI@Z 20045b60 f i Entity.obj
+ 0001:00044b60       ??_E?$idCurve_CatmullRomSpline@VidVec3@@@@UAEPAXI@Z 20045b60 f i Entity.obj
  0001:00044b60       ??_E?$idCurve_BSpline@VidVec3@@@@UAEPAXI@Z 20045b60 f i Entity.obj
+ 0001:00044b60       ??_G?$idCurve_BSpline@VidVec3@@@@UAEPAXI@Z 20045b60 f i Entity.obj
+ 0001:00044b60       ??_E?$idCurve_NonUniformBSpline@VidVec3@@@@UAEPAXI@Z 20045b60 f i Entity.obj
  0001:00044bb0       ??_G?$idCurve_NURBS@VidVec3@@@@UAEPAXI@Z 20045bb0 f i Entity.obj
  0001:00044bb0       ??_E?$idCurve_NURBS@VidVec3@@@@UAEPAXI@Z 20045bb0 f i Entity.obj
- 0001:00044c00       ??_GidAnimatedEntity@@UAEPAXI@Z 20045c00 f i Entity.obj
  0001:00044c00       ??_EidAnimatedEntity@@UAEPAXI@Z 20045c00 f i Entity.obj
+ 0001:00044c00       ??_GidAnimatedEntity@@UAEPAXI@Z 20045c00 f i Entity.obj
  0001:00044c30       ??_GidClass@@UAEPAXI@Z     20045c30 f i Entity.obj
  0001:00044c30       ??_EidClass@@UAEPAXI@Z     20045c30 f i Entity.obj
  0001:00044c60       ?AddValue@?$idCurve@VidVec3@@@@UAEHMABVidVec3@@@Z 20045c60 f i Entity.obj
@@ -1081,8 +1081,8 @@
  0001:00046840       ?Clear@?$idCurve_NURBS@VidVec3@@@@UAEXXZ 20047840 f i Entity.obj
  0001:00046910       ?GetBoundaryType@?$idCurve_Spline@VidVec3@@@@UBE?AW4boundary_t@1@XZ 20047910 f i Entity.obj
  0001:00046920       ?GetCloseTime@?$idCurve_Spline@VidVec3@@@@UBEMXZ 20047920 f i Entity.obj
- 0001:00046950       ?GetCurrentFirstDerivative@?$idCurve@VidVec3@@@@UBE?AVidVec3@@M@Z 20047950 f i Entity.obj
  0001:00046950       ?GetCurrentSecondDerivative@?$idCurve@VidVec3@@@@UBE?AVidVec3@@M@Z 20047950 f i Entity.obj
+ 0001:00046950       ?GetCurrentFirstDerivative@?$idCurve@VidVec3@@@@UBE?AVidVec3@@M@Z 20047950 f i Entity.obj
  0001:00046990       ?GetCurrentFirstDerivative@?$idCurve_BSpline@VidVec3@@@@UBE?AVidVec3@@M@Z 20047990 f i Entity.obj
  0001:00047af0       ?GetCurrentFirstDerivative@?$idCurve_CatmullRomSpline@VidVec3@@@@UBE?AVidVec3@@M@Z 20048af0 f i Entity.obj
  0001:000481d0       ?GetCurrentFirstDerivative@?$idCurve_NURBS@VidVec3@@@@UBE?AVidVec3@@M@Z 200491d0 f i Entity.obj
@@ -1363,11 +1363,11 @@
  0001:0006aac0       ??$idListSortCompare@PAVidStr@@@@YAHPBQAVidStr@@0@Z 2006bac0 f i Game_local.obj
  0001:0006aac0       ??$idListSortCompare@PBVidPoolStr@@@@YAHPBQBVidPoolStr@@0@Z 2006bac0 f i idLib:Dict.obj
  0001:0006aae0       ??$idPrintDecls_f@$04@@YAXABVidCmdArgs@@@Z 2006bae0 f i Game_local.obj
- 0001:0006ab00       ??0?$idBlockAlloc@UentityState_s@@$0BAA@$0BL@@@QAE@XZ 2006bb00 f i Game_local.obj
  0001:0006ab00       ??0?$idBlockAlloc@UpathNode_s@@$0IA@$0BN@@@QAE@XZ 2006bb00 f i AI_pathing.obj
- 0001:0006ab00       ??0?$idBlockAlloc@Usnapshot_s@@$0EA@$0BL@@@QAE@XZ 2006bb00 f i Game_local.obj
- 0001:0006ab00       ??0?$idBlockAlloc@V?$idBTreeNode@V?$idDynamicBlock@E@@H@@$0IA@$01@@QAE@XZ 2006bb00 f i Event.obj
  0001:0006ab00       ??0?$idBlockAlloc@UentityNetEvent_s@@$0CA@$0BE@@@QAE@XZ 2006bb00 f i Game_local.obj
+ 0001:0006ab00       ??0?$idBlockAlloc@V?$idBTreeNode@V?$idDynamicBlock@E@@H@@$0IA@$01@@QAE@XZ 2006bb00 f i Event.obj
+ 0001:0006ab00       ??0?$idBlockAlloc@UentityState_s@@$0BAA@$0BL@@@QAE@XZ 2006bb00 f i Game_local.obj
+ 0001:0006ab00       ??0?$idBlockAlloc@Usnapshot_s@@$0EA@$0BL@@@QAE@XZ 2006bb00 f i Game_local.obj
  0001:0006ab00       ??0?$idBlockAlloc@UclipLink_s@@$0EAA@$0BM@@@QAE@XZ 2006bb00 f i Clip.obj
  0001:0006ab20       ??1?$idBlockAlloc@UentityNetEvent_s@@$0CA@$0BE@@@QAE@XZ 2006bb20 f i Game_local.obj
  0001:0006ab30       ??1?$idBlockAlloc@UentityState_s@@$0BAA@$0BL@@@QAE@XZ 2006bb30 f i Game_local.obj
@@ -1381,10 +1381,10 @@
  0001:0006ad40       ??1idGameLocal@@UAE@XZ     2006bd40 f i Game_local.obj
  0001:0006b480       ??1idMultiplayerGame@@QAE@XZ 2006c480 f i Game_local.obj
  0001:0006b690       ??1obstaclePath_s@@QAE@XZ  2006c690 f i Game_local.obj
- 0001:0006b6e0       ??1ammodata_s@@QAE@XZ      2006c6e0 f i Target.obj
- 0001:0006b6e0       ??1spawnerCallback_t@@QAE@XZ 2006c6e0 f i spawner.obj
  0001:0006b6e0       ??1serverAdminData_t@idMultiplayerGame@@QAE@XZ 2006c6e0 f i MultiplayerGame.obj
  0001:0006b6e0       ??1selectedTypeInfo_s@@QAE@XZ 2006c6e0 f i Game_local.obj
+ 0001:0006b6e0       ??1ammodata_s@@QAE@XZ      2006c6e0 f i Target.obj
+ 0001:0006b6e0       ??1spawnerCallback_t@@QAE@XZ 2006c6e0 f i spawner.obj
  0001:0006b6f0       ??1voteStruct_t@@QAE@XZ    2006c6f0 f i Game_local.obj
  0001:0006b700       ??4idToken@@QAEAAV0@ABV0@@Z 2006c700 f i Game_local.obj
  0001:0006b780       ??H@YA?AVidStr@@ABV0@PBD@Z 2006c780 f i Game_local.obj
@@ -1394,8 +1394,8 @@
  0001:0006ba40       ??_GidCVar@@UAEPAXI@Z      2006ca40 f i Game_local.obj
  0001:0006ba90       ??_EidGame@@UAEPAXI@Z      2006ca90 f i Game_local.obj
  0001:0006ba90       ??_GidGame@@UAEPAXI@Z      2006ca90 f i Game_local.obj
- 0001:0006bae0       ??_EidGameLocal@@UAEPAXI@Z 2006cae0 f i Game_local.obj
  0001:0006bae0       ??_GidGameLocal@@UAEPAXI@Z 2006cae0 f i Game_local.obj
+ 0001:0006bae0       ??_EidGameLocal@@UAEPAXI@Z 2006cae0 f i Game_local.obj
  0001:0006bb30       ?ArgCompletion_Boolean@idCmdSystem@@SAXABVidCmdArgs@@P6AXPBD@Z@Z 2006cb30 f i Game_local.obj
  0001:0006bb80       ?Argv@idCmdArgs@@QBEPBDH@Z 2006cb80 f i Game_local.obj
  0001:0006bba0       ?ClientReadRepeaterSnapshot@idGameLocal@@UAEXHHHHABVidBitMsg@@@Z 2006cba0 f i Game_local.obj
@@ -1408,40 +1408,40 @@
  0001:0006bc60       ?IsMultiplayer@idGameLocal@@UAE_NXZ 2006cc60 f i Game_local.obj
  0001:0006bc70       ?ProjectToLineSeg@idVec3@@QAE_NABV1@0@Z 2006cc70 f i Game_local.obj
  0001:0006bdd0       ?ReceiveRemoteConsoleOutput@idGameLocal@@UAEXPBD@Z 2006cdd0 f i Game_local.obj
- 0001:0006bdf0       ?Remove@?$idLinkList@UstateCall_t@@@@QAEXXZ 2006cdf0 f i State.obj
- 0001:0006bdf0       ?Remove@?$idLinkList@VidEvent@@@@QAEXXZ 2006cdf0 f i Event.obj
- 0001:0006bdf0       ?Remove@?$idLinkList@VidActor@@@@QAEXXZ 2006cdf0 f i Actor.obj
- 0001:0006bdf0       ?Remove@?$idLinkList@UannouncerSoundNode_s@idMultiplayerGame@@@@QAEXXZ 2006cdf0 f i Game_local.obj
- 0001:0006bdf0       ?Remove@?$idLinkList@VrvAIHelper@@@@QAEXXZ 2006cdf0 f i AI_Manager.obj
- 0001:0006bdf0       ?Remove@?$idLinkList@VidMsgQueue@@@@QAEXXZ 2006cdf0 f i idLib:BitMsg.obj
- 0001:0006bdf0       ?Remove@?$idLinkList@VidAI@@@@QAEXXZ 2006cdf0 f i AI.obj
- 0001:0006bdf0       ?Remove@?$idLinkList@VidEntity@@@@QAEXXZ 2006cdf0 f i Entity.obj
  0001:0006bdf0       ?Remove@?$idLinkList@VrvClientEntity@@@@QAEXXZ 2006cdf0 f i Entity.obj
+ 0001:0006bdf0       ?Remove@?$idLinkList@UannouncerSoundNode_s@idMultiplayerGame@@@@QAEXXZ 2006cdf0 f i Game_local.obj
+ 0001:0006bdf0       ?Remove@?$idLinkList@VidEvent@@@@QAEXXZ 2006cdf0 f i Event.obj
+ 0001:0006bdf0       ?Remove@?$idLinkList@VrvAIHelper@@@@QAEXXZ 2006cdf0 f i AI_Manager.obj
+ 0001:0006bdf0       ?Remove@?$idLinkList@UstateCall_t@@@@QAEXXZ 2006cdf0 f i State.obj
+ 0001:0006bdf0       ?Remove@?$idLinkList@VidActor@@@@QAEXXZ 2006cdf0 f i Actor.obj
+ 0001:0006bdf0       ?Remove@?$idLinkList@VidAI@@@@QAEXXZ 2006cdf0 f i AI.obj
+ 0001:0006bdf0       ?Remove@?$idLinkList@VidMsgQueue@@@@QAEXXZ 2006cdf0 f i idLib:BitMsg.obj
+ 0001:0006bdf0       ?Remove@?$idLinkList@VidEntity@@@@QAEXXZ 2006cdf0 f i Entity.obj
  0001:0006bdf0       ?Remove@?$idLinkList@VrvSplineMover@@@@QAEXXZ 2006cdf0 f i SplineMover.obj
  0001:0006be10       ?RepeaterAllowClient@idGameLocal@@UAE?AW4allowReply_t@@HHPBD0_N00QAD@Z 2006ce10 f i Game_local.obj
  0001:0006be30       ?RepeaterApplySnapshot@idGameLocal@@UAE_NHH@Z 2006ce30 f i Game_local.obj
- 0001:0006be30       ?GetPhysicsToVisualTransform@rvVehicle@@UAE_NAAVidVec3@@AAVidMat3@@@Z 2006ce30 f i Monster_ConvoyHover.obj
  0001:0006be30       ?CanPlayImpactEffect@rvMonsterFatty@@UAE_NPAVidEntity@@0@Z 2006ce30 f i Monster_Fatty.obj
+ 0001:0006be30       ?GetPhysicsToVisualTransform@rvVehicle@@UAE_NAAVidVec3@@AAVidMat3@@@Z 2006ce30 f i Monster_ConvoyHover.obj
  0001:0006be40       ?RepeaterFrame@idGameLocal@@UAEXPBUuserOrigin_s@@_NH@Z 2006ce40 f i Game_local.obj
  0001:0006be50       ?RepeaterSetUserInfo@idGameLocal@@UAEPBVidDict@@HABV2@@Z 2006ce50 f i Game_local.obj
- 0001:0006be60       ?Save@rvAITetherRadius@@QBEXPAVidSaveGame@@@Z 2006ce60 f i AI_Util.obj
- 0001:0006be60       ?InternalSetInteger@idCVar@@EAEXH@Z 2006ce60 f i Game_local.obj
- 0001:0006be60       ?InternalSetFloat@idCVar@@EAEXM@Z 2006ce60 f i Game_local.obj
- 0001:0006be60       ?Save@idClass@@QBEXPAVidSaveGame@@@Z 2006ce60 f i Class.obj
- 0001:0006be60       ?RepeaterWriteInitialReliableMessages@idGameLocal@@UAEXH@Z 2006ce60 f i Game_local.obj
- 0001:0006be60       ?RepeaterClientBegin@idGameLocal@@UAEXH@Z 2006ce60 f i Game_local.obj
- 0001:0006be60       ?LastBlockedBy@idEntity@@UAEXH@Z 2006ce60 f i Actor.obj
- 0001:0006be60       ?RepeaterClientConnect@idGameLocal@@UAEXH@Z 2006ce60 f i Game_local.obj
  0001:0006be60       ?GuidedProjectileIncoming@idEntity@@UAEXPAVidGuidedProjectile@@@Z 2006ce60 f i AFEntity.obj
- 0001:0006be60       ?Restore@idClass@@QAEXPAVidRestoreGame@@@Z 2006ce60 f i Class.obj
- 0001:0006be60       ?Impulse@rvVehiclePart@@UAEXH@Z 2006ce60 f i VehicleParts.obj
- 0001:0006be60       ?RepeaterClientDisconnect@idGameLocal@@UAEXH@Z 2006ce60 f i Game_local.obj
- 0001:0006be60       ?SetupLoadingGui@idGameLocal@@UAEXPAVidUserInterface@@@Z 2006ce60 f i Game_local.obj
- 0001:0006be60       ?RegisterInGame@rvStat@@MAEXPAVrvPlayerStat@@@Z 2006ce60 f i StatEvent.obj
- 0001:0006be60       ?InternalSetBool@idCVar@@EAEX_N@Z 2006ce60 f i Game_local.obj
+ 0001:0006be60       ?Save@rvAITetherRadius@@QBEXPAVidSaveGame@@@Z 2006ce60 f i AI_Util.obj
+ 0001:0006be60       ?Save@idClass@@QBEXPAVidSaveGame@@@Z 2006ce60 f i Class.obj
  0001:0006be60       ?InternalSetString@idCVar@@EAEXPBD@Z 2006ce60 f i Game_local.obj
- 0001:0006be60       ?Save@rvAITetherBehind@@QBEXPAVidSaveGame@@@Z 2006ce60 f i AI_Util.obj
+ 0001:0006be60       ?Impulse@rvVehiclePart@@UAEXH@Z 2006ce60 f i VehicleParts.obj
+ 0001:0006be60       ?InternalSetBool@idCVar@@EAEX_N@Z 2006ce60 f i Game_local.obj
+ 0001:0006be60       ?InternalSetFloat@idCVar@@EAEXM@Z 2006ce60 f i Game_local.obj
+ 0001:0006be60       ?InternalSetInteger@idCVar@@EAEXH@Z 2006ce60 f i Game_local.obj
+ 0001:0006be60       ?LastBlockedBy@idEntity@@UAEXH@Z 2006ce60 f i Actor.obj
+ 0001:0006be60       ?RepeaterClientBegin@idGameLocal@@UAEXH@Z 2006ce60 f i Game_local.obj
+ 0001:0006be60       ?RepeaterWriteInitialReliableMessages@idGameLocal@@UAEXH@Z 2006ce60 f i Game_local.obj
+ 0001:0006be60       ?RegisterInGame@rvStat@@MAEXPAVrvPlayerStat@@@Z 2006ce60 f i StatEvent.obj
+ 0001:0006be60       ?SetupLoadingGui@idGameLocal@@UAEXPAVidUserInterface@@@Z 2006ce60 f i Game_local.obj
+ 0001:0006be60       ?RepeaterClientDisconnect@idGameLocal@@UAEXH@Z 2006ce60 f i Game_local.obj
  0001:0006be60       ?AdjustOrigin@idMapPrimitive@@UAEXAAVidVec3@@@Z 2006ce60 f i idLib:mapfile.obj
+ 0001:0006be60       ?RepeaterClientConnect@idGameLocal@@UAEXH@Z 2006ce60 f i Game_local.obj
+ 0001:0006be60       ?Save@rvAITetherBehind@@QBEXPAVidSaveGame@@@Z 2006ce60 f i AI_Util.obj
+ 0001:0006be60       ?Restore@idClass@@QAEXPAVidRestoreGame@@@Z 2006ce60 f i Class.obj
  0001:0006be70       ?RepeaterWriteSnapshot@idGameLocal@@UAEXHHAAVidBitMsg@@PAIHABUuserOrigin_s@@H@Z 2006ce70 f i Game_local.obj
  0001:0006be80       ?SetRepeaterState@idGameLocal@@UAEX_N0@Z 2006ce80 f i Game_local.obj
  0001:0006beb0       ?Shutdown@?$idBlockAlloc@UentityNetEvent_s@@$0CA@$0BE@@@QAEXXZ 2006ceb0 f i Game_local.obj
@@ -1463,8 +1463,8 @@
  0001:0006e280       ??1rvGameLogLocal@@UAE@XZ  2006f280 f i Game_Log.obj
  0001:0006e3c0       ??_ErvGameLog@@UAEPAXI@Z   2006f3c0 f i Game_Log.obj
  0001:0006e3c0       ??_GrvGameLog@@UAEPAXI@Z   2006f3c0 f i Game_Log.obj
- 0001:0006e410       ??_ErvGameLogLocal@@UAEPAXI@Z 2006f410 f i Game_Log.obj
  0001:0006e410       ??_GrvGameLogLocal@@UAEPAXI@Z 2006f410 f i Game_Log.obj
+ 0001:0006e410       ??_ErvGameLogLocal@@UAEPAXI@Z 2006f410 f i Game_Log.obj
  0001:0006e460       ?Alloc@idEventQueue@@QAEPAUentityNetEvent_s@@XZ 2006f460 f   Game_network.obj
  0001:0006e480       ?Free@idEventQueue@@QAEXPAUentityNetEvent_s@@@Z 2006f480 f   Game_network.obj
  0001:0006e490       ?Shutdown@idEventQueue@@QAEXXZ 2006f490 f   Game_network.obj
@@ -1538,12 +1538,12 @@
  0001:00075c10       ?Alloc@?$idBlockAlloc@UentityNetEvent_s@@$0CA@$0BE@@@QAEPAUentityNetEvent_s@@XZ 20076c10 f i Game_network.obj
  0001:00075cb0       ?Alloc@?$idBlockAlloc@UentityState_s@@$0BAA@$0BL@@@QAEPAUentityState_s@@XZ 20076cb0 f i Game_network.obj
  0001:00075db0       ?Alloc@?$idBlockAlloc@Usnapshot_s@@$0EA@$0BL@@@QAEPAUsnapshot_s@@XZ 20076db0 f i Game_network.obj
+ 0001:00075e50       ?Free@?$idBlockAlloc@V?$idBTreeNode@V?$idDynamicBlock@E@@H@@$0IA@$01@@QAEXPAV?$idBTreeNode@V?$idDynamicBlock@E@@H@@@Z 20076e50 f i Event.obj
  0001:00075e50       ?Free@?$idBlockAlloc@UpathNode_s@@$0IA@$0BN@@@QAEXPAUpathNode_s@@@Z 20076e50 f i AI_pathing.obj
  0001:00075e50       ?Free@?$idBlockAlloc@UclipLink_s@@$0EAA@$0BM@@@QAEXPAUclipLink_s@@@Z 20076e50 f i Clip.obj
- 0001:00075e50       ?Free@?$idBlockAlloc@UentityNetEvent_s@@$0CA@$0BE@@@QAEXPAUentityNetEvent_s@@@Z 20076e50 f i Game_network.obj
- 0001:00075e50       ?Free@?$idBlockAlloc@V?$idBTreeNode@V?$idDynamicBlock@E@@H@@$0IA@$01@@QAEXPAV?$idBTreeNode@V?$idDynamicBlock@E@@H@@@Z 20076e50 f i Event.obj
- 0001:00075e50       ?Free@?$idBlockAlloc@Usnapshot_s@@$0EA@$0BL@@@QAEXPAUsnapshot_s@@@Z 20076e50 f i Game_network.obj
  0001:00075e50       ?Free@?$idBlockAlloc@UentityState_s@@$0BAA@$0BL@@@QAEXPAUentityState_s@@@Z 20076e50 f i Game_network.obj
+ 0001:00075e50       ?Free@?$idBlockAlloc@Usnapshot_s@@$0EA@$0BL@@@QAEXPAUsnapshot_s@@@Z 20076e50 f i Game_network.obj
+ 0001:00075e50       ?Free@?$idBlockAlloc@UentityNetEvent_s@@$0CA@$0BE@@@QAEXPAUentityNetEvent_s@@@Z 20076e50 f i Game_network.obj
  0001:00075e70       ?FlushUnusedAnims@idGameEdit@@UAEXXZ 20076e70 f   GameEdit.obj
  0001:00075e80       ?ClearEntitySelection@idGameEdit@@UAEXXZ 20076e80 f   GameEdit.obj
  0001:00075ed0       ?GetSelectedEntities@idGameEdit@@UAEHQAPAVidEntity@@H@Z 20076ed0 f   GameEdit.obj
@@ -1672,10 +1672,10 @@
  0001:0007b490       ??_GidCursor3D@@UAEPAXI@Z  2007c490 f i GameEdit.obj
  0001:0007b4c0       ??_EidGameEdit@@UAEPAXI@Z  2007c4c0 f i GameEdit.obj
  0001:0007b4c0       ??_GidGameEdit@@UAEPAXI@Z  2007c4c0 f i GameEdit.obj
+ 0001:0007b510       ??_ErvModviewModel@@UAEPAXI@Z 2007c510 f i GameEdit.obj
  0001:0007b510       ??_GrvModviewModel@@UAEPAXI@Z 2007c510 f i GameEdit.obj
  0001:0007b510       ??_EidActor@@UAEPAXI@Z     2007c510 f i Actor.obj
  0001:0007b510       ??_GidActor@@UAEPAXI@Z     2007c510 f i Actor.obj
- 0001:0007b510       ??_ErvModviewModel@@UAEPAXI@Z 2007c510 f i GameEdit.obj
  0001:0007b540       ?Left@idStr@@QBE?AV1@H@Z   2007c540 f i GameEdit.obj
  0001:0007b570       ?RegisterClassA@rvHealingStation@@SAXXZ 2007c570 f   Healing_Station.obj
  0001:0007b600       ?CreateInstance@rvHealingStation@@SAPAVidClass@@XZ 2007c600 f   Healing_Station.obj
@@ -1741,8 +1741,8 @@
  0001:000824d0       ??_EidIK@@UAEPAXI@Z        200834d0 f i IK.obj
  0001:00082520       ??_EidIK_Reach@@UAEPAXI@Z  20083520 f i IK.obj
  0001:00082520       ??_GidIK_Reach@@UAEPAXI@Z  20083520 f i IK.obj
- 0001:00082570       ??_GidIK_Walk@@UAEPAXI@Z   20083570 f i IK.obj
  0001:00082570       ??_EidIK_Walk@@UAEPAXI@Z   20083570 f i IK.obj
+ 0001:00082570       ??_GidIK_Walk@@UAEPAXI@Z   20083570 f i IK.obj
  0001:000825c0       ??0rvInstance@@QAE@H_N@Z   200835c0 f   Instance.obj
  0001:00082610       ??1rvInstance@@QAE@XZ      20083610 f   Instance.obj
  0001:00082660       ?Populate@rvInstance@@QAEXH@Z 20083660 f   Instance.obj
@@ -1889,16 +1889,16 @@
  0001:00088d70       ?Register_riDeadZonePowerup@@YAXXZ 20089d70 f   Item.obj
  0001:00088d80       ??_EidMoveableItem@@UAEPAXI@Z 20089d80 f i Item.obj
  0001:00088d80       ??_GidMoveableItem@@UAEPAXI@Z 20089d80 f i Item.obj
- 0001:00088db0       ??_EriDeadZonePowerup@@UAEPAXI@Z 20089db0 f i Item.obj
- 0001:00088db0       ??_ErvItemCTFFlag@@UAEPAXI@Z 20089db0 f i Item.obj
- 0001:00088db0       ??_GriDeadZonePowerup@@UAEPAXI@Z 20089db0 f i Item.obj
- 0001:00088db0       ??_EidObjective@@UAEPAXI@Z 20089db0 f i Item.obj
- 0001:00088db0       ??_GrvItemCTFFlag@@UAEPAXI@Z 20089db0 f i Item.obj
  0001:00088db0       ??_EidItem@@UAEPAXI@Z      20089db0 f i Item.obj
  0001:00088db0       ??_GidItem@@UAEPAXI@Z      20089db0 f i Item.obj
- 0001:00088db0       ??_GidItemPowerup@@UAEPAXI@Z 20089db0 f i Item.obj
- 0001:00088db0       ??_EidItemPowerup@@UAEPAXI@Z 20089db0 f i Item.obj
+ 0001:00088db0       ??_GriDeadZonePowerup@@UAEPAXI@Z 20089db0 f i Item.obj
+ 0001:00088db0       ??_GrvItemCTFFlag@@UAEPAXI@Z 20089db0 f i Item.obj
  0001:00088db0       ??_GidObjective@@UAEPAXI@Z 20089db0 f i Item.obj
+ 0001:00088db0       ??_EidObjective@@UAEPAXI@Z 20089db0 f i Item.obj
+ 0001:00088db0       ??_GidItemPowerup@@UAEPAXI@Z 20089db0 f i Item.obj
+ 0001:00088db0       ??_ErvItemCTFFlag@@UAEPAXI@Z 20089db0 f i Item.obj
+ 0001:00088db0       ??_EriDeadZonePowerup@@UAEPAXI@Z 20089db0 f i Item.obj
+ 0001:00088db0       ??_EidItemPowerup@@UAEPAXI@Z 20089db0 f i Item.obj
  0001:00088de0       ?ParseSpawnArgsToRenderLight@idGameEdit@@UAE_NPBVidDict@@PAUrenderLight_s@@@Z 20089de0 f   Light.obj
  0001:000898c0       ?RegisterClassA@idLight@@SAXXZ 2008a8c0 f   Light.obj
  0001:00089950       ?CreateInstance@idLight@@SAPAVidClass@@XZ 2008a950 f   Light.obj
@@ -2354,156 +2354,156 @@
  0001:0009b430       ??_EidPhantomObjects@@UAEPAXI@Z 2009c430 f i Misc.obj
  0001:0009b460       ??_EidShaking@@UAEPAXI@Z   2009c460 f i Misc.obj
  0001:0009b460       ??_GidShaking@@UAEPAXI@Z   2009c460 f i Misc.obj
- 0001:0009b490       ??_GidSpring@@UAEPAXI@Z    2009c490 f i Misc.obj
  0001:0009b490       ??_EidSpring@@UAEPAXI@Z    2009c490 f i Misc.obj
+ 0001:0009b490       ??_GidSpring@@UAEPAXI@Z    2009c490 f i Misc.obj
  0001:0009b500       ??_GidTextEntity@@UAEPAXI@Z 2009c500 f i Misc.obj
  0001:0009b500       ??_EidTextEntity@@UAEPAXI@Z 2009c500 f i Misc.obj
- 0001:0009b570       ??_ErvGravityArea_SurfaceNormal@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_GrvEffect@@UAEPAXI@Z    2009c570 f i Effect.obj
+ 0001:0009b570       ??_EidStaticEntity@@UAEPAXI@Z 2009c570 f i Misc.obj
  0001:0009b570       ??_GidObjectiveComplete@@UAEPAXI@Z 2009c570 f i Item.obj
- 0001:0009b570       ??_GrvTarget_TetherAI@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_EidTarget_Tip@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_GrvAIBecomePassive@@UAEPAXI@Z 2009c570 f i AI_Util.obj
- 0001:0009b570       ??_GidFuncSplat@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_GidTarget_LevelTrigger@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_GrvConveyor@@UAEPAXI@Z  2009c570 f i Mover.obj
- 0001:0009b570       ??_EidTarget_SetGlobalShaderTime@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_EidTarget_EnableLevelWeapons@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_EidTarget_SetKeyVal@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_EidPlayerStart@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_EidEarthQuake@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_GidFuncEmitter@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_ErvConveyor@@UAEPAXI@Z  2009c570 f i Mover.obj
- 0001:0009b570       ??_ErvAIBecomeAggressive@@UAEPAXI@Z 2009c570 f i AI_Util.obj
- 0001:0009b570       ??_GrvTarget_LaunchProjectile@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_EidTarget_CallObjectFunction@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_EidTarget_SetPrimaryObjective@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_EidObjectiveComplete@@UAEPAXI@Z 2009c570 f i Item.obj
- 0001:0009b570       ??_EidTarget_SetModel@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_EidActivator@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_EidVacuumSeparatorEntity@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_ErvEffect@@UAEPAXI@Z    2009c570 f i Effect.obj
- 0001:0009b570       ??_GidTarget_SetShaderParm@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_EidSound@@UAEPAXI@Z     2009c570 f i Sound.obj
+ 0001:0009b570       ??_EidEntity@@UAEPAXI@Z    2009c570 f i Entity.obj
+ 0001:0009b570       ??_EidTarget_Give@@UAEPAXI@Z 2009c570 f i Target.obj
  0001:0009b570       ??_GrvAFAttractor@@UAEPAXI@Z 2009c570 f i AFEntity.obj
- 0001:0009b570       ??_EidFuncSplat@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_ErvObjectiveFailed@@UAEPAXI@Z 2009c570 f i Item.obj
- 0001:0009b570       ??_GrvGravityArea_SurfaceNormal@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_EidPlayerStart@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_ErvTarget_LaunchProjectile@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_EidVacuumEntity@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_EidTarget_LightFadeIn@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_GidLocationSeparatorEntity@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_ErvEffect@@UAEPAXI@Z    2009c570 f i Effect.obj
+ 0001:0009b570       ??_EidFuncPortal@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_GidTarget_Remove@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_ErvTarget_Nailable@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_GidTarget_LightFadeIn@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_ErvFuncSaveGame@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_GidFuncAASPortal@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_GidTarget_SetPrimaryObjective@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_GidFuncEmitter@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_GidTarget_WaitForButton@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_GidStaticEntity@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_GidFuncAASObstacle@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_EidBeam@@UAEPAXI@Z      2009c570 f i Misc.obj
+ 0001:0009b570       ??_GidSound@@UAEPAXI@Z     2009c570 f i Sound.obj
+ 0001:0009b570       ??_GrvGravitySeparatorEntity@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_ErvAIAvoid@@UAEPAXI@Z   2009c570 f i AI_Util.obj
+ 0001:0009b570       ??_GidTarget_EnableLevelWeapons@@UAEPAXI@Z 2009c570 f i Target.obj
  0001:0009b570       ??_ErvTarget_ExitAreaAlert@@UAEPAXI@Z 2009c570 f i Target.obj
  0001:0009b570       ??_EidTarget_RemoveWeapons@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_EidStaticEntity@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_EidTarget_EndLevel@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_GidTarget_Tip@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_EidFuncEmitter@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_GidPlayerStart@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_GrvGravityArea_Static@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_GidLiquid@@UAEPAXI@Z    2009c570 f i Misc.obj
- 0001:0009b570       ??_GrvAIAvoid@@UAEPAXI@Z   2009c570 f i AI_Util.obj
- 0001:0009b570       ??_EidPathCorner@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_EidTarget_Give@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_EidTarget_GiveEmail@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_GidTarget_EnableStamina@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_EidFuncAASObstacle@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_GidTarget_CallObjectFunction@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_GidTarget_Give@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_GidFuncPortal@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_GrvAIBecomeAggressive@@UAEPAXI@Z 2009c570 f i AI_Util.obj
- 0001:0009b570       ??_ErvGravityArea_Static@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_EidTarget@@UAEPAXI@Z    2009c570 f i Target.obj
- 0001:0009b570       ??_EidItemRemover@@UAEPAXI@Z 2009c570 f i Item.obj
- 0001:0009b570       ??_EidLocationSeparatorEntity@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_ErvTarget_LaunchProjectile@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_GidEntity@@UAEPAXI@Z    2009c570 f i Entity.obj
- 0001:0009b570       ??_ErvClientPhysics@@UAEPAXI@Z 2009c570 f i ClientEntity.obj
- 0001:0009b570       ??_EidVacuumEntity@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_GrvCTFAssaultPlayerStart@@UAEPAXI@Z 2009c570 f i CTF.obj
- 0001:0009b570       ??_EidFuncPortal@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_GidStaticEntity@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_GrvTarget_Nailable@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_GrvTarget_BossBattle@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_EidTarget_SetShaderParm@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_GidFuncRadioChatter@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_EidExplodable@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_GrvTarget_ExitAreaAlert@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_EidFuncRadioChatter@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_GidTarget_LightFadeIn@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_GidVacuumEntity@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_GidTarget_FadeSoundClass@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_GidLocationEntity@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_GidEarthQuake@@UAEPAXI@Z 2009c570 f i Misc.obj
  0001:0009b570       ??_ErvCTFAssaultPlayerStart@@UAEPAXI@Z 2009c570 f i CTF.obj
- 0001:0009b570       ??_GidTarget_LightFadeOut@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_ErvTarget_SecretArea@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_EidTarget_Remove@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_EidBeam@@UAEPAXI@Z      2009c570 f i Misc.obj
- 0001:0009b570       ??_ErvTarget_BossBattle@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_GidTarget_LevelTrigger@@UAEPAXI@Z 2009c570 f i Target.obj
  0001:0009b570       ??_GrvFuncSaveGame@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_GidFuncAASPortal@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_GidTarget_LockDoor@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_EidTarget_Damage@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_EidTarget_FadeSoundClass@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_GidDamagable@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_GidTarget_RemoveWeapons@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_GrvClientPhysics@@UAEPAXI@Z 2009c570 f i ClientEntity.obj
- 0001:0009b570       ??_ErvFuncSaveGame@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_GidTarget@@UAEPAXI@Z    2009c570 f i Target.obj
- 0001:0009b570       ??_EidTarget_WaitForButton@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_ErvTarget_Nailable@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_EidTarget_LightFadeIn@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_GidTarget_Damage@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_EidDamagable@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_EidLiquid@@UAEPAXI@Z    2009c570 f i Misc.obj
- 0001:0009b570       ??_EidSound@@UAEPAXI@Z     2009c570 f i Sound.obj
+ 0001:0009b570       ??_GrvAIAvoid@@UAEPAXI@Z   2009c570 f i AI_Util.obj
+ 0001:0009b570       ??_GidVacuumEntity@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_EidEarthQuake@@UAEPAXI@Z 2009c570 f i Misc.obj
  0001:0009b570       ??_GrvObjectiveFailed@@UAEPAXI@Z 2009c570 f i Item.obj
- 0001:0009b570       ??_GidTarget_WaitForButton@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_GidTarget_SetModel@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_GidTarget_SetShaderTime@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_GidSound@@UAEPAXI@Z     2009c570 f i Sound.obj
- 0001:0009b570       ??_GidFuncAASObstacle@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_ErvAIBecomePassive@@UAEPAXI@Z 2009c570 f i AI_Util.obj
- 0001:0009b570       ??_GidTarget_SetGlobalShaderTime@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_GidLocationSeparatorEntity@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_GidTarget_EndLevel@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_GidTarget_SessionCommand@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_GrvEffect@@UAEPAXI@Z    2009c570 f i Effect.obj
- 0001:0009b570       ??_EidEntity@@UAEPAXI@Z    2009c570 f i Entity.obj
- 0001:0009b570       ??_GidTarget_SetPrimaryObjective@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_GidSpawnableEntity@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_GidTarget_EnableLevelWeapons@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_ErvDebugJumpPoint@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_EidLocationEntity@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_GidTarget_GiveEmail@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_EidTarget_GiveSecurity@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_GidTarget_Show@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_EidTarget_LevelTrigger@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_EidTarget_EnableStamina@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_EidTarget_LockDoor@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_GidTarget_SetKeyVal@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_ErvTarget_TetherAI@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_ErvGravitySeparatorEntity@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_GidActivator@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_GidExplodable@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_GidBeam@@UAEPAXI@Z      2009c570 f i Misc.obj
+ 0001:0009b570       ??_EidFuncAASPortal@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_GidTarget_LockDoor@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_GidLocationEntity@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_GidTarget_FadeSoundClass@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_GidTarget_Give@@UAEPAXI@Z 2009c570 f i Target.obj
  0001:0009b570       ??_GrvDebugJumpPoint@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_EidTarget_LightFadeOut@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_GidTarget_SetShaderParm@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_GrvGravityArea_SurfaceNormal@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_EidTarget_Remove@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_GidFuncSplat@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_ErvConveyor@@UAEPAXI@Z  2009c570 f i Mover.obj
+ 0001:0009b570       ??_GidBeam@@UAEPAXI@Z      2009c570 f i Misc.obj
+ 0001:0009b570       ??_EidTarget_SetGlobalShaderTime@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_EidVacuumSeparatorEntity@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_GrvTarget_Nailable@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_EidTarget_SetKeyVal@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_EidTarget_Show@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_EidTarget_SetShaderParm@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_GidPathCorner@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_EidLocationSeparatorEntity@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_EidTarget_SetModel@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_GidTarget_Tip@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_GrvTarget_TetherAI@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_EidObjectiveComplete@@UAEPAXI@Z 2009c570 f i Item.obj
+ 0001:0009b570       ??_EidTarget_Tip@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_EidTarget_EnableStamina@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_GidFuncRadioChatter@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_GrvConveyor@@UAEPAXI@Z  2009c570 f i Mover.obj
+ 0001:0009b570       ??_ErvTarget_BossBattle@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_ErvClientPhysics@@UAEPAXI@Z 2009c570 f i ClientEntity.obj
+ 0001:0009b570       ??_GidTarget_RemoveWeapons@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_EidLocationEntity@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_GidTarget_LightFadeOut@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_GidTarget_EnableStamina@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_GidTarget_SetModel@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_GidTarget_SetKeyVal@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_GidExplodable@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_EidItemRemover@@UAEPAXI@Z 2009c570 f i Item.obj
+ 0001:0009b570       ??_EidTarget@@UAEPAXI@Z    2009c570 f i Target.obj
+ 0001:0009b570       ??_GidTarget_Show@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_ErvTarget_TetherAI@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_EidSpawnableEntity@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_EidTarget_Damage@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_EidFuncRadioChatter@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_ErvAIBecomeAggressive@@UAEPAXI@Z 2009c570 f i AI_Util.obj
+ 0001:0009b570       ??_GidVacuumSeparatorEntity@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_GrvTarget_LaunchProjectile@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_GidPlayerStart@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_GidEarthQuake@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_GidSpawnableEntity@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_EidExplodable@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_ErvDebugJumpPoint@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_EidTarget_WaitForButton@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_ErvAIBecomePassive@@UAEPAXI@Z 2009c570 f i AI_Util.obj
+ 0001:0009b570       ??_GidActivator@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_GidTarget_SetShaderTime@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_GrvGravityArea_Static@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_GrvClientPhysics@@UAEPAXI@Z 2009c570 f i ClientEntity.obj
+ 0001:0009b570       ??_EidTarget_CallObjectFunction@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_GidTarget_SetGlobalShaderTime@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_ErvObjectiveFailed@@UAEPAXI@Z 2009c570 f i Item.obj
+ 0001:0009b570       ??_GidDamagable@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_GidTarget_SessionCommand@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_GidTarget_Damage@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_GrvCTFAssaultPlayerStart@@UAEPAXI@Z 2009c570 f i CTF.obj
+ 0001:0009b570       ??_EidTarget_EndLevel@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_EidTarget_GiveSecurity@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_GidTarget_GiveSecurity@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_GidLiquid@@UAEPAXI@Z    2009c570 f i Misc.obj
+ 0001:0009b570       ??_EidTarget_FadeSoundClass@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_EidTarget_SetPrimaryObjective@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_GidFuncPortal@@UAEPAXI@Z 2009c570 f i Misc.obj
  0001:0009b570       ??_EidTarget_FadeEntity@@UAEPAXI@Z 2009c570 f i Target.obj
  0001:0009b570       ??_EidTarget_SetShaderTime@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_GidTarget_Remove@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_GidVacuumSeparatorEntity@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_ErvAIAvoid@@UAEPAXI@Z   2009c570 f i AI_Util.obj
- 0001:0009b570       ??_EidTarget_SessionCommand@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_EidTarget_Show@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_GidTarget_FadeEntity@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_GidPathCorner@@UAEPAXI@Z 2009c570 f i Misc.obj
  0001:0009b570       ??_GidItemRemover@@UAEPAXI@Z 2009c570 f i Item.obj
- 0001:0009b570       ??_EidSpawnableEntity@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_ErvAFAttractor@@UAEPAXI@Z 2009c570 f i AFEntity.obj
- 0001:0009b570       ??_GrvGravitySeparatorEntity@@UAEPAXI@Z 2009c570 f i Misc.obj
- 0001:0009b570       ??_EidFuncAASPortal@@UAEPAXI@Z 2009c570 f i Misc.obj
  0001:0009b570       ??_GrvTarget_SecretArea@@UAEPAXI@Z 2009c570 f i Target.obj
- 0001:0009b570       ??_GidTarget_GiveSecurity@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_GidTarget_CallObjectFunction@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_EidFuncSplat@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_ErvTarget_SecretArea@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_GrvTarget_BossBattle@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_GidEntity@@UAEPAXI@Z    2009c570 f i Entity.obj
+ 0001:0009b570       ??_EidTarget_GiveEmail@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_EidLiquid@@UAEPAXI@Z    2009c570 f i Misc.obj
+ 0001:0009b570       ??_EidDamagable@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_GidTarget_FadeEntity@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_GrvTarget_ExitAreaAlert@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_GidTarget_EndLevel@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_GidTarget_GiveEmail@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_GidTarget@@UAEPAXI@Z    2009c570 f i Target.obj
+ 0001:0009b570       ??_EidFuncAASObstacle@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_EidTarget_LightFadeOut@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_ErvGravityArea_SurfaceNormal@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_EidPathCorner@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_EidActivator@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_EidTarget_LevelTrigger@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_ErvGravitySeparatorEntity@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_EidTarget_SessionCommand@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_GrvAIBecomeAggressive@@UAEPAXI@Z 2009c570 f i AI_Util.obj
+ 0001:0009b570       ??_GrvAIBecomePassive@@UAEPAXI@Z 2009c570 f i AI_Util.obj
+ 0001:0009b570       ??_EidFuncEmitter@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_EidTarget_LockDoor@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_ErvGravityArea_Static@@UAEPAXI@Z 2009c570 f i Misc.obj
+ 0001:0009b570       ??_EidTarget_EnableLevelWeapons@@UAEPAXI@Z 2009c570 f i Target.obj
+ 0001:0009b570       ??_ErvAFAttractor@@UAEPAXI@Z 2009c570 f i AFEntity.obj
+ 0001:0009b5a0       ??_GrvJumpPad@@UAEPAXI@Z   2009c5a0 f i Misc.obj
  0001:0009b5a0       ??_ErvJumpPad@@UAEPAXI@Z   2009c5a0 f i Misc.obj
  0001:0009b5a0       ??_EidForceField@@UAEPAXI@Z 2009c5a0 f i Misc.obj
  0001:0009b5a0       ??_GidForceField@@UAEPAXI@Z 2009c5a0 f i Misc.obj
- 0001:0009b5a0       ??_GrvJumpPad@@UAEPAXI@Z   2009c5a0 f i Misc.obj
  0001:0009b610       ?GetArea@rvGravityArea@@UBEHXZ 2009c610 f i Misc.obj
  0001:0009b620       ?GetGravity@rvGravityArea_Static@@UBE?BVidVec3@@ABV2@ABVidMat3@@HPAVidEntity@@@Z 2009c620 f i Misc.obj
  0001:0009b640       ?GetGravity@rvGravityArea_Static@@UBE?BVidVec3@@PBVrvClientEntity@@@Z 2009c640 f i Misc.obj
@@ -2577,10 +2577,10 @@
  0001:0009f220       ?Register_idBarrel@@YAXXZ  200a0220 f   Moveable.obj
  0001:0009f230       ?Register_idExplodingBarrel@@YAXXZ 200a0230 f   Moveable.obj
  0001:0009f240       ??1idBarrel@@UAE@XZ        200a0240 f i Moveable.obj
- 0001:0009f250       ??_GidMoveable@@UAEPAXI@Z  200a0250 f i Moveable.obj
+ 0001:0009f250       ??_EidBarrel@@UAEPAXI@Z    200a0250 f i Moveable.obj
  0001:0009f250       ??_EidMoveable@@UAEPAXI@Z  200a0250 f i Moveable.obj
  0001:0009f250       ??_GidBarrel@@UAEPAXI@Z    200a0250 f i Moveable.obj
- 0001:0009f250       ??_EidBarrel@@UAEPAXI@Z    200a0250 f i Moveable.obj
+ 0001:0009f250       ??_GidMoveable@@UAEPAXI@Z  200a0250 f i Moveable.obj
  0001:0009f280       ??_EidExplodingBarrel@@UAEPAXI@Z 200a0280 f i Moveable.obj
  0001:0009f280       ??_GidExplodingBarrel@@UAEPAXI@Z 200a0280 f i Moveable.obj
  0001:0009f2d0       ?RegisterClassA@idMover@@SAXXZ 200a02d0 f   Mover.obj
@@ -2892,30 +2892,30 @@
  0001:000afa10       ??1floorInfo_s@@QAE@XZ     200b0a10 f i Mover.obj
  0001:000afa20       ??1idElevator@@UAE@XZ      200b0a20 f i Mover.obj
  0001:000afac4       ??_9rvPusher@@$BBHE@AE     200b0ac4 f i Mover.obj
- 0001:000afad0       ??_EidRiser@@UAEPAXI@Z     200b0ad0 f i Mover.obj
- 0001:000afad0       ??_GidMover_Periodic@@UAEPAXI@Z 200b0ad0 f i Mover.obj
  0001:000afad0       ??_GidRiser@@UAEPAXI@Z     200b0ad0 f i Mover.obj
- 0001:000afad0       ??_GidRotater@@UAEPAXI@Z   200b0ad0 f i Mover.obj
- 0001:000afad0       ??_EidRotater@@UAEPAXI@Z   200b0ad0 f i Mover.obj
- 0001:000afad0       ??_EidBobber@@UAEPAXI@Z    200b0ad0 f i Mover.obj
- 0001:000afad0       ??_EidPendulum@@UAEPAXI@Z  200b0ad0 f i Mover.obj
- 0001:000afad0       ??_GidPendulum@@UAEPAXI@Z  200b0ad0 f i Mover.obj
  0001:000afad0       ??_GidBobber@@UAEPAXI@Z    200b0ad0 f i Mover.obj
+ 0001:000afad0       ??_EidRiser@@UAEPAXI@Z     200b0ad0 f i Mover.obj
+ 0001:000afad0       ??_EidBobber@@UAEPAXI@Z    200b0ad0 f i Mover.obj
+ 0001:000afad0       ??_GidMover_Periodic@@UAEPAXI@Z 200b0ad0 f i Mover.obj
+ 0001:000afad0       ??_EidPendulum@@UAEPAXI@Z  200b0ad0 f i Mover.obj
  0001:000afad0       ??_EidMover_Periodic@@UAEPAXI@Z 200b0ad0 f i Mover.obj
- 0001:000afb00       ??_GidDoor@@UAEPAXI@Z      200b0b00 f i Mover.obj
+ 0001:000afad0       ??_GidPendulum@@UAEPAXI@Z  200b0ad0 f i Mover.obj
+ 0001:000afad0       ??_EidRotater@@UAEPAXI@Z   200b0ad0 f i Mover.obj
+ 0001:000afad0       ??_GidRotater@@UAEPAXI@Z   200b0ad0 f i Mover.obj
  0001:000afb00       ??_EidDoor@@UAEPAXI@Z      200b0b00 f i Mover.obj
- 0001:000afb30       ??_EidElevator@@UAEPAXI@Z  200b0b30 f i Mover.obj
+ 0001:000afb00       ??_GidDoor@@UAEPAXI@Z      200b0b00 f i Mover.obj
  0001:000afb30       ??_GidElevator@@UAEPAXI@Z  200b0b30 f i Mover.obj
- 0001:000afb60       ??_GidMover@@UAEPAXI@Z     200b0b60 f i Mover.obj
+ 0001:000afb30       ??_EidElevator@@UAEPAXI@Z  200b0b30 f i Mover.obj
  0001:000afb60       ??_EidMover@@UAEPAXI@Z     200b0b60 f i Mover.obj
+ 0001:000afb60       ??_GidMover@@UAEPAXI@Z     200b0b60 f i Mover.obj
  0001:000afb90       ??_EidMover_Binary@@UAEPAXI@Z 200b0b90 f i Mover.obj
  0001:000afb90       ??_GidMover_Binary@@UAEPAXI@Z 200b0b90 f i Mover.obj
  0001:000afbc0       ??_EidPlat@@UAEPAXI@Z      200b0bc0 f i Mover.obj
  0001:000afbc0       ??_GidPlat@@UAEPAXI@Z      200b0bc0 f i Mover.obj
  0001:000afbf0       ??_GidSplinePath@@UAEPAXI@Z 200b0bf0 f i Mover.obj
  0001:000afbf0       ??_EidSplinePath@@UAEPAXI@Z 200b0bf0 f i Mover.obj
- 0001:000afc20       ??_ErvPusher@@UAEPAXI@Z    200b0c20 f i Mover.obj
  0001:000afc20       ??_GrvPusher@@UAEPAXI@Z    200b0c20 f i Mover.obj
+ 0001:000afc20       ??_ErvPusher@@UAEPAXI@Z    200b0c20 f i Mover.obj
  0001:000afc50       ?SetAxisOffset@idPhysics_Parametric@@QAEXABVidMat3@@@Z 200b0c50 f i Mover.obj
  0001:000afcf0       ??0idMultiplayerGame@@QAE@XZ 200b0cf0 f   MultiplayerGame.obj
  0001:000b00c0       ?Shutdown@idMultiplayerGame@@QAEXXZ 200b10c0 f   MultiplayerGame.obj
@@ -3098,14 +3098,14 @@
  0001:000c87e0       ?LocalServerRedirect@@YAXPBD@Z 200c97e0 f   MultiplayerGame.obj
  0001:000c8800       ??0?$idLinkList@UannouncerSoundNode_s@idMultiplayerGame@@@@QAE@XZ 200c9800 f i MultiplayerGame.obj
  0001:000c8800       ??0?$idLinkList@VrvSplineMover@@@@QAE@XZ 200c9800 f i SplineMover.obj
- 0001:000c8800       ??0?$idLinkList@VidMsgQueue@@@@QAE@XZ 200c9800 f i idLib:BitMsg.obj
- 0001:000c8800       ??0?$idLinkList@VidEntity@@@@QAE@XZ 200c9800 f i Entity.obj
- 0001:000c8800       ??0?$idLinkList@VrvAIHelper@@@@QAE@XZ 200c9800 f i AI_Manager.obj
- 0001:000c8800       ??0?$idLinkList@VidAI@@@@QAE@XZ 200c9800 f i AI.obj
  0001:000c8800       ??0?$idLinkList@VidEvent@@@@QAE@XZ 200c9800 f i Event.obj
  0001:000c8800       ??0?$idLinkList@UstateCall_t@@@@QAE@XZ 200c9800 f i State.obj
+ 0001:000c8800       ??0?$idLinkList@VidAI@@@@QAE@XZ 200c9800 f i AI.obj
+ 0001:000c8800       ??0?$idLinkList@VrvAIHelper@@@@QAE@XZ 200c9800 f i AI_Manager.obj
  0001:000c8800       ??0?$idLinkList@VidActor@@@@QAE@XZ 200c9800 f i Actor.obj
+ 0001:000c8800       ??0?$idLinkList@VidEntity@@@@QAE@XZ 200c9800 f i Entity.obj
  0001:000c8800       ??0?$idLinkList@VrvClientEntity@@@@QAE@XZ 200c9800 f i Entity.obj
+ 0001:000c8800       ??0?$idLinkList@VidMsgQueue@@@@QAE@XZ 200c9800 f i idLib:BitMsg.obj
  0001:000c8820       ??4voteStruct_t@@QAEAAU0@ABU0@@Z 200c9820 f i MultiplayerGame.obj
  0001:000c88b0       ??_GannouncerSoundNode_s@idMultiplayerGame@@QAEPAXI@Z 200c98b0 f i MultiplayerGame.obj
  0001:000c8900       ?IsPlaying@rvTourneyArena@@QAE_NPAVidPlayer@@@Z 200c9900 f i MultiplayerGame.obj
@@ -3209,20 +3209,20 @@
  0001:000d5400       ?Register_rvSpawnerProjectile@@YAXXZ 200d6400 f   Projectile.obj
  0001:000d5410       ?Register_rvMIRVProjectile@@YAXXZ 200d6410 f   Projectile.obj
  0001:000d5420       ??1rvSphericalInterpolate@@UAE@XZ 200d6420 f i Projectile.obj
- 0001:000d5430       ??_ErvSphericalInterpolate@@UAEPAXI@Z 200d6430 f i Projectile.obj
  0001:000d5430       ??_G?$idInterpolate@VidQuat@@@@UAEPAXI@Z 200d6430 f i Projectile.obj
- 0001:000d5430       ??_E?$idInterpolate@VidQuat@@@@UAEPAXI@Z 200d6430 f i Projectile.obj
  0001:000d5430       ??_GrvSphericalInterpolate@@UAEPAXI@Z 200d6430 f i Projectile.obj
- 0001:000d5480       ??_GidGuidedProjectile@@UAEPAXI@Z 200d6480 f i Projectile.obj
+ 0001:000d5430       ??_ErvSphericalInterpolate@@UAEPAXI@Z 200d6430 f i Projectile.obj
+ 0001:000d5430       ??_E?$idInterpolate@VidQuat@@@@UAEPAXI@Z 200d6430 f i Projectile.obj
  0001:000d5480       ??_EidGuidedProjectile@@UAEPAXI@Z 200d6480 f i Projectile.obj
+ 0001:000d5480       ??_GidGuidedProjectile@@UAEPAXI@Z 200d6480 f i Projectile.obj
  0001:000d54b0       ??_EidProjectile@@UAEPAXI@Z 200d64b0 f i Projectile.obj
  0001:000d54b0       ??_GidProjectile@@UAEPAXI@Z 200d64b0 f i Projectile.obj
  0001:000d54e0       ??_ErvDriftingProjectile@@UAEPAXI@Z 200d64e0 f i Projectile.obj
  0001:000d54e0       ??_GrvDriftingProjectile@@UAEPAXI@Z 200d64e0 f i Projectile.obj
  0001:000d5510       ??_ErvMIRVProjectile@@UAEPAXI@Z 200d6510 f i Projectile.obj
  0001:000d5510       ??_GrvMIRVProjectile@@UAEPAXI@Z 200d6510 f i Projectile.obj
- 0001:000d5540       ??_ErvSpawnerProjectile@@UAEPAXI@Z 200d6540 f i Projectile.obj
  0001:000d5540       ??_GrvSpawnerProjectile@@UAEPAXI@Z 200d6540 f i Projectile.obj
+ 0001:000d5540       ??_ErvSpawnerProjectile@@UAEPAXI@Z 200d6540 f i Projectile.obj
  0001:000d5570       ?GetCurrentValue@?$idInterpolate@VidQuat@@@@UBE?AVidQuat@@M@Z 200d6570 f i Projectile.obj
  0001:000d5680       ?GetCurrentValue@rvSphericalInterpolate@@UBE?AVidQuat@@M@Z 200d6680 f i Projectile.obj
  0001:000d5710       ?GetDeltaValue@?$idInterpolate@VidQuat@@@@UBE?AVidQuat@@MM@Z 200d6710 f i Projectile.obj
@@ -3564,12 +3564,12 @@
  0001:000e6b30       ??_ErvPhysics_Spline@@UAEPAXI@Z 200e7b30 f i SplineMover.obj
  0001:000e6b60       ??_ErvSplineMover@@UAEPAXI@Z 200e7b60 f i SplineMover.obj
  0001:000e6b60       ??_GrvSplineMover@@UAEPAXI@Z 200e7b60 f i SplineMover.obj
- 0001:000e6b90       ??_ErvTramCar@@UAEPAXI@Z   200e7b90 f i SplineMover.obj
  0001:000e6b90       ??_GrvTramCar@@UAEPAXI@Z   200e7b90 f i SplineMover.obj
+ 0001:000e6b90       ??_ErvTramCar@@UAEPAXI@Z   200e7b90 f i SplineMover.obj
  0001:000e6bc0       ??_ErvTramCar_Marine@@UAEPAXI@Z 200e7bc0 f i SplineMover.obj
  0001:000e6bc0       ??_GrvTramCar_Marine@@UAEPAXI@Z 200e7bc0 f i SplineMover.obj
- 0001:000e6bf0       ??_ErvTramCar_Strogg@@UAEPAXI@Z 200e7bf0 f i SplineMover.obj
  0001:000e6bf0       ??_GrvTramCar_Strogg@@UAEPAXI@Z 200e7bf0 f i SplineMover.obj
+ 0001:000e6bf0       ??_ErvTramCar_Strogg@@UAEPAXI@Z 200e7bf0 f i SplineMover.obj
  0001:000e6c60       ?GetNormalSpeed@rvTramCar@@UBEMXZ 200e7c60 f i SplineMover.obj
  0001:000e6cd0       ?CompareAmmoData@@YAHPBX0@Z 200e7cd0 f   Target.obj
  0001:000e6cf0       ?RegisterClassA@idTarget@@SAXXZ 200e7cf0 f   Target.obj
@@ -3821,15 +3821,15 @@
  0001:000efdd0       ?Register_idTarget_LevelTrigger@@YAXXZ 200f0dd0 f   Target.obj
  0001:000efde0       ?Register_idTarget_EnableStamina@@YAXXZ 200f0de0 f   Target.obj
  0001:000efdf0       ?Register_idTarget_FadeSoundClass@@YAXXZ 200f0df0 f   Target.obj
- 0001:000efe00       ??0selectedTypeInfo_s@@QAE@XZ 200f0e00 f i GameEdit.obj
  0001:000efe00       ??0ammodata_s@@QAE@XZ      200f0e00 f i Target.obj
+ 0001:000efe00       ??0selectedTypeInfo_s@@QAE@XZ 200f0e00 f i GameEdit.obj
  0001:000efe20       ??0idTarget_SetFov@@QAE@XZ 200f0e20 f i Target.obj
  0001:000efe80       ??1?$idInterpolate@H@@UAE@XZ 200f0e80 f i Target.obj
  0001:000efe90       ??1idTarget_SetInfluence@@UAE@XZ 200f0e90 f i Target.obj
  0001:000f0040       ??_G?$idInterpolate@H@@UAEPAXI@Z 200f1040 f i Target.obj
  0001:000f0040       ??_E?$idInterpolate@H@@UAEPAXI@Z 200f1040 f i Target.obj
- 0001:000f0090       ??_GidTarget_SetFov@@UAEPAXI@Z 200f1090 f i Target.obj
  0001:000f0090       ??_EidTarget_SetFov@@UAEPAXI@Z 200f1090 f i Target.obj
+ 0001:000f0090       ??_GidTarget_SetFov@@UAEPAXI@Z 200f1090 f i Target.obj
  0001:000f00c0       ??_EidTarget_SetInfluence@@UAEPAXI@Z 200f10c0 f i Target.obj
  0001:000f00c0       ??_GidTarget_SetInfluence@@UAEPAXI@Z 200f10c0 f i Target.obj
  0001:000f00f0       ??_GrvTarget_AmmoStash@@UAEPAXI@Z 200f10f0 f i Target.obj
@@ -3866,8 +3866,8 @@
  0001:000f1810       ?Event_Lock@rvTramGate@@IAEXH@Z 200f2810 f   TramGate.obj
  0001:000f1840       ?Register_rvTramGate@@YAXXZ 200f2840 f   TramGate.obj
  0001:000f1850       ??$SpawnSafeEntityDef@VidDoor@@@idGameLocal@@QAEPAVidDoor@@PBDPBVidDict@@@Z 200f2850 f i TramGate.obj
- 0001:000f18b0       ??_GrvTramGate@@UAEPAXI@Z  200f28b0 f i TramGate.obj
  0001:000f18b0       ??_ErvTramGate@@UAEPAXI@Z  200f28b0 f i TramGate.obj
+ 0001:000f18b0       ??_GrvTramGate@@UAEPAXI@Z  200f28b0 f i TramGate.obj
  0001:000f18e0       ?RegisterClassA@idTrigger@@SAXXZ 200f28e0 f   Trigger.obj
  0001:000f1970       ?CreateInstance@idTrigger@@SAPAVidClass@@XZ 200f2970 f   Trigger.obj
  0001:000f1a10       ?GetClassType@idTrigger@@SAAAVidTypeInfo@@XZ 200f2a10 f   Trigger.obj
@@ -3972,62 +3972,62 @@
  0001:000f5d80       ?Register_idTrigger_Touch@@YAXXZ 200f6d80 f   Trigger.obj
  0001:000f5d90       ??1idTrigger@@UAE@XZ       200f6d90 f i Trigger.obj
  0001:000f5e40       ??1idTrigger_Multi@@UAE@XZ 200f6e40 f i Trigger.obj
- 0001:000f5ee0       ??_EidTrigger_Hurt@@UAEPAXI@Z 200f6ee0 f i Trigger.obj
- 0001:000f5ee0       ??_GidTrigger_Fade@@UAEPAXI@Z 200f6ee0 f i Trigger.obj
- 0001:000f5ee0       ??_EidTrigger@@UAEPAXI@Z   200f6ee0 f i Trigger.obj
- 0001:000f5ee0       ??_EidTrigger_Count@@UAEPAXI@Z 200f6ee0 f i Trigger.obj
- 0001:000f5ee0       ??_GidTrigger_Count@@UAEPAXI@Z 200f6ee0 f i Trigger.obj
  0001:000f5ee0       ??_GidTrigger_Hurt@@UAEPAXI@Z 200f6ee0 f i Trigger.obj
- 0001:000f5ee0       ??_EidTrigger_Fade@@UAEPAXI@Z 200f6ee0 f i Trigger.obj
+ 0001:000f5ee0       ??_EidTrigger_Count@@UAEPAXI@Z 200f6ee0 f i Trigger.obj
+ 0001:000f5ee0       ??_GidTrigger_Fade@@UAEPAXI@Z 200f6ee0 f i Trigger.obj
  0001:000f5ee0       ??_GidTrigger@@UAEPAXI@Z   200f6ee0 f i Trigger.obj
+ 0001:000f5ee0       ??_EidTrigger@@UAEPAXI@Z   200f6ee0 f i Trigger.obj
+ 0001:000f5ee0       ??_EidTrigger_Hurt@@UAEPAXI@Z 200f6ee0 f i Trigger.obj
+ 0001:000f5ee0       ??_GidTrigger_Count@@UAEPAXI@Z 200f6ee0 f i Trigger.obj
+ 0001:000f5ee0       ??_EidTrigger_Fade@@UAEPAXI@Z 200f6ee0 f i Trigger.obj
  0001:000f5f10       ??_GidTrigger_EntityName@@UAEPAXI@Z 200f6f10 f i Trigger.obj
  0001:000f5f10       ??_EidTrigger_EntityName@@UAEPAXI@Z 200f6f10 f i Trigger.obj
- 0001:000f5f80       ??_GidTrigger_Multi@@UAEPAXI@Z 200f6f80 f i Trigger.obj
  0001:000f5f80       ??_EidTrigger_Multi@@UAEPAXI@Z 200f6f80 f i Trigger.obj
- 0001:000f5fb0       ??_EidTrigger_Timer@@UAEPAXI@Z 200f6fb0 f i Trigger.obj
+ 0001:000f5f80       ??_GidTrigger_Multi@@UAEPAXI@Z 200f6f80 f i Trigger.obj
  0001:000f5fb0       ??_GidTrigger_Timer@@UAEPAXI@Z 200f6fb0 f i Trigger.obj
+ 0001:000f5fb0       ??_EidTrigger_Timer@@UAEPAXI@Z 200f6fb0 f i Trigger.obj
  0001:000f6020       ??_EidTrigger_Touch@@UAEPAXI@Z 200f7020 f i Trigger.obj
  0001:000f6020       ??_GidTrigger_Touch@@UAEPAXI@Z 200f7020 f i Trigger.obj
- 0001:000f6050       ?RegisterClassA@TestWeapon@@SAXXZ 200f7050 f   TestWeapon.obj
- 0001:000f60e0       ?CreateInstance@TestWeapon@@SAPAVidClass@@XZ 200f70e0 f   TestWeapon.obj
- 0001:000f6180       ?GetClassType@TestWeapon@@SAAAVidTypeInfo@@XZ 200f7180 f   TestWeapon.obj
- 0001:000f6190       ?GetType@TestWeapon@@UBEPAVidTypeInfo@@XZ 200f7190 f   TestWeapon.obj
- 0001:000f61a0       ??0TestWeapon@@QAE@XZ      200f71a0 f   TestWeapon.obj
- 0001:000f61c0       ?Spawn@TestWeapon@@UAEXXZ  200f71c0 f   TestWeapon.obj
- 0001:000f6300       ?Save@TestWeapon@@QBEXPAVidSaveGame@@@Z 200f7300 f   TestWeapon.obj
- 0001:000f6360       ?Restore@TestWeapon@@QAEXPAVidRestoreGame@@@Z 200f7360 f   TestWeapon.obj
- 0001:000f63c0       ?PreSave@TestWeapon@@UAEXXZ 200f73c0 f   TestWeapon.obj
- 0001:000f6400       ?PostSave@TestWeapon@@UAEXXZ 200f7400 f   TestWeapon.obj
- 0001:000f6410       ?UpdateAttack@TestWeapon@@IAE_NXZ 200f7410 f   TestWeapon.obj
- 0001:000f6560       ?UpdateFlashlight@TestWeapon@@IAE_NXZ 200f7560 f   TestWeapon.obj
- 0001:000f6580       ?Flashlight@TestWeapon@@IAEX_N@Z 200f7580 f   TestWeapon.obj
- 0001:000f6670       ?State_Raise@TestWeapon@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 200f7670 f   TestWeapon.obj
- 0001:000f6710       ?State_Lower@TestWeapon@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 200f7710 f   TestWeapon.obj
- 0001:000f67a0       ?State_Idle@TestWeapon@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 200f77a0 f   TestWeapon.obj
- 0001:000f6830       ?State_Charge@TestWeapon@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 200f7830 f   TestWeapon.obj
- 0001:000f6990       ?State_Charged@TestWeapon@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 200f7990 f   TestWeapon.obj
- 0001:000f6a50       ?State_Fire@TestWeapon@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 200f7a50 f   TestWeapon.obj
- 0001:000f6c10       ?State_Flashlight@TestWeapon@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 200f7c10 f   TestWeapon.obj
- 0001:000f6ca0       ?Register_TestWeapon@@YAXXZ 200f7ca0 f   TestWeapon.obj
+ 0001:000f6050       ?RegisterClassA@rvWeaponTest@@SAXXZ 200f7050 f   WeaponTestWeapon.obj
+ 0001:000f60e0       ?CreateInstance@rvWeaponTest@@SAPAVidClass@@XZ 200f70e0 f   WeaponTestWeapon.obj
+ 0001:000f6180       ?GetClassType@rvWeaponTest@@SAAAVidTypeInfo@@XZ 200f7180 f   WeaponTestWeapon.obj
+ 0001:000f6190       ?GetType@rvWeaponTest@@UBEPAVidTypeInfo@@XZ 200f7190 f   WeaponTestWeapon.obj
+ 0001:000f61a0       ??0rvWeaponTest@@QAE@XZ    200f71a0 f   WeaponTestWeapon.obj
+ 0001:000f61c0       ?Spawn@rvWeaponTest@@UAEXXZ 200f71c0 f   WeaponTestWeapon.obj
+ 0001:000f6300       ?Save@rvWeaponTest@@QBEXPAVidSaveGame@@@Z 200f7300 f   WeaponTestWeapon.obj
+ 0001:000f6360       ?Restore@rvWeaponTest@@QAEXPAVidRestoreGame@@@Z 200f7360 f   WeaponTestWeapon.obj
+ 0001:000f63c0       ?PreSave@rvWeaponTest@@UAEXXZ 200f73c0 f   WeaponTestWeapon.obj
+ 0001:000f6400       ?PostSave@rvWeaponTest@@UAEXXZ 200f7400 f   WeaponTestWeapon.obj
+ 0001:000f6410       ?UpdateAttack@rvWeaponTest@@IAE_NXZ 200f7410 f   WeaponTestWeapon.obj
+ 0001:000f6560       ?UpdateFlashlight@rvWeaponTest@@IAE_NXZ 200f7560 f   WeaponTestWeapon.obj
+ 0001:000f6580       ?Flashlight@rvWeaponTest@@IAEX_N@Z 200f7580 f   WeaponTestWeapon.obj
+ 0001:000f6670       ?State_Raise@rvWeaponTest@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 200f7670 f   WeaponTestWeapon.obj
+ 0001:000f6710       ?State_Lower@rvWeaponTest@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 200f7710 f   WeaponTestWeapon.obj
+ 0001:000f67a0       ?State_Idle@rvWeaponTest@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 200f77a0 f   WeaponTestWeapon.obj
+ 0001:000f6830       ?State_Charge@rvWeaponTest@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 200f7830 f   WeaponTestWeapon.obj
+ 0001:000f6990       ?State_Charged@rvWeaponTest@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 200f7990 f   WeaponTestWeapon.obj
+ 0001:000f6a50       ?State_Fire@rvWeaponTest@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 200f7a50 f   WeaponTestWeapon.obj
+ 0001:000f6c10       ?State_Flashlight@rvWeaponTest@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 200f7c10 f   WeaponTestWeapon.obj
+ 0001:000f6ca0       ?Register_rvWeaponTest@@YAXXZ 200f7ca0 f   WeaponTestWeapon.obj
+ 0001:000f6cb0       ?RunPostPhysics@rvVehiclePart@@UAEXXZ 200f7cb0 f i VehicleParts.obj
+ 0001:000f6cb0       ?Present@rvVehicleDriver@@UAEXXZ 200f7cb0 f i VehicleDriver.obj
+ 0001:000f6cb0       ?Stop@idCamera@@UAEXXZ     200f7cb0 f i Camera.obj
+ 0001:000f6cb0       ?SpectatorCycle@rvWeapon@@UAEXXZ 200f7cb0 f i WeaponTestWeapon.obj
+ 0001:000f6cb0       ?Event_PostRestore@idClass@@QAEXXZ 200f7cb0 f i Class.obj
+ 0001:000f6cb0       ?RunPostPhysics@rvVehicle@@MAEXXZ 200f7cb0 f i Monster_ConvoyHover.obj
+ 0001:000f6cb0       ?OnDeath@rvVehicle@@EAEXXZ 200f7cb0 f i Vehicle.obj
+ 0001:000f6cb0       ?PreSave@rvWeapon@@UAEXXZ  200f7cb0 f i Weapon.obj
+ 0001:000f6cb0       ?CleanupWeapon@rvWeapon@@UAEXXZ 200f7cb0 f i WeaponTestWeapon.obj
+ 0001:000f6cb0       ?RepeaterEndSnapshots@idGameLocal@@UAEXXZ 200f7cb0 f i Game_local.obj
  0001:000f6cb0       ?RunPrePhysics@rvVehicle@@MAEXXZ 200f7cb0 f i Monster_ConvoyHover.obj
  0001:000f6cb0       ?PostSave@rvWeapon@@UAEXXZ 200f7cb0 f i Weapon.obj
- 0001:000f6cb0       ??1element_s@?$idBlockAlloc@UentityState_s@@$0BAA@$0BL@@@QAE@XZ 200f7cb0 f i Game_local.obj
- 0001:000f6cb0       ?PreSave@rvWeapon@@UAEXXZ  200f7cb0 f i Weapon.obj
- 0001:000f6cb0       ?OnDeath@rvVehicle@@EAEXXZ 200f7cb0 f i Vehicle.obj
- 0001:000f6cb0       ?RunPrePhysics@rvVehiclePart@@UAEXXZ 200f7cb0 f i VehicleParts.obj
- 0001:000f6cb0       ?Stop@idCamera@@UAEXXZ     200f7cb0 f i Camera.obj
- 0001:000f6cb0       ?CleanupWeapon@rvWeapon@@UAEXXZ 200f7cb0 f i TestWeapon.obj
- 0001:000f6cb0       ?ClientUnstale@rvWeapon@@UAEXXZ 200f7cb0 f i TestWeapon.obj
- 0001:000f6cb0       ?RunPhysics@rvVehiclePart@@UAEXXZ 200f7cb0 f i VehicleParts.obj
- 0001:000f6cb0       ?DebugDraw@idPhysics@@UAEXXZ 200f7cb0 f i SplineMover.obj
- 0001:000f6cb0       ?Event_PostRestore@idClass@@QAEXXZ 200f7cb0 f i Class.obj
- 0001:000f6cb0       ?RepeaterEndSnapshots@idGameLocal@@UAEXXZ 200f7cb0 f i Game_local.obj
- 0001:000f6cb0       ?Present@rvVehicleDriver@@UAEXXZ 200f7cb0 f i VehicleDriver.obj
  0001:000f6cb0       ??3@YAXPAX0@Z              200f7cb0 f i StatManager.obj
- 0001:000f6cb0       ?RunPostPhysics@rvVehicle@@MAEXXZ 200f7cb0 f i Monster_ConvoyHover.obj
- 0001:000f6cb0       ?SpectatorCycle@rvWeapon@@UAEXXZ 200f7cb0 f i TestWeapon.obj
- 0001:000f6cb0       ?RunPostPhysics@rvVehiclePart@@UAEXXZ 200f7cb0 f i VehicleParts.obj
+ 0001:000f6cb0       ?RunPhysics@rvVehiclePart@@UAEXXZ 200f7cb0 f i VehicleParts.obj
+ 0001:000f6cb0       ??1element_s@?$idBlockAlloc@UentityState_s@@$0BAA@$0BL@@@QAE@XZ 200f7cb0 f i Game_local.obj
  0001:000f6cb0       ?ClientUnstale@rvClientPhysics@@UAEXXZ 200f7cb0 f i ClientEntity.obj
+ 0001:000f6cb0       ?DebugDraw@idPhysics@@UAEXXZ 200f7cb0 f i SplineMover.obj
+ 0001:000f6cb0       ?RunPrePhysics@rvVehiclePart@@UAEXXZ 200f7cb0 f i VehicleParts.obj
+ 0001:000f6cb0       ?ClientUnstale@rvWeapon@@UAEXXZ 200f7cb0 f i WeaponTestWeapon.obj
  0001:000f6cc0       ?RegisterClassA@idWorldspawn@@SAXXZ 200f7cc0 f   WorldSpawn.obj
  0001:000f6d50       ?CreateInstance@idWorldspawn@@SAPAVidClass@@XZ 200f7d50 f   WorldSpawn.obj
  0001:000f6e00       ?GetClassType@idWorldspawn@@SAAAVidTypeInfo@@XZ 200f7e00 f   WorldSpawn.obj
@@ -4038,8 +4038,8 @@
  0001:000f6fd0       ?Restore@idWorldspawn@@QAEXPAVidRestoreGame@@@Z 200f7fd0 f   WorldSpawn.obj
  0001:000f7040       ?Event_Remove@idWorldspawn@@AAEXXZ 200f8040 f   WorldSpawn.obj
  0001:000f7060       ?Register_idWorldspawn@@YAXXZ 200f8060 f   WorldSpawn.obj
- 0001:000f7070       ??_EidWorldspawn@@UAEPAXI@Z 200f8070 f i WorldSpawn.obj
  0001:000f7070       ??_GidWorldspawn@@UAEPAXI@Z 200f8070 f i WorldSpawn.obj
+ 0001:000f7070       ??_EidWorldspawn@@UAEPAXI@Z 200f8070 f i WorldSpawn.obj
  0001:000f70a0       ??1idAASCallback@@UAE@XZ   200f80a0 f   AAS.obj
  0001:000f70b0       ?Init@idAASCallback@@UAEXXZ 200f80b0 f   AAS.obj
  0001:000f70c0       ?Finish@idAASCallback@@UAEXXZ 200f80c0 f   AAS.obj
@@ -4071,9 +4071,9 @@
  0001:000f7be0       ?GetEdgeVertexNumbers@idAASLocal@@UBEXHQAH@Z 200f8be0 f   AAS.obj
  0001:000f7c30       ?GetEdge@idAASLocal@@UBEXHAAVidVec3@@0@Z 200f8c30 f   AAS.obj
  0001:000f7cd0       ??_GrvAASFindGoalOutOfRange@@UAEPAXI@Z 200f8cd0 f i AAS_Find.obj
- 0001:000f7cd0       ??_GidAASCallback@@UAEPAXI@Z 200f8cd0 f i AAS.obj
  0001:000f7cd0       ??_ErvAASFindGoalOutOfRange@@UAEPAXI@Z 200f8cd0 f i AAS_Find.obj
  0001:000f7cd0       ??_EidAASCallback@@UAEPAXI@Z 200f8cd0 f i AAS.obj
+ 0001:000f7cd0       ??_GidAASCallback@@UAEPAXI@Z 200f8cd0 f i AAS.obj
  0001:000f7d20       ??_GidAASLocal@@UAEPAXI@Z  200f8d20 f i AAS.obj
  0001:000f7d20       ??_EidAASLocal@@UAEPAXI@Z  200f8d20 f i AAS.obj
  0001:000f7d70       ?Test@idAASLocal@@UAEXABVidVec3@@@Z 200f8d70 f   AAS_debug.obj
@@ -4121,8 +4121,8 @@
  0001:000fb6d0       ??1rvAASFindGoalOutOfRange@@UAE@XZ 200fc6d0 f i AAS_Find.obj
  0001:000fb6e0       ??_GrvAASFindGoalForAttack@@UAEPAXI@Z 200fc6e0 f i AAS_Find.obj
  0001:000fb6e0       ??_ErvAASFindGoalForAttack@@UAEPAXI@Z 200fc6e0 f i AAS_Find.obj
- 0001:000fb730       ??_ErvAASFindGoalForHide@@UAEPAXI@Z 200fc730 f i AAS_Find.obj
  0001:000fb730       ??_GrvAASFindGoalForHide@@UAEPAXI@Z 200fc730 f i AAS_Find.obj
+ 0001:000fb730       ??_ErvAASFindGoalForHide@@UAEPAXI@Z 200fc730 f i AAS_Find.obj
  0001:000fb780       ??_ErvAASFindGoalForTether@@UAEPAXI@Z 200fc780 f i AAS_Find.obj
  0001:000fb780       ??_GrvAASFindGoalForTether@@UAEPAXI@Z 200fc780 f i AAS_Find.obj
  0001:000fb7d0       ?GetWallEdges@idAASLocal@@UBEHHABVidBounds@@HPAHH@Z 200fc7d0 f   AAS_pathing.obj
@@ -4340,15 +4340,15 @@
  0001:00114010       ?OnSetKey@idAI@@MAEXPBD0@Z 20115010 f   AI.obj
  0001:00114160       ??0rvAIFuncs_s@@QAE@XZ     20115160 f i AI.obj
  0001:00114220       ??0rvAIPassive_s@@QAE@XZ   20115220 f i AI.obj
- 0001:001142b0       ??1rvAIAction@@QAE@XZ      201152b0 f i AI.obj
  0001:001142b0       ??1rvScriptFuncUtility@@QAE@XZ 201152b0 f i Entity.obj
+ 0001:001142b0       ??1rvAIAction@@QAE@XZ      201152b0 f i AI.obj
  0001:00114350       ??1rvAIFuncs_s@@QAE@XZ     20115350 f i AI.obj
  0001:00114410       ??1rvAIPain_s@@QAE@XZ      20115410 f i AI.obj
  0001:00114420       ??1rvAIPassive_s@@QAE@XZ   20115420 f i AI.obj
  0001:001144a0       ?CanAnnounce@idAI@@UBE_NM@Z 201154a0 f i AI.obj
  0001:00114510       ?CanMove@idAI@@UBE_NXZ     20115510 f i AI.obj
- 0001:00114540       ?CanTakeDamage@idEntity@@UBE_NXZ 20115540 f i Actor.obj
  0001:00114540       ?CanTakeDamage@idAI@@UBE_NXZ 20115540 f i AI.obj
+ 0001:00114540       ?CanTakeDamage@idEntity@@UBE_NXZ 20115540 f i Actor.obj
  0001:00114550       ?CanTakePain@idAI@@UBE_NXZ 20115550 f i AI.obj
  0001:00114560       ?CanTurn@idAI@@UBE_NXZ     20115560 f i AI.obj
  0001:00114590       ??0rvAIActionTimer@@QAE@XZ 20115590 f   AI_Actions.obj
@@ -4392,8 +4392,8 @@
  0001:00116970       ?GetDebugInfo@idAI@@UAEXP6AXPBD00PAX@Z1@Z 20117970 f   AI_Debug.obj
  0001:00117390       ?DrawRoute@idAI@@QBEXXZ    20118390 f   AI_Debug.obj
  0001:00117410       ?DrawTactical@idAI@@QAEXXZ 20118410 f   AI_Debug.obj
- 0001:0011839c       ??_9rvAITactical@@$BCHM@AE 2011939c f i AI_Tactical.obj
  0001:0011839c       ??_9idAI@@$BCHM@AE         2011939c f i AI_events.obj
+ 0001:0011839c       ??_9rvAITactical@@$BCHM@AE 2011939c f i AI_Tactical.obj
  0001:001183b0       ?RegisterClassA@idAI@@SAXXZ 201193b0 f   AI_events.obj
  0001:00118440       ?CreateInstance@idAI@@SAPAVidClass@@XZ 20119440 f   AI_events.obj
  0001:001184e0       ?GetClassType@idAI@@SAAAVidTypeInfo@@XZ 201194e0 f   AI_events.obj
@@ -4514,8 +4514,8 @@
  0001:0011c7b0       ??1aiBlocked_s@@QAE@XZ     2011d7b0 f i AI_Manager.obj
  0001:0011c870       ??1rvAIManager@@QAE@XZ     2011d870 f i AI_Manager.obj
  0001:0011c980       ??4aiBlocked_s@@QAEAAU0@ABU0@@Z 2011d980 f i AI_Manager.obj
- 0001:0011cb90       ?Prev@?$idLinkList@UstateCall_t@@@@QBEPAUstateCall_t@@XZ 2011db90 f i State.obj
  0001:0011cb90       ?Prev@?$idLinkList@VidAI@@@@QBEPAVidAI@@XZ 2011db90 f i AI_Manager.obj
+ 0001:0011cb90       ?Prev@?$idLinkList@UstateCall_t@@@@QBEPAUstateCall_t@@XZ 2011db90 f i State.obj
  0001:0011cbc0       ?RegisterClassA@rvAIMedic@@SAXXZ 2011dbc0 f   AI_Medic.obj
  0001:0011cc50       ?CreateInstance@rvAIMedic@@SAPAVidClass@@XZ 2011dc50 f   AI_Medic.obj
  0001:0011ccf0       ?GetClassType@rvAIMedic@@SAAAVidTypeInfo@@XZ 2011dcf0 f   AI_Medic.obj
@@ -4546,8 +4546,8 @@
  0001:0011ead0       ?Event_DisableMovement@rvAIMedic@@AAEXXZ 2011fad0 f   AI_Medic.obj
  0001:0011eae0       ?Register_rvAIMedic@@YAXXZ 2011fae0 f   AI_Medic.obj
  0001:0011eaf0       ??1rvAITactical@@UAE@XZ    2011faf0 f i AI_Medic.obj
- 0001:0011eb50       ??_GrvAIMedic@@UAEPAXI@Z   2011fb50 f i AI_Medic.obj
  0001:0011eb50       ??_ErvAIMedic@@UAEPAXI@Z   2011fb50 f i AI_Medic.obj
+ 0001:0011eb50       ??_GrvAIMedic@@UAEPAXI@Z   2011fb50 f i AI_Medic.obj
  0001:0011ec10       ??0idMoveState@@QAE@XZ     2011fc10 f   AI_Move.obj
  0001:0011ee20       ?Save@idMoveState@@QBEXPAVidSaveGame@@@Z 2011fe20 f   AI_Move.obj
  0001:0011f220       ?Restore@idMoveState@@QAEXPAVidRestoreGame@@@Z 20120220 f   AI_Move.obj
@@ -4768,8 +4768,8 @@
  0001:00138040       ?Event_ForcePosture@rvAITactical@@AAEXH@Z 20139040 f   AI_Tactical.obj
  0001:00138050       ?Event_PostSpawn@rvAITactical@@EAEXXZ 20139050 f   AI_Tactical.obj
  0001:00138110       ?Register_rvAITactical@@YAXXZ 20139110 f   AI_Tactical.obj
- 0001:00138120       ??_ErvAITactical@@UAEPAXI@Z 20139120 f i AI_Tactical.obj
  0001:00138120       ??_GrvAITactical@@UAEPAXI@Z 20139120 f i AI_Tactical.obj
+ 0001:00138120       ??_ErvAITactical@@UAEPAXI@Z 20139120 f i AI_Tactical.obj
  0001:00138190       ?RegisterClassA@rvAIHelper@@SAXXZ 20139190 f   AI_Util.obj
  0001:00138220       ?CreateInstance@rvAIHelper@@SAPAVidClass@@XZ 20139220 f   AI_Util.obj
  0001:001382c0       ?GetClassType@rvAIHelper@@SAAAVidTypeInfo@@XZ 201392c0 f   AI_Util.obj
@@ -4872,31 +4872,31 @@
  0001:0013c6c0       ??1rvAITether@@UAE@XZ      2013d6c0 f i AI_Util.obj
  0001:0013c760       ??1rvAITrigger@@UAE@XZ     2013d760 f i AI_Util.obj
  0001:0013c850       ??_GrvAIHelper@@UAEPAXI@Z  2013d850 f i AI_Util.obj
- 0001:0013c850       ??_ErvAIHelper@@UAEPAXI@Z  2013d850 f i AI_Util.obj
  0001:0013c850       ??_GrvAICombatHelper@@UAEPAXI@Z 2013d850 f i AI_Util.obj
  0001:0013c850       ??_ErvAICombatHelper@@UAEPAXI@Z 2013d850 f i AI_Util.obj
- 0001:0013c880       ??_GrvAITether@@UAEPAXI@Z  2013d880 f i AI_Util.obj
- 0001:0013c880       ??_GrvAITetherClear@@UAEPAXI@Z 2013d880 f i AI_Util.obj
- 0001:0013c880       ??_ErvAITetherRadius@@UAEPAXI@Z 2013d880 f i AI_Util.obj
+ 0001:0013c850       ??_ErvAIHelper@@UAEPAXI@Z  2013d850 f i AI_Util.obj
  0001:0013c880       ??_GrvAITetherRadius@@UAEPAXI@Z 2013d880 f i AI_Util.obj
- 0001:0013c880       ??_ErvAITether@@UAEPAXI@Z  2013d880 f i AI_Util.obj
- 0001:0013c880       ??_GrvAITetherBehind@@UAEPAXI@Z 2013d880 f i AI_Util.obj
+ 0001:0013c880       ??_GrvAITether@@UAEPAXI@Z  2013d880 f i AI_Util.obj
  0001:0013c880       ??_ErvAITetherBehind@@UAEPAXI@Z 2013d880 f i AI_Util.obj
+ 0001:0013c880       ??_GrvAITetherClear@@UAEPAXI@Z 2013d880 f i AI_Util.obj
  0001:0013c880       ??_ErvAITetherClear@@UAEPAXI@Z 2013d880 f i AI_Util.obj
- 0001:0013c8b0       ??_GrvAITrigger@@UAEPAXI@Z 2013d8b0 f i AI_Util.obj
+ 0001:0013c880       ??_GrvAITetherBehind@@UAEPAXI@Z 2013d880 f i AI_Util.obj
+ 0001:0013c880       ??_ErvAITether@@UAEPAXI@Z  2013d880 f i AI_Util.obj
+ 0001:0013c880       ??_ErvAITetherRadius@@UAEPAXI@Z 2013d880 f i AI_Util.obj
  0001:0013c8b0       ??_ErvAITrigger@@UAEPAXI@Z 2013d8b0 f i AI_Util.obj
+ 0001:0013c8b0       ??_GrvAITrigger@@UAEPAXI@Z 2013d8b0 f i AI_Util.obj
  0001:0013c8e0       ?GetOriginReachedRange@rvAITether@@UAEMXZ 2013d8e0 f i AI_Util.obj
- 0001:0013c8f0       ?SetOwner@?$idLinkList@VidEvent@@@@QAEXPAVidEvent@@@Z 2013d8f0 f i Event.obj
- 0001:0013c8f0       ?SetOwner@?$idLinkList@UstateCall_t@@@@QAEXPAUstateCall_t@@@Z 2013d8f0 f i State.obj
- 0001:0013c8f0       ?SetOwner@?$idLinkList@VidMsgQueue@@@@QAEXPAVidMsgQueue@@@Z 2013d8f0 f i idLib:BitMsg.obj
  0001:0013c8f0       ?SetOwner@?$idLinkList@VrvAIHelper@@@@QAEXPAVrvAIHelper@@@Z 2013d8f0 f i AI_Util.obj
- 0001:0013c8f0       ?SetOwner@?$idLinkList@UannouncerSoundNode_s@idMultiplayerGame@@@@QAEXPAUannouncerSoundNode_s@idMultiplayerGame@@@Z 2013d8f0 f i MultiplayerGame.obj
- 0001:0013c8f0       ?SetOwner@?$idLinkList@VrvSplineMover@@@@QAEXPAVrvSplineMover@@@Z 2013d8f0 f i SplineMover.obj
- 0001:0013c8f0       ?SetOwner@?$idHierarchy@VidTypeInfo@@@@QAEXPAVidTypeInfo@@@Z 2013d8f0 f i Class.obj
- 0001:0013c8f0       ?SetOwner@?$idLinkList@VidEntity@@@@QAEXPAVidEntity@@@Z 2013d8f0 f i Entity.obj
- 0001:0013c8f0       ?SetOwner@?$idLinkList@VidActor@@@@QAEXPAVidActor@@@Z 2013d8f0 f i Actor.obj
+ 0001:0013c8f0       ?SetOwner@?$idLinkList@VidEvent@@@@QAEXPAVidEvent@@@Z 2013d8f0 f i Event.obj
  0001:0013c8f0       ?SetOwner@?$idLinkList@VrvClientEntity@@@@QAEXPAVrvClientEntity@@@Z 2013d8f0 f i ClientEntity.obj
+ 0001:0013c8f0       ?SetOwner@?$idLinkList@UannouncerSoundNode_s@idMultiplayerGame@@@@QAEXPAUannouncerSoundNode_s@idMultiplayerGame@@@Z 2013d8f0 f i MultiplayerGame.obj
+ 0001:0013c8f0       ?SetOwner@?$idLinkList@UstateCall_t@@@@QAEXPAUstateCall_t@@@Z 2013d8f0 f i State.obj
+ 0001:0013c8f0       ?SetOwner@?$idLinkList@VidEntity@@@@QAEXPAVidEntity@@@Z 2013d8f0 f i Entity.obj
+ 0001:0013c8f0       ?SetOwner@?$idHierarchy@VidTypeInfo@@@@QAEXPAVidTypeInfo@@@Z 2013d8f0 f i Class.obj
  0001:0013c8f0       ?SetOwner@?$idLinkList@VidAI@@@@QAEXPAVidAI@@@Z 2013d8f0 f i AI.obj
+ 0001:0013c8f0       ?SetOwner@?$idLinkList@VrvSplineMover@@@@QAEXPAVrvSplineMover@@@Z 2013d8f0 f i SplineMover.obj
+ 0001:0013c8f0       ?SetOwner@?$idLinkList@VidMsgQueue@@@@QAEXPAVidMsgQueue@@@Z 2013d8f0 f i idLib:BitMsg.obj
+ 0001:0013c8f0       ?SetOwner@?$idLinkList@VidActor@@@@QAEXPAVidActor@@@Z 2013d8f0 f i Actor.obj
  0001:0013c900       ?RegisterClassA@rvMonsterBerserker@@SAXXZ 2013d900 f   Monster_Berserker.obj
  0001:0013c990       ?CreateInstance@rvMonsterBerserker@@SAPAVidClass@@XZ 2013d990 f   Monster_Berserker.obj
  0001:0013ca30       ?GetClassType@rvMonsterBerserker@@SAAAVidTypeInfo@@XZ 2013da30 f   Monster_Berserker.obj
@@ -4920,10 +4920,10 @@
  0001:0013d490       ?Frame_ChargeGroundImpact@rvMonsterBerserker@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 2013e490 f   Monster_Berserker.obj
  0001:0013d570       ?Frame_DoBlastAttack@rvMonsterBerserker@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 2013e570 f   Monster_Berserker.obj
  0001:0013d670       ?Register_rvMonsterBerserker@@YAXXZ 2013e670 f   Monster_Berserker.obj
- 0001:0013d675       ??_9rvMonsterBerserker@@$BCII@AE 2013e675 f i Monster_Berserker.obj
  0001:0013d675       ??_9idAI@@$BCII@AE         2013e675 f i AI_Actions.obj
- 0001:0013d680       ??_ErvMonsterBerserker@@UAEPAXI@Z 2013e680 f i Monster_Berserker.obj
+ 0001:0013d675       ??_9rvMonsterBerserker@@$BCII@AE 2013e675 f i Monster_Berserker.obj
  0001:0013d680       ??_GrvMonsterBerserker@@UAEPAXI@Z 2013e680 f i Monster_Berserker.obj
+ 0001:0013d680       ??_ErvMonsterBerserker@@UAEPAXI@Z 2013e680 f i Monster_Berserker.obj
  0001:0013d6f0       ?RegisterClassA@rvMonsterBossBuddy@@SAXXZ 2013e6f0 f   Monster_BossBuddy.obj
  0001:0013d780       ?CreateInstance@rvMonsterBossBuddy@@SAPAVidClass@@XZ 2013e780 f   Monster_BossBuddy.obj
  0001:0013d820       ?GetClassType@rvMonsterBossBuddy@@SAAAVidTypeInfo@@XZ 2013e820 f   Monster_BossBuddy.obj
@@ -5064,8 +5064,8 @@
  0001:00145eb0       ?OnDeath@rvMonsterConvoyHover@@EAEXXZ 20146eb0 f   Monster_ConvoyHover.obj
  0001:00146020       ?Register_rvMonsterConvoyHover@@YAXXZ 20147020 f   Monster_ConvoyHover.obj
  0001:00146030       ??$SpawnSafeEntityDef@VidProjectile@@@idGameLocal@@QAEPAVidProjectile@@PBDPBVidDict@@@Z 20147030 f i Monster_ConvoyHover.obj
- 0001:00146090       ??_ErvMonsterConvoyHover@@UAEPAXI@Z 20147090 f i Monster_ConvoyHover.obj
  0001:00146090       ??_GrvMonsterConvoyHover@@UAEPAXI@Z 20147090 f i Monster_ConvoyHover.obj
+ 0001:00146090       ??_ErvMonsterConvoyHover@@UAEPAXI@Z 20147090 f i Monster_ConvoyHover.obj
  0001:001460c0       ?IsDriving@rvVehicleAI@@QAE_NXZ 201470c0 f i Monster_ConvoyHover.obj
  0001:00146130       ?SetInput@rvVehicle@@UAEXHABVusercmd_t@@ABVidAngles@@@Z 20147130 f i Monster_ConvoyHover.obj
  0001:00146160       ?RegisterClassA@rvMonsterFailedTransfer@@SAXXZ 20147160 f   Monster_FailedTransfer.obj
@@ -5153,10 +5153,10 @@
  0001:00149b20       ?State_Torso_Pain@rvMonsterGrunt@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 2014ab20 f   Monster_Grunt.obj
  0001:00149b50       ?State_Torso_LeapAttack@rvMonsterGrunt@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 2014ab50 f   Monster_Grunt.obj
  0001:00149c00       ?Register_rvMonsterGrunt@@YAXXZ 2014ac00 f   Monster_Grunt.obj
+ 0001:00149c10       ??_ErvMonsterStroggFlyer@@UAEPAXI@Z 2014ac10 f i Monster_StroggFlyer.obj
  0001:00149c10       ??_GrvMonsterStroggFlyer@@UAEPAXI@Z 2014ac10 f i Monster_StroggFlyer.obj
  0001:00149c10       ??_ErvMonsterGrunt@@UAEPAXI@Z 2014ac10 f i Monster_Grunt.obj
  0001:00149c10       ??_GrvMonsterGrunt@@UAEPAXI@Z 2014ac10 f i Monster_Grunt.obj
- 0001:00149c10       ??_ErvMonsterStroggFlyer@@UAEPAXI@Z 2014ac10 f i Monster_StroggFlyer.obj
  0001:00149c80       ?RegisterClassA@rvMonsterGunner@@SAXXZ 2014ac80 f   Monster_Gunner.obj
  0001:00149d10       ?CreateInstance@rvMonsterGunner@@SAPAVidClass@@XZ 2014ad10 f   Monster_Gunner.obj
  0001:00149db0       ?GetClassType@rvMonsterGunner@@SAAAVidTypeInfo@@XZ 2014adb0 f   Monster_Gunner.obj
@@ -5221,8 +5221,8 @@
  0001:0014d550       ?State_Torso_RocketAttack@rvMonsterHarvester@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 2014e550 f   Monster_Harvester.obj
  0001:0014d7b0       ?Register_rvMonsterHarvester@@YAXXZ 2014e7b0 f   Monster_Harvester.obj
  0001:0014d7c0       ??1rvMonsterHarvester@@UAE@XZ 2014e7c0 f i Monster_Harvester.obj
- 0001:0014d890       ??_ErvMonsterHarvester@@UAEPAXI@Z 2014e890 f i Monster_Harvester.obj
  0001:0014d890       ??_GrvMonsterHarvester@@UAEPAXI@Z 2014e890 f i Monster_Harvester.obj
+ 0001:0014d890       ??_ErvMonsterHarvester@@UAEPAXI@Z 2014e890 f i Monster_Harvester.obj
  0001:0014d8c0       ?RegisterClassA@rvMonsterHarvesterDispersal@@SAXXZ 2014e8c0 f   Monster_HarvesterDispersal.obj
  0001:0014d950       ?CreateInstance@rvMonsterHarvesterDispersal@@SAPAVidClass@@XZ 2014e950 f   Monster_HarvesterDispersal.obj
  0001:0014d9f0       ?GetClassType@rvMonsterHarvesterDispersal@@SAAAVidTypeInfo@@XZ 2014e9f0 f   Monster_HarvesterDispersal.obj
@@ -5243,8 +5243,8 @@
  0001:0014df20       ?State_Torso_TurnLeft90@rvMonsterHarvesterDispersal@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 2014ef20 f   Monster_HarvesterDispersal.obj
  0001:0014dff0       ?State_SprayScream@rvMonsterHarvesterDispersal@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 2014eff0 f   Monster_HarvesterDispersal.obj
  0001:0014e1c0       ?Register_rvMonsterHarvesterDispersal@@YAXXZ 2014f1c0 f   Monster_HarvesterDispersal.obj
- 0001:0014e1d0       ??_ErvMonsterHarvesterDispersal@@UAEPAXI@Z 2014f1d0 f i Monster_HarvesterDispersal.obj
  0001:0014e1d0       ??_GrvMonsterHarvesterDispersal@@UAEPAXI@Z 2014f1d0 f i Monster_HarvesterDispersal.obj
+ 0001:0014e1d0       ??_ErvMonsterHarvesterDispersal@@UAEPAXI@Z 2014f1d0 f i Monster_HarvesterDispersal.obj
  0001:0014e240       ?RegisterClassA@rvMonsterHeavyHoverTank@@SAXXZ 2014f240 f   Monster_HeavyHoverTank.obj
  0001:0014e2d0       ?CreateInstance@rvMonsterHeavyHoverTank@@SAPAVidClass@@XZ 2014f2d0 f   Monster_HeavyHoverTank.obj
  0001:0014e370       ?GetClassType@rvMonsterHeavyHoverTank@@SAAAVidTypeInfo@@XZ 2014f370 f   Monster_HeavyHoverTank.obj
@@ -5298,9 +5298,9 @@
  0001:0014ff50       ?Frame_EndBansheeAttack@rvMonsterIronMaiden@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 20150f50 f   Monster_IronMaiden.obj
  0001:0014ff70       ?Register_rvMonsterIronMaiden@@YAXXZ 20150f70 f   Monster_IronMaiden.obj
  0001:0014ff80       ??_GrvMonsterSlimyTransfer@@UAEPAXI@Z 20150f80 f i Monster_SlimyTransfer.obj
- 0001:0014ff80       ??_ErvMonsterSlimyTransfer@@UAEPAXI@Z 20150f80 f i Monster_SlimyTransfer.obj
  0001:0014ff80       ??_ErvMonsterIronMaiden@@UAEPAXI@Z 20150f80 f i Monster_IronMaiden.obj
  0001:0014ff80       ??_GrvMonsterIronMaiden@@UAEPAXI@Z 20150f80 f i Monster_IronMaiden.obj
+ 0001:0014ff80       ??_ErvMonsterSlimyTransfer@@UAEPAXI@Z 20150f80 f i Monster_SlimyTransfer.obj
  0001:0014fff0       ?RegisterClassA@rvMonsterLightTank@@SAXXZ 20150ff0 f   Monster_LightTank.obj
  0001:00150080       ?CreateInstance@rvMonsterLightTank@@SAPAVidClass@@XZ 20151080 f   Monster_LightTank.obj
  0001:00150120       ?GetClassType@rvMonsterLightTank@@SAAAVidTypeInfo@@XZ 20151120 f   Monster_LightTank.obj
@@ -5329,8 +5329,8 @@
  0001:00150cb0       ?State_Torso_RangedAttack@rvMonsterLightTank@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 20151cb0 f   Monster_LightTank.obj
  0001:00150d40       ?State_Torso_PowerUp@rvMonsterLightTank@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 20151d40 f   Monster_LightTank.obj
  0001:00150e60       ?Register_rvMonsterLightTank@@YAXXZ 20151e60 f   Monster_LightTank.obj
- 0001:00150e70       ??_GrvMonsterLightTank@@UAEPAXI@Z 20151e70 f i Monster_LightTank.obj
  0001:00150e70       ??_ErvMonsterLightTank@@UAEPAXI@Z 20151e70 f i Monster_LightTank.obj
+ 0001:00150e70       ??_GrvMonsterLightTank@@UAEPAXI@Z 20151e70 f i Monster_LightTank.obj
  0001:00150f00       ?RegisterClassA@rvMonsterNetworkGuardian@@SAXXZ 20151f00 f   Monster_NetworkGuardian.obj
  0001:00150f90       ?CreateInstance@rvMonsterNetworkGuardian@@SAPAVidClass@@XZ 20151f90 f   Monster_NetworkGuardian.obj
  0001:00151030       ?GetClassType@rvMonsterNetworkGuardian@@SAAAVidTypeInfo@@XZ 20152030 f   Monster_NetworkGuardian.obj
@@ -5383,14 +5383,14 @@
  0001:00152cd0       ?State_TorsoAction_Repair@rvMonsterRepairBot@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 20153cd0 f   Monster_RepairBot.obj
  0001:00152dc0       ?State_TorsoAction_RepairDone@rvMonsterRepairBot@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 20153dc0 f   Monster_RepairBot.obj
  0001:00152df0       ?Register_rvMonsterRepairBot@@YAXXZ 20153df0 f   Monster_RepairBot.obj
- 0001:00152e00       ??_GrvMonsterScientist@@UAEPAXI@Z 20153e00 f i Monster_Scientist.obj
- 0001:00152e00       ??_GrvMonsterFailedTransfer@@UAEPAXI@Z 20153e00 f i Monster_FailedTransfer.obj
- 0001:00152e00       ??_ErvMonsterFailedTransfer@@UAEPAXI@Z 20153e00 f i Monster_FailedTransfer.obj
- 0001:00152e00       ??_GidAI@@UAEPAXI@Z        20153e00 f i AI.obj
  0001:00152e00       ??_GrvMonsterRepairBot@@UAEPAXI@Z 20153e00 f i Monster_RepairBot.obj
  0001:00152e00       ??_EidAI@@UAEPAXI@Z        20153e00 f i AI.obj
+ 0001:00152e00       ??_GidAI@@UAEPAXI@Z        20153e00 f i AI.obj
  0001:00152e00       ??_ErvMonsterScientist@@UAEPAXI@Z 20153e00 f i Monster_Scientist.obj
  0001:00152e00       ??_ErvMonsterRepairBot@@UAEPAXI@Z 20153e00 f i Monster_RepairBot.obj
+ 0001:00152e00       ??_GrvMonsterScientist@@UAEPAXI@Z 20153e00 f i Monster_Scientist.obj
+ 0001:00152e00       ??_ErvMonsterFailedTransfer@@UAEPAXI@Z 20153e00 f i Monster_FailedTransfer.obj
+ 0001:00152e00       ??_GrvMonsterFailedTransfer@@UAEPAXI@Z 20153e00 f i Monster_FailedTransfer.obj
  0001:00152e30       ?RegisterClassA@rvMonsterScientist@@SAXXZ 20153e30 f   Monster_Scientist.obj
  0001:00152ec0       ?CreateInstance@rvMonsterScientist@@SAPAVidClass@@XZ 20153ec0 f   Monster_Scientist.obj
  0001:00152f60       ?GetClassType@rvMonsterScientist@@SAAAVidTypeInfo@@XZ 20153f60 f   Monster_Scientist.obj
@@ -5424,8 +5424,8 @@
  0001:00153ba0       ?State_Torso_EvadeLeft@rvMonsterSentry@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 20154ba0 f   Monster_Sentry.obj
  0001:00153c70       ?State_Torso_EvadeRight@rvMonsterSentry@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 20154c70 f   Monster_Sentry.obj
  0001:00153d40       ?Register_rvMonsterSentry@@YAXXZ 20154d40 f   Monster_Sentry.obj
- 0001:00153d50       ??_ErvMonsterSentry@@UAEPAXI@Z 20154d50 f i Monster_Sentry.obj
  0001:00153d50       ??_GrvMonsterSentry@@UAEPAXI@Z 20154d50 f i Monster_Sentry.obj
+ 0001:00153d50       ??_ErvMonsterSentry@@UAEPAXI@Z 20154d50 f i Monster_Sentry.obj
  0001:00153dd0       ?RegisterClassA@rvMonsterSlimyTransfer@@SAXXZ 20154dd0 f   Monster_SlimyTransfer.obj
  0001:00153e60       ?CreateInstance@rvMonsterSlimyTransfer@@SAPAVidClass@@XZ 20154e60 f   Monster_SlimyTransfer.obj
  0001:00153f00       ?GetClassType@rvMonsterSlimyTransfer@@SAAAVidTypeInfo@@XZ 20154f00 f   Monster_SlimyTransfer.obj
@@ -5534,8 +5534,8 @@
  0001:00159850       ?State_DeathSpiral@rvMonsterStroggHover@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 2015a850 f   Monster_StroggHover.obj
  0001:00159df0       ?State_Pursue@rvMonsterStroggHover@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 2015adf0 f   Monster_StroggHover.obj
  0001:00159e20       ?Register_rvMonsterStroggHover@@YAXXZ 2015ae20 f   Monster_StroggHover.obj
- 0001:00159e30       ??_GrvMonsterStroggHover@@UAEPAXI@Z 2015ae30 f i Monster_StroggHover.obj
  0001:00159e30       ??_ErvMonsterStroggHover@@UAEPAXI@Z 2015ae30 f i Monster_StroggHover.obj
+ 0001:00159e30       ??_GrvMonsterStroggHover@@UAEPAXI@Z 2015ae30 f i Monster_StroggHover.obj
  0001:00159e60       ?RegisterClassA@rvMonsterStroggMarine@@SAXXZ 2015ae60 f   Monster_StroggMarine.obj
  0001:00159ef0       ?CreateInstance@rvMonsterStroggMarine@@SAPAVidClass@@XZ 2015aef0 f   Monster_StroggMarine.obj
  0001:00159f90       ?GetClassType@rvMonsterStroggMarine@@SAAAVidTypeInfo@@XZ 2015af90 f   Monster_StroggMarine.obj
@@ -5658,8 +5658,8 @@
  0001:0015fca0       ??0spawnerCallback_t@@QAE@XZ 20160ca0 f i spawner.obj
  0001:0015fcc0       ??1rvSpawner@@UAE@XZ       20160cc0 f i spawner.obj
  0001:0015fe70       ??4spawnerCallback_t@@QAEAAU0@AAU0@@Z 20160e70 f i spawner.obj
- 0001:0015fef0       ??_GrvSpawner@@UAEPAXI@Z   20160ef0 f i spawner.obj
  0001:0015fef0       ??_ErvSpawner@@UAEPAXI@Z   20160ef0 f i spawner.obj
+ 0001:0015fef0       ??_GrvSpawner@@UAEPAXI@Z   20160ef0 f i spawner.obj
  0001:0015ff20       ?RegisterClassA@rvVehicleAI@@SAXXZ 20160f20 f   VehicleAI.obj
  0001:0015ffb0       ?CreateInstance@rvVehicleAI@@SAPAVidClass@@XZ 20160fb0 f   VehicleAI.obj
  0001:00160050       ?GetClassType@rvVehicleAI@@SAAAVidTypeInfo@@XZ 20161050 f   VehicleAI.obj
@@ -5678,8 +5678,8 @@
  0001:00160820       ?FindClosestNode@rvVehicleAI@@ABEPBVidEntity@@XZ 20161820 f   VehicleAI.obj
  0001:00160900       ?Event_ChoosePathTarget@rvVehicleAI@@AAEXPAVidEntity@@@Z 20161900 f   VehicleAI.obj
  0001:00160990       ?Register_rvVehicleAI@@YAXXZ 20161990 f   VehicleAI.obj
- 0001:001609a0       ??_GrvVehicleAI@@UAEPAXI@Z 201619a0 f i VehicleAI.obj
  0001:001609a0       ??_ErvVehicleAI@@UAEPAXI@Z 201619a0 f i VehicleAI.obj
+ 0001:001609a0       ??_GrvVehicleAI@@UAEPAXI@Z 201619a0 f i VehicleAI.obj
  0001:001609d0       ??0idMD5Anim@@QAE@XZ       201619d0 f   Anim.obj
  0001:00160ac0       ??1idMD5Anim@@QAE@XZ       20161ac0 f   Anim.obj
  0001:00160c20       ?Free@idMD5Anim@@QAEXXZ    20161c20 f   Anim.obj
@@ -5901,8 +5901,8 @@
  0001:00176150       ?PushAnims@idAnimator@@AAEXHHH@Z 20177150 f   Anim_Blend.obj
  0001:00176250       ?ANIM_GetModelDefFromEntityDef@@YAPBVidDeclModelDef@@PBVidDict@@@Z 20177250 f   Anim_Blend.obj
  0001:00176340       ??0jointMod_t@@QAE@XZ      20177340 f i Anim_Blend.obj
- 0001:001763f0       ??_GidDeclModelDef@@UAEPAXI@Z 201773f0 f i Anim_Blend.obj
  0001:001763f0       ??_EidDeclModelDef@@UAEPAXI@Z 201773f0 f i Anim_Blend.obj
+ 0001:001763f0       ??_GidDeclModelDef@@UAEPAXI@Z 201773f0 f i Anim_Blend.obj
  0001:00176440       ?Reset@idModelExport@@AAEXXZ 20177440 f   Anim_Import.obj
  0001:00176470       ?ParseOptions@idModelExport@@AAE_NAAVidLexer@@@Z 20177470 f   Anim_Import.obj
  0001:001768f0       ?ParseExportSection@idModelExport@@AAEHAAVidParser@@@Z 201778f0 f   Anim_Import.obj
@@ -5949,8 +5949,8 @@
  0001:00179f00       ?Think@idTestModel@@EAEXXZ 2017af00 f   Anim_Testmodel.obj
  0001:0017ab00       ?Event_Footstep@idTestModel@@AAEXXZ 2017bb00 f   Anim_Testmodel.obj
  0001:0017ab20       ?Register_idTestModel@@YAXXZ 2017bb20 f   Anim_Testmodel.obj
- 0001:0017ab30       ??_EidTestModel@@UAEPAXI@Z 2017bb30 f i Anim_Testmodel.obj
  0001:0017ab30       ??_GidTestModel@@UAEPAXI@Z 2017bb30 f i Anim_Testmodel.obj
+ 0001:0017ab30       ??_EidTestModel@@UAEPAXI@Z 2017bb30 f i Anim_Testmodel.obj
  0001:0017ab70       ?RegisterClassA@rvClientEffect@@SAXXZ 2017bb70 f   ClientEffect.obj
  0001:0017ac00       ?CreateInstance@rvClientEffect@@SAPAVidClass@@XZ 2017bc00 f   ClientEffect.obj
  0001:0017aca0       ?GetClassType@rvClientEffect@@SAAAVidTypeInfo@@XZ 2017bca0 f   ClientEffect.obj
@@ -5985,8 +5985,8 @@
  0001:0017c490       ?Register_rvClientEffect@@YAXXZ 2017d490 f   ClientEffect.obj
  0001:0017c4a0       ?Register_rvClientCrawlEffect@@YAXXZ 2017d4a0 f   ClientEffect.obj
  0001:0017c4b0       ??1rvClientCrawlEffect@@UAE@XZ 2017d4b0 f i ClientEffect.obj
- 0001:0017c550       ??_GrvClientCrawlEffect@@UAEPAXI@Z 2017d550 f i ClientEffect.obj
  0001:0017c550       ??_ErvClientCrawlEffect@@UAEPAXI@Z 2017d550 f i ClientEffect.obj
+ 0001:0017c550       ??_GrvClientCrawlEffect@@UAEPAXI@Z 2017d550 f i ClientEffect.obj
  0001:0017c580       ??_ErvClientEffect@@UAEPAXI@Z 2017d580 f i ClientEffect.obj
  0001:0017c580       ??_GrvClientEffect@@UAEPAXI@Z 2017d580 f i ClientEffect.obj
  0001:0017c5c0       ?RegisterClassA@rvClientEntity@@SAXXZ 2017d5c0 f   ClientEntity.obj
@@ -6035,11 +6035,11 @@
  0001:0017e2b0       ?Register_rvClientPhysics@@YAXXZ 2017f2b0 f   ClientEntity.obj
  0001:0017e2c0       ??_GrvClientEntity@@UAEPAXI@Z 2017f2c0 f i ClientEntity.obj
  0001:0017e2c0       ??_ErvClientEntity@@UAEPAXI@Z 2017f2c0 f i ClientEntity.obj
- 0001:0017e2f0       ?NoFireWhileSwitching@rvWeapon@@UBE_NXZ 2017f2f0 f i TestWeapon.obj
- 0001:0017e2f0       ?ClientStale@rvClientPhysics@@UAE_NXZ 2017f2f0 f i ClientEntity.obj
- 0001:0017e2f0       ?RebuildTextSource@idDeclCameraDef@@UAE_NXZ 2017f2f0 f i Camera.obj
  0001:0017e2f0       ?RebuildTextSource@idDeclModelDef@@UAE_NXZ 2017f2f0 f i Anim_Blend.obj
  0001:0017e2f0       ?IsCrouching@idActor@@UBE_NXZ 2017f2f0 f i Actor.obj
+ 0001:0017e2f0       ?RebuildTextSource@idDeclCameraDef@@UAE_NXZ 2017f2f0 f i Camera.obj
+ 0001:0017e2f0       ?NoFireWhileSwitching@rvWeapon@@UBE_NXZ 2017f2f0 f i WeaponTestWeapon.obj
+ 0001:0017e2f0       ?ClientStale@rvClientPhysics@@UAE_NXZ 2017f2f0 f i ClientEntity.obj
  0001:0017e300       ?RegisterClassA@rvClientModel@@SAXXZ 2017f300 f   ClientModel.obj
  0001:0017e390       ?CreateInstance@rvClientModel@@SAPAVidClass@@XZ 2017f390 f   ClientModel.obj
  0001:0017e430       ?GetClassType@rvClientModel@@SAAAVidTypeInfo@@XZ 2017f430 f   ClientModel.obj
@@ -6074,14 +6074,14 @@
  0001:0017f850       ?SetModel@rvAnimatedClientEntity@@UAEXPBD@Z 20180850 f   ClientModel.obj
  0001:0017f8f0       ?Register_rvClientModel@@YAXXZ 201808f0 f   ClientModel.obj
  0001:0017f900       ?Register_rvAnimatedClientEntity@@YAXXZ 20180900 f   ClientModel.obj
- 0001:0017f910       ??_ErvAnimatedClientEntity@@UAEPAXI@Z 20180910 f i ClientModel.obj
  0001:0017f910       ??_GrvAnimatedClientEntity@@UAEPAXI@Z 20180910 f i ClientModel.obj
- 0001:0017f940       ??_GrvClientModel@@UAEPAXI@Z 20180940 f i ClientModel.obj
+ 0001:0017f910       ??_ErvAnimatedClientEntity@@UAEPAXI@Z 20180910 f i ClientModel.obj
  0001:0017f940       ??_ErvClientModel@@UAEPAXI@Z 20180940 f i ClientModel.obj
+ 0001:0017f940       ??_GrvClientModel@@UAEPAXI@Z 20180940 f i ClientModel.obj
  0001:0017f970       ?GetAnimator@idEntity@@UBEPBVidAnimator@@XZ 20180970 f i AFEntity.obj
- 0001:0017f970       ?GetAnimator@rvClientModel@@UBEPBVidAnimator@@XZ 20180970 f i ClientModel.obj
  0001:0017f970       __matherr                  20180970 f i LIBCMT:matherr.obj
  0001:0017f970       ?GetAnimator@rvClientModel@@UAEPAVidAnimator@@XZ 20180970 f i ClientModel.obj
+ 0001:0017f970       ?GetAnimator@rvClientModel@@UBEPBVidAnimator@@XZ 20180970 f i ClientModel.obj
  0001:0017f980       ?RegisterClassA@rvClientMoveable@@SAXXZ 20180980 f   ClientMoveable.obj
  0001:0017fa10       ?CreateInstance@rvClientMoveable@@SAPAVidClass@@XZ 20180a10 f   ClientMoveable.obj
  0001:0017fab0       ?GetClassType@rvClientMoveable@@SAAAVidTypeInfo@@XZ 20180ab0 f   ClientMoveable.obj
@@ -6207,14 +6207,14 @@
  0001:00183ee0       ??1?$idBlockAlloc@V?$idBTreeNode@V?$idDynamicBlock@E@@H@@$0IA@$01@@QAE@XZ 20184ee0 f i Event.obj
  0001:00183ef0       ??1?$idDynamicBlockAlloc@E$0EAAA@$0BAA@$0BE@@@QAE@XZ 20184ef0 f i Event.obj
  0001:00183f60       ??1?$idLinkList@VrvAIHelper@@@@QAE@XZ 20184f60 f i AI_Manager.obj
+ 0001:00183f60       ??1?$idLinkList@VrvClientEntity@@@@QAE@XZ 20184f60 f i Entity.obj
+ 0001:00183f60       ??1?$idLinkList@VrvSplineMover@@@@QAE@XZ 20184f60 f i SplineMover.obj
  0001:00183f60       ??1?$idLinkList@UstateCall_t@@@@QAE@XZ 20184f60 f i State.obj
- 0001:00183f60       ??1?$idLinkList@VidEvent@@@@QAE@XZ 20184f60 f i Event.obj
+ 0001:00183f60       ??1?$idLinkList@UannouncerSoundNode_s@idMultiplayerGame@@@@QAE@XZ 20184f60 f i Game_local.obj
  0001:00183f60       ??1?$idLinkList@VidEntity@@@@QAE@XZ 20184f60 f i Entity.obj
  0001:00183f60       ??1?$idLinkList@VidAI@@@@QAE@XZ 20184f60 f i AI.obj
  0001:00183f60       ??1?$idLinkList@VidActor@@@@QAE@XZ 20184f60 f i Actor.obj
- 0001:00183f60       ??1?$idLinkList@UannouncerSoundNode_s@idMultiplayerGame@@@@QAE@XZ 20184f60 f i Game_local.obj
- 0001:00183f60       ??1?$idLinkList@VrvClientEntity@@@@QAE@XZ 20184f60 f i Entity.obj
- 0001:00183f60       ??1?$idLinkList@VrvSplineMover@@@@QAE@XZ 20184f60 f i SplineMover.obj
+ 0001:00183f60       ??1?$idLinkList@VidEvent@@@@QAE@XZ 20184f60 f i Event.obj
  0001:00183f70       ??4?$idExtrapolate@VidAngles@@@@QAEAAV0@ABV0@@Z 20184f70 f i Physics_Parametric.obj
  0001:00183f70       ??4?$idExtrapolate@VidVec3@@@@QAEAAV0@ABV0@@Z 20184f70 f i Physics_Parametric.obj
  0001:00183f70       ??4contactInfo_t@@QAEAAU0@ABU0@@Z 20184f70 f i Event.obj
@@ -6224,16 +6224,16 @@
  0001:00184130       ?AllocInternal@?$idDynamicBlockAlloc@E$0EAAA@$0BAA@$0BE@@@AAEPAV?$idDynamicBlock@E@@H@Z 20185130 f i Event.obj
  0001:001844b0       ?CheckMemory@?$idDynamicBlockAlloc@E$0EAAA@$0BAA@$0BE@@@ABEPBDPBV?$idDynamicBlock@E@@@Z 201854b0 f i Event.obj
  0001:001844f0       ?Clear@?$idDynamicBlockAlloc@E$0EAAA@$0BAA@$0BE@@@AAEXXZ 201854f0 f i Event.obj
+ 0001:00184560       ?Clear@?$idLinkList@VrvSplineMover@@@@QAEXXZ 20185560 f i SplineMover.obj
  0001:00184560       ?Clear@?$idLinkList@UannouncerSoundNode_s@idMultiplayerGame@@@@QAEXXZ 20185560 f i Game_local.obj
- 0001:00184560       ?Clear@?$idLinkList@VidMsgQueue@@@@QAEXXZ 20185560 f i idLib:BitMsg.obj
+ 0001:00184560       ?Clear@?$idLinkList@VrvAIHelper@@@@QAEXXZ 20185560 f i AI_Manager.obj
+ 0001:00184560       ?Clear@?$idLinkList@VidEvent@@@@QAEXXZ 20185560 f i Event.obj
  0001:00184560       ?Clear@?$idLinkList@UstateCall_t@@@@QAEXXZ 20185560 f i State.obj
+ 0001:00184560       ?Clear@?$idLinkList@VidMsgQueue@@@@QAEXXZ 20185560 f i idLib:BitMsg.obj
  0001:00184560       ?Clear@?$idLinkList@VidAI@@@@QAEXXZ 20185560 f i AI.obj
  0001:00184560       ?Clear@?$idLinkList@VidActor@@@@QAEXXZ 20185560 f i Actor.obj
- 0001:00184560       ?Clear@?$idLinkList@VidEvent@@@@QAEXXZ 20185560 f i Event.obj
- 0001:00184560       ?Clear@?$idLinkList@VrvSplineMover@@@@QAEXXZ 20185560 f i SplineMover.obj
- 0001:00184560       ?Clear@?$idLinkList@VrvClientEntity@@@@QAEXXZ 20185560 f i Entity.obj
  0001:00184560       ?Clear@?$idLinkList@VidEntity@@@@QAEXXZ 20185560 f i Entity.obj
- 0001:00184560       ?Clear@?$idLinkList@VrvAIHelper@@@@QAEXXZ 20185560 f i AI_Manager.obj
+ 0001:00184560       ?Clear@?$idLinkList@VrvClientEntity@@@@QAEXXZ 20185560 f i Entity.obj
  0001:00184590       ?Free@?$idDynamicBlockAlloc@E$0EAAA@$0BAA@$0BE@@@QAEXPAE@Z 20185590 f i Event.obj
  0001:001845c0       ?FreeInternal@?$idDynamicBlockAlloc@E$0EAAA@$0BAA@$0BE@@@AAEXPAV?$idDynamicBlock@E@@@Z 201855c0 f i Event.obj
  0001:00185250       ?Init@?$idDynamicBlockAlloc@E$0EAAA@$0BAA@$0BE@@@QAEXXZ 20186250 f i Event.obj
@@ -6372,23 +6372,23 @@
  0001:00189640       ?Save@rvStateThread@@QBEXPAVidSaveGame@@@Z 2018a640 f   State.obj
  0001:001896f0       ?Restore@rvStateThread@@QAEXPAVidRestoreGame@@PAVidClass@@@Z 2018a6f0 f   State.obj
  0001:00189820       ??_GstateCall_t@@QAEPAXI@Z 2018a820 f i State.obj
- 0001:00189870       ?InsertAfter@?$idLinkList@UstateCall_t@@@@QAEXAAV1@@Z 2018a870 f i State.obj
  0001:00189870       ?InsertAfter@?$idLinkList@VidEntity@@@@QAEXAAV1@@Z 2018a870 f i Game_local.obj
- 0001:001898a0       ?InsertBefore@?$idLinkList@VrvSplineMover@@@@QAEXAAV1@@Z 2018a8a0 f i SplineMover.obj
+ 0001:00189870       ?InsertAfter@?$idLinkList@UstateCall_t@@@@QAEXAAV1@@Z 2018a870 f i State.obj
+ 0001:001898a0       ?InsertBefore@?$idLinkList@UstateCall_t@@@@QAEXAAV1@@Z 2018a8a0 f i State.obj
+ 0001:001898a0       ?InsertBefore@?$idLinkList@VidActor@@@@QAEXAAV1@@Z 2018a8a0 f i Actor.obj
  0001:001898a0       ?InsertBefore@?$idLinkList@VidEvent@@@@QAEXAAV1@@Z 2018a8a0 f i Event.obj
- 0001:001898a0       ?InsertBefore@?$idLinkList@VrvAIHelper@@@@QAEXAAV1@@Z 2018a8a0 f i AI_Manager.obj
+ 0001:001898a0       ?InsertBefore@?$idLinkList@VidEntity@@@@QAEXAAV1@@Z 2018a8a0 f i Entity.obj
  0001:001898a0       ?InsertBefore@?$idLinkList@UannouncerSoundNode_s@idMultiplayerGame@@@@QAEXAAV1@@Z 2018a8a0 f i MultiplayerGame.obj
  0001:001898a0       ?InsertBefore@?$idLinkList@VidMsgQueue@@@@QAEXAAV1@@Z 2018a8a0 f i idLib:BitMsg.obj
- 0001:001898a0       ?InsertBefore@?$idLinkList@VidEntity@@@@QAEXAAV1@@Z 2018a8a0 f i Entity.obj
- 0001:001898a0       ?InsertBefore@?$idLinkList@VidActor@@@@QAEXAAV1@@Z 2018a8a0 f i Actor.obj
+ 0001:001898a0       ?InsertBefore@?$idLinkList@VrvSplineMover@@@@QAEXAAV1@@Z 2018a8a0 f i SplineMover.obj
+ 0001:001898a0       ?InsertBefore@?$idLinkList@VrvAIHelper@@@@QAEXAAV1@@Z 2018a8a0 f i AI_Manager.obj
  0001:001898a0       ?InsertBefore@?$idLinkList@VidAI@@@@QAEXAAV1@@Z 2018a8a0 f i AI_Manager.obj
  0001:001898a0       ?InsertBefore@?$idLinkList@VrvClientEntity@@@@QAEXAAV1@@Z 2018a8a0 f i Entity.obj
- 0001:001898a0       ?InsertBefore@?$idLinkList@UstateCall_t@@@@QAEXAAV1@@Z 2018a8a0 f i State.obj
  0001:001898d0       ?Num@?$idLinkList@VrvClientEntity@@@@QBEHXZ 2018a8d0 f i Entity.obj
- 0001:001898d0       ?Num@?$idLinkList@VidEvent@@@@QBEHXZ 2018a8d0 f i Event.obj
- 0001:001898d0       ?Num@?$idLinkList@VidActor@@@@QBEHXZ 2018a8d0 f i Actor.obj
  0001:001898d0       ?Num@?$idLinkList@UstateCall_t@@@@QBEHXZ 2018a8d0 f i State.obj
  0001:001898d0       ?Num@?$idLinkList@VidEntity@@@@QBEHXZ 2018a8d0 f i Game_local.obj
+ 0001:001898d0       ?Num@?$idLinkList@VidEvent@@@@QBEHXZ 2018a8d0 f i Event.obj
+ 0001:001898d0       ?Num@?$idLinkList@VidActor@@@@QBEHXZ 2018a8d0 f i Actor.obj
  0001:001898f0       ?Owner@?$idLinkList@UstateCall_t@@@@QBEPAUstateCall_t@@XZ 2018a8f0 f i State.obj
  0001:00189910       ?PrintMemInfo@idGameEdit@@UAEXPAVMemInfo@@@Z 2018a910 f   SysCmds.obj
  0001:00189970       ?ScriptSummary@idGameEdit@@UBEIABVidCmdArgs@@@Z 2018a970 f   SysCmds.obj
@@ -6546,8 +6546,8 @@
  0001:00196110       ?Evaluate@idForce@@UAEXH@Z 20197110 f   Force.obj
  0001:00196120       ?RemovePhysics@idForce@@UAEXPBVidPhysics@@@Z 20197120 f   Force.obj
  0001:00196130       ?Register_idForce@@YAXXZ   20197130 f   Force.obj
- 0001:00196140       ??_GidForce@@UAEPAXI@Z     20197140 f i Force.obj
  0001:00196140       ??_EidForce@@UAEPAXI@Z     20197140 f i Force.obj
+ 0001:00196140       ??_GidForce@@UAEPAXI@Z     20197140 f i Force.obj
  0001:00196170       ?RegisterClassA@idForce_Constant@@SAXXZ 20197170 f   Force_Constant.obj
  0001:00196200       ?CreateInstance@idForce_Constant@@SAPAVidClass@@XZ 20197200 f   Force_Constant.obj
  0001:001962a0       ?GetClassType@idForce_Constant@@SAAAVidTypeInfo@@XZ 201972a0 f   Force_Constant.obj
@@ -6562,8 +6562,8 @@
  0001:00196410       ?Evaluate@idForce_Constant@@UAEXH@Z 20197410 f   Force_Constant.obj
  0001:00196510       ?RemovePhysics@idForce_Constant@@UAEXPBVidPhysics@@@Z 20197510 f   Force_Constant.obj
  0001:00196530       ?Register_idForce_Constant@@YAXXZ 20197530 f   Force_Constant.obj
- 0001:00196540       ??_EidForce_Constant@@UAEPAXI@Z 20197540 f i Force_Constant.obj
  0001:00196540       ??_GidForce_Constant@@UAEPAXI@Z 20197540 f i Force_Constant.obj
+ 0001:00196540       ??_EidForce_Constant@@UAEPAXI@Z 20197540 f i Force_Constant.obj
  0001:00196570       ?RegisterClassA@idForce_Drag@@SAXXZ 20197570 f   Force_Drag.obj
  0001:00196600       ?CreateInstance@idForce_Drag@@SAPAVidClass@@XZ 20197600 f   Force_Drag.obj
  0001:001966a0       ?GetClassType@idForce_Drag@@SAAAVidTypeInfo@@XZ 201976a0 f   Force_Drag.obj
@@ -6578,8 +6578,8 @@
  0001:001968f0       ?Evaluate@idForce_Drag@@UAEXH@Z 201978f0 f   Force_Drag.obj
  0001:00196ec0       ?RemovePhysics@idForce_Drag@@UAEXPBVidPhysics@@@Z 20197ec0 f   Force_Drag.obj
  0001:00196ee0       ?Register_idForce_Drag@@YAXXZ 20197ee0 f   Force_Drag.obj
- 0001:00196ef0       ??_EidForce_Drag@@UAEPAXI@Z 20197ef0 f i Force_Drag.obj
  0001:00196ef0       ??_GidForce_Drag@@UAEPAXI@Z 20197ef0 f i Force_Drag.obj
+ 0001:00196ef0       ??_EidForce_Drag@@UAEPAXI@Z 20197ef0 f i Force_Drag.obj
  0001:00196f20       ?RegisterClassA@idForce_Field@@SAXXZ 20197f20 f   Force_Field.obj
  0001:00196fb0       ?CreateInstance@idForce_Field@@SAPAVidClass@@XZ 20197fb0 f   Force_Field.obj
  0001:00197050       ?GetClassType@idForce_Field@@SAAAVidTypeInfo@@XZ 20198050 f   Force_Field.obj
@@ -6624,8 +6624,8 @@
  0001:00198810       ?Register_idPhysics@@YAXXZ 20199810 f   Physics.obj
  0001:00198820       ??_GidPhysics@@UAEPAXI@Z   20199820 f i Physics.obj
  0001:00198820       ??_EidPhysics@@UAEPAXI@Z   20199820 f i Physics.obj
- 0001:00198850       ?GetContactNormal@idPhysics@@UBE?BVidVec3@@XZ 20199850 f i Physics.obj
  0001:00198850       ?GetGroundContactNormal@idPhysics@@UBE?BVidVec3@@XZ 20199850 f i Physics.obj
+ 0001:00198850       ?GetContactNormal@idPhysics@@UBE?BVidVec3@@XZ 20199850 f i Physics.obj
  0001:00198870       ?RegisterClassA@idPhysics_Actor@@SAXXZ 20199870 f   Physics_Actor.obj
  0001:00198900       ?CreateInstance@idPhysics_Actor@@SAPAVidClass@@XZ 20199900 f   Physics_Actor.obj
  0001:001989a0       ?GetClassType@idPhysics_Actor@@SAAAVidTypeInfo@@XZ 201999a0 f   Physics_Actor.obj
@@ -7006,44 +7006,44 @@
  0001:001bf250       ??DidMatX@@QBE?AVidVecX@@ABV1@@Z 201c0250 f i Physics_AF.obj
  0001:001bf320       ??DidVecX@@QBE?AV0@M@Z     201c0320 f i Physics_AF.obj
  0001:001bf400       ??HidVecX@@QBE?AV0@ABV0@@Z 201c0400 f i Physics_AF.obj
+ 0001:001bf4e0       ??_EidAFConstraint_Line@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
+ 0001:001bf4e0       ??_EidAFConstraint_BallAndSocketJointFriction@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
  0001:001bf4e0       ??_EidAFConstraint_Fixed@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
- 0001:001bf4e0       ??_GidAFConstraint_BallAndSocketJointFriction@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
- 0001:001bf4e0       ??_GidAFConstraint_Slider@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
- 0001:001bf4e0       ??_EidAFConstraint@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
- 0001:001bf4e0       ??_EidAFConstraint_CylindricalJoint@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
- 0001:001bf4e0       ??_GidAFConstraint_Fixed@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
+ 0001:001bf4e0       ??_GidAFConstraint_ContactFriction@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
+ 0001:001bf4e0       ??_GidAFConstraint_HingeFriction@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
  0001:001bf4e0       ??_GidAFConstraint_CylindricalJoint@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
- 0001:001bf4e0       ??_GidAFConstraint@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
- 0001:001bf4e0       ??_EidAFConstraint_Slider@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
- 0001:001bf4e0       ??_EidAFConstraint_HingeSteering@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
- 0001:001bf4e0       ??_GidAFConstraint_PyramidLimit@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
+ 0001:001bf4e0       ??_GidAFConstraint_Line@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
+ 0001:001bf4e0       ??_GidAFConstraint_ConeLimit@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
  0001:001bf4e0       ??_EidAFConstraint_HingeFriction@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
  0001:001bf4e0       ??_GidAFConstraint_Plane@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
- 0001:001bf4e0       ??_GidAFConstraint_Line@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
- 0001:001bf4e0       ??_GidAFConstraint_Spring@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
- 0001:001bf4e0       ??_GidAFConstraint_HingeFriction@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
- 0001:001bf4e0       ??_EidAFConstraint_UniversalJointFriction@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
- 0001:001bf4e0       ??_GidAFConstraint_UniversalJointFriction@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
- 0001:001bf4e0       ??_GidAFConstraint_ContactFriction@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
- 0001:001bf4e0       ??_EidAFConstraint_Line@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
- 0001:001bf4e0       ??_EidAFConstraint_ContactFriction@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
- 0001:001bf4e0       ??_EidAFConstraint_BallAndSocketJointFriction@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
- 0001:001bf4e0       ??_EidAFConstraint_PyramidLimit@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
- 0001:001bf4e0       ??_GidAFConstraint_HingeSteering@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
- 0001:001bf4e0       ??_EidAFConstraint_Spring@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
- 0001:001bf4e0       ??_GidAFConstraint_ConeLimit@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
+ 0001:001bf4e0       ??_EidAFConstraint_Slider@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
+ 0001:001bf4e0       ??_GidAFConstraint@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
  0001:001bf4e0       ??_EidAFConstraint_Plane@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
+ 0001:001bf4e0       ??_EidAFConstraint@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
+ 0001:001bf4e0       ??_EidAFConstraint_UniversalJointFriction@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
+ 0001:001bf4e0       ??_EidAFConstraint_HingeSteering@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
+ 0001:001bf4e0       ??_EidAFConstraint_CylindricalJoint@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
+ 0001:001bf4e0       ??_EidAFConstraint_PyramidLimit@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
+ 0001:001bf4e0       ??_EidAFConstraint_ContactFriction@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
+ 0001:001bf4e0       ??_GidAFConstraint_BallAndSocketJointFriction@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
+ 0001:001bf4e0       ??_GidAFConstraint_HingeSteering@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
+ 0001:001bf4e0       ??_GidAFConstraint_PyramidLimit@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
+ 0001:001bf4e0       ??_GidAFConstraint_Spring@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
+ 0001:001bf4e0       ??_EidAFConstraint_Spring@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
+ 0001:001bf4e0       ??_GidAFConstraint_Slider@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
+ 0001:001bf4e0       ??_GidAFConstraint_UniversalJointFriction@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
  0001:001bf4e0       ??_EidAFConstraint_ConeLimit@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
- 0001:001bf530       ??_GidAFConstraint_BallAndSocketJoint@@UAEPAXI@Z 201c0530 f i Physics_AF.obj
+ 0001:001bf4e0       ??_GidAFConstraint_Fixed@@UAEPAXI@Z 201c04e0 f i Physics_AF.obj
  0001:001bf530       ??_EidAFConstraint_BallAndSocketJoint@@UAEPAXI@Z 201c0530 f i Physics_AF.obj
- 0001:001bf580       ??_GidAFConstraint_Contact@@UAEPAXI@Z 201c0580 f i Physics_AF.obj
+ 0001:001bf530       ??_GidAFConstraint_BallAndSocketJoint@@UAEPAXI@Z 201c0530 f i Physics_AF.obj
  0001:001bf580       ??_EidAFConstraint_Contact@@UAEPAXI@Z 201c0580 f i Physics_AF.obj
- 0001:001bf5d0       ??_GidAFConstraint_Hinge@@UAEPAXI@Z 201c05d0 f i Physics_AF.obj
+ 0001:001bf580       ??_GidAFConstraint_Contact@@UAEPAXI@Z 201c0580 f i Physics_AF.obj
  0001:001bf5d0       ??_EidAFConstraint_Hinge@@UAEPAXI@Z 201c05d0 f i Physics_AF.obj
+ 0001:001bf5d0       ??_GidAFConstraint_Hinge@@UAEPAXI@Z 201c05d0 f i Physics_AF.obj
  0001:001bf620       ??_GidAFConstraint_UniversalJoint@@UAEPAXI@Z 201c0620 f i Physics_AF.obj
  0001:001bf620       ??_EidAFConstraint_UniversalJoint@@UAEPAXI@Z 201c0620 f i Physics_AF.obj
- 0001:001bf670       ??_GidPhysics_AF@@UAEPAXI@Z 201c0670 f i Physics_AF.obj
  0001:001bf670       ??_EidPhysics_AF@@UAEPAXI@Z 201c0670 f i Physics_AF.obj
+ 0001:001bf670       ??_GidPhysics_AF@@UAEPAXI@Z 201c0670 f i Physics_AF.obj
  0001:001bf6a0       ?GetInverseWorldInertia@idAFBody@@QBE?AVidMat3@@XZ 201c06a0 f i Physics_AF.obj
  0001:001bfa30       ?InverseFast@idMatX@@QBE?AV1@XZ 201c0a30 f i Physics_AF.obj
  0001:001bfbc0       ?Transpose@idMatX@@QBE?AV1@XZ 201c0bc0 f i Physics_AF.obj
@@ -7130,8 +7130,8 @@
  0001:001c1790       ?IsOutsideWorld@idPhysics_Base@@IBE_NXZ 201c2790 f   Physics_Base.obj
  0001:001c1860       ?DrawVelocity@idPhysics_Base@@IBEXHMM@Z 201c2860 f   Physics_Base.obj
  0001:001c1ee0       ?Register_idPhysics_Base@@YAXXZ 201c2ee0 f   Physics_Base.obj
- 0001:001c1ef0       ??_GidPhysics_Base@@UAEPAXI@Z 201c2ef0 f i Physics_Base.obj
  0001:001c1ef0       ??_EidPhysics_Base@@UAEPAXI@Z 201c2ef0 f i Physics_Base.obj
+ 0001:001c1ef0       ??_GidPhysics_Base@@UAEPAXI@Z 201c2ef0 f i Physics_Base.obj
  0001:001c1f20       ?RegisterClassA@idPhysics_Monster@@SAXXZ 201c2f20 f   Physics_Monster.obj
  0001:001c1fb0       ?CreateInstance@idPhysics_Monster@@SAPAVidClass@@XZ 201c2fb0 f   Physics_Monster.obj
  0001:001c2050       ?GetClassType@idPhysics_Monster@@SAAAVidTypeInfo@@XZ 201c3050 f   Physics_Monster.obj
@@ -7252,8 +7252,8 @@
  0001:001ccf10       ??4parametricPState_s@@QAEAAU0@ABU0@@Z 201cdf10 f i Physics_Parametric.obj
  0001:001cd140       ??_GidPhysics_Parametric@@UAEPAXI@Z 201ce140 f i Physics_Parametric.obj
  0001:001cd140       ??_EidPhysics_Parametric@@UAEPAXI@Z 201ce140 f i Physics_Parametric.obj
- 0001:001cd170       ?SetStartTime@?$idInterpolateAccelDecelLinear@VidAngles@@@@QAEXM@Z 201ce170 f i Physics_Parametric.obj
  0001:001cd170       ?SetStartTime@?$idInterpolateAccelDecelLinear@VidVec3@@@@QAEXM@Z 201ce170 f i Physics_Parametric.obj
+ 0001:001cd170       ?SetStartTime@?$idInterpolateAccelDecelLinear@VidAngles@@@@QAEXM@Z 201ce170 f i Physics_Parametric.obj
  0001:001cd1f0       ?SetStartValue@?$idInterpolateAccelDecelLinear@VidVec3@@@@QAEXABVidVec3@@@Z 201ce1f0 f i Physics_Parametric.obj
  0001:001cd1f0       ?SetStartValue@?$idInterpolateAccelDecelLinear@VidAngles@@@@QAEXABVidAngles@@@Z 201ce1f0 f i Physics_Parametric.obj
  0001:001cd270       ?RegisterClassA@rvPhysics_Particle@@SAXXZ 201ce270 f   Physics_Particle.obj
@@ -7312,8 +7312,8 @@
  0001:001cfa90       ?DebugDraw@rvPhysics_Particle@@EAEXXZ 201d0a90 f   Physics_Particle.obj
  0001:001cfdf0       ?Register_rvPhysics_Particle@@YAXXZ 201d0df0 f   Physics_Particle.obj
  0001:001cfe00       ??4particlePState_s@@QAEAAU0@ABU0@@Z 201d0e00 f i Physics_Particle.obj
- 0001:001cfea0       ??_ErvPhysics_Particle@@UAEPAXI@Z 201d0ea0 f i Physics_Particle.obj
  0001:001cfea0       ??_GrvPhysics_Particle@@UAEPAXI@Z 201d0ea0 f i Physics_Particle.obj
+ 0001:001cfea0       ??_ErvPhysics_Particle@@UAEPAXI@Z 201d0ea0 f i Physics_Particle.obj
  0001:001cfed0       ?IsInWater@rvPhysics_Particle@@UBE_NXZ 201d0ed0 f i Physics_Particle.obj
  0001:001cfee0       ?RegisterClassA@idPhysics_Player@@SAXXZ 201d0ee0 f   Physics_Player.obj
  0001:001cff70       ?CreateInstance@idPhysics_Player@@SAPAVidClass@@XZ 201d0f70 f   Physics_Player.obj
@@ -7387,15 +7387,15 @@
  0001:001d6f40       ?Register_idPhysics_Player@@YAXXZ 201d7f40 f   Physics_Player.obj
  0001:001d6f50       ?idPhysics_Player_SavePState@@YAXPAVidSaveGame@@ABUplayerPState_s@@@Z 201d7f50 f   Physics_Player.obj
  0001:001d6fd0       ?idPhysics_Player_RestorePState@@YAXPAVidRestoreGame@@AAUplayerPState_s@@@Z 201d7fd0 f   Physics_Player.obj
- 0001:001d7050       ??1idPhysics_Player@@UAE@XZ 201d8050 f i Physics_Player.obj
  0001:001d7050       ??1idPhysics_Monster@@UAE@XZ 201d8050 f i AI.obj
+ 0001:001d7050       ??1idPhysics_Player@@UAE@XZ 201d8050 f i Physics_Player.obj
  0001:001d7060       ??4playerPState_s@@QAEAAU0@ABU0@@Z 201d8060 f i Physics_Player.obj
- 0001:001d70f0       ??_GidPhysics_Player@@UAEPAXI@Z 201d80f0 f i Physics_Player.obj
+ 0001:001d70f0       ??_EidPhysics_Actor@@UAEPAXI@Z 201d80f0 f i Physics_Actor.obj
+ 0001:001d70f0       ??_GidPhysics_Actor@@UAEPAXI@Z 201d80f0 f i Physics_Actor.obj
  0001:001d70f0       ??_EidPhysics_Monster@@UAEPAXI@Z 201d80f0 f i Physics_Monster.obj
  0001:001d70f0       ??_EidPhysics_Player@@UAEPAXI@Z 201d80f0 f i Physics_Player.obj
- 0001:001d70f0       ??_GidPhysics_Actor@@UAEPAXI@Z 201d80f0 f i Physics_Actor.obj
+ 0001:001d70f0       ??_GidPhysics_Player@@UAEPAXI@Z 201d80f0 f i Physics_Player.obj
  0001:001d70f0       ??_GidPhysics_Monster@@UAEPAXI@Z 201d80f0 f i Physics_Monster.obj
- 0001:001d70f0       ??_EidPhysics_Actor@@UAEPAXI@Z 201d80f0 f i Physics_Actor.obj
  0001:001d7120       ?RegisterClassA@idPhysics_RigidBody@@SAXXZ 201d8120 f   Physics_RigidBody.obj
  0001:001d71b0       ?CreateInstance@idPhysics_RigidBody@@SAPAVidClass@@XZ 201d81b0 f   Physics_RigidBody.obj
  0001:001d7250       ?GetClassType@idPhysics_RigidBody@@SAAAVidTypeInfo@@XZ 201d8250 f   Physics_RigidBody.obj
@@ -7471,10 +7471,10 @@
  0001:001df7f0       ?idPhysics_RigidBody_RestorePState@@YAXPAVidRestoreGame@@AAUrigidBodyPState_s@@@Z 201e07f0 f   Physics_RigidBody.obj
  0001:001df880       ??4rididBodyIState_s@@QAEAAU0@ABU0@@Z 201e0880 f i Physics_RigidBody.obj
  0001:001df900       ??4rigidBodyPState_s@@QAEAAU0@ABU0@@Z 201e0900 f i Physics_RigidBody.obj
- 0001:001df9b0       ??_EidPhysics_RigidBody@@UAEPAXI@Z 201e09b0 f i Physics_RigidBody.obj
- 0001:001df9b0       ??_ErvPhysics_VehicleMonster@@UAEPAXI@Z 201e09b0 f i Physics_VehicleMonster.obj
  0001:001df9b0       ??_GrvPhysics_VehicleMonster@@UAEPAXI@Z 201e09b0 f i Physics_VehicleMonster.obj
  0001:001df9b0       ??_GidPhysics_RigidBody@@UAEPAXI@Z 201e09b0 f i Physics_RigidBody.obj
+ 0001:001df9b0       ??_EidPhysics_RigidBody@@UAEPAXI@Z 201e09b0 f i Physics_RigidBody.obj
+ 0001:001df9b0       ??_ErvPhysics_VehicleMonster@@UAEPAXI@Z 201e09b0 f i Physics_VehicleMonster.obj
  0001:001df9e0       ?RegisterClassA@idPhysics_Static@@SAXXZ 201e09e0 f   Physics_Static.obj
  0001:001dfa70       ?CreateInstance@idPhysics_Static@@SAPAVidClass@@XZ 201e0a70 f   Physics_Static.obj
  0001:001dfb00       ?GetClassType@idPhysics_Static@@SAAAVidTypeInfo@@XZ 201e0b00 f   Physics_Static.obj
@@ -7552,10 +7552,10 @@
  0001:001e1880       ?Register_idPhysics_Static@@YAXXZ 201e2880 f   Physics_Static.obj
  0001:001e1890       ??_EidPhysics_Static@@UAEPAXI@Z 201e2890 f i Physics_Static.obj
  0001:001e1890       ??_GidPhysics_Static@@UAEPAXI@Z 201e2890 f i Physics_Static.obj
- 0001:001e18c0       ?GetFile@idAASLocal@@UAEPAVidAASFile@@XZ 201e28c0 f i AAS.obj
- 0001:001e18c0       ?GetSelf@idPhysics_Static@@UBEPAVidEntity@@XZ 201e28c0 f i Physics_Static.obj
  0001:001e18c0       ?GetSelf@idPhysics_Base@@UBEPAVidEntity@@XZ 201e28c0 f i SplineMover.obj
  0001:001e18c0       ?GetSelf@idPhysics_StaticMulti@@UBEPAVidEntity@@XZ 201e28c0 f i Physics_StaticMulti.obj
+ 0001:001e18c0       ?GetFile@idAASLocal@@UAEPAVidAASFile@@XZ 201e28c0 f i AAS.obj
+ 0001:001e18c0       ?GetSelf@idPhysics_Static@@UBEPAVidEntity@@XZ 201e28c0 f i Physics_Static.obj
  0001:001e18d0       ?RegisterClassA@idPhysics_StaticMulti@@SAXXZ 201e28d0 f   Physics_StaticMulti.obj
  0001:001e1960       ?CreateInstance@idPhysics_StaticMulti@@SAPAVidClass@@XZ 201e2960 f   Physics_StaticMulti.obj
  0001:001e1a00       ?GetClassType@idPhysics_StaticMulti@@SAAAVidTypeInfo@@XZ 201e2a00 f   Physics_StaticMulti.obj
@@ -7956,8 +7956,8 @@
  0001:0020b5a0       ??0idItemInfo@@QAE@XZ      2020c5a0 f i Player.obj
  0001:0020b5a0       ??0idLevelTriggerInfo@@QAE@XZ 2020c5a0 f i Player.obj
  0001:0020b5d0       ??0idObjectiveInfo@@QAE@XZ 2020c5d0 f i Player.obj
- 0001:0020b620       ??1?$idList@UidItemInfo@@@@QAE@XZ 2020c620 f i Player.obj
  0001:0020b620       ??1?$idList@UidLevelTriggerInfo@@@@QAE@XZ 2020c620 f i Player.obj
+ 0001:0020b620       ??1?$idList@UidItemInfo@@@@QAE@XZ 2020c620 f i Player.obj
  0001:0020b680       ??1?$idList@UidObjectiveInfo@@@@QAE@XZ 2020c680 f i Player.obj
  0001:0020b6e0       ??1idInventory@@QAE@XZ     2020c6e0 f i Player.obj
  0001:0020b9d0       ??1idItemInfo@@QAE@XZ      2020c9d0 f i Player.obj
@@ -7967,8 +7967,8 @@
  0001:0020ba80       ??4idLevelTriggerInfo@@QAEAAU0@ABU0@@Z 2020ca80 f i Player.obj
  0001:0020bb00       ??4idObjectiveInfo@@QAEAAU0@ABU0@@Z 2020cb00 f i Player.obj
  0001:0020bbb0       ??_GidDict@@QAEPAXI@Z      2020cbb0 f i Player.obj
- 0001:0020bc80       ??_EidPlayer@@UAEPAXI@Z    2020cc80 f i Player.obj
  0001:0020bc80       ??_GidPlayer@@UAEPAXI@Z    2020cc80 f i Player.obj
+ 0001:0020bc80       ??_EidPlayer@@UAEPAXI@Z    2020cc80 f i Player.obj
  0001:0020bcb0       ?FocusLength@rvVehicle@@QBEMXZ 2020ccb0 f i Player.obj
  0001:0020bd00       ?GetClipWorld@idPlayer@@UBEHXZ 2020cd00 f i Player.obj
  0001:0020bd00       ?GetClipWorld@idEntity@@UBEHXZ 2020cd00 f i Actor.obj
@@ -8069,24 +8069,24 @@
  0001:00213800       ?CompileFile@idCompiler@@QAEXPBD0_N@Z 20214800 f   Script_Compiler.obj
  0001:00213bb0       ??0idCompileError@@QAE@PBD@Z 20214bb0 f i Script_Compiler.obj
  0001:00213be0       ??1idTypeDef@@UAE@XZ       20214be0 f i Script_Compiler.obj
- 0001:00213d10       ??_EidTypeDef@@UAEPAXI@Z   20214d10 f i Script_Compiler.obj
- 0001:00213d10       ??_ErvTypeDefString@@UAEPAXI@Z 20214d10 f i Script_Program.obj
+ 0001:00213d10       ??_GrvTypeDefFloat@@UAEPAXI@Z 20214d10 f i Script_Program.obj
  0001:00213d10       ??_GrvTypeDefEntity@@UAEPAXI@Z 20214d10 f i Script_Program.obj
+ 0001:00213d10       ??_GrvTypeDefString@@UAEPAXI@Z 20214d10 f i Script_Program.obj
+ 0001:00213d10       ??_EidTypeDef@@UAEPAXI@Z   20214d10 f i Script_Compiler.obj
  0001:00213d10       ??_GidTypeDef@@UAEPAXI@Z   20214d10 f i Script_Compiler.obj
+ 0001:00213d10       ??_GrvTypeDefVec3@@UAEPAXI@Z 20214d10 f i Script_Program.obj
  0001:00213d10       ??_ErvTypeDefVec3@@UAEPAXI@Z 20214d10 f i Script_Program.obj
- 0001:00213d10       ??_ErvTypeDefBool@@UAEPAXI@Z 20214d10 f i Script_Program.obj
  0001:00213d10       ??_GrvTypeDefBool@@UAEPAXI@Z 20214d10 f i Script_Program.obj
+ 0001:00213d10       ??_ErvTypeDefBool@@UAEPAXI@Z 20214d10 f i Script_Program.obj
+ 0001:00213d10       ??_ErvTypeDefString@@UAEPAXI@Z 20214d10 f i Script_Program.obj
  0001:00213d10       ??_ErvTypeDefFloat@@UAEPAXI@Z 20214d10 f i Script_Program.obj
  0001:00213d10       ??_ErvTypeDefEntity@@UAEPAXI@Z 20214d10 f i Script_Program.obj
- 0001:00213d10       ??_GrvTypeDefString@@UAEPAXI@Z 20214d10 f i Script_Program.obj
- 0001:00213d10       ??_GrvTypeDefVec3@@UAEPAXI@Z 20214d10 f i Script_Program.obj
- 0001:00213d10       ??_GrvTypeDefFloat@@UAEPAXI@Z 20214d10 f i Script_Program.obj
  0001:00213d60       ?Format@idTypeDef@@UBEPBDXZ 20214d60 f i Script_Compiler.obj
  0001:00213d70       ?GetReturnedValAsString@idTypeDef@@UAEPBDAAVidProgram@@@Z 20214d70 f i Script_Compiler.obj
  0001:00213d80       ?IsValid@idTypeDef@@UBE_NPBD@Z 20214d80 f i Script_Compiler.obj
- 0001:00213d90       ?PushOntoStack@idTypeDef@@UAEXPAVidThread@@PBD@Z 20214d90 f i Script_Compiler.obj
  0001:00213d90       ?UpdateHUD@rvVehicle@@UAEXPAVidActor@@PAVidUserInterface@@@Z 20214d90 f i Monster_ConvoyHover.obj
  0001:00213d90       ?RepeaterProcessReliableMessage@idGameLocal@@UAEXHABVidBitMsg@@@Z 20214d90 f i Game_local.obj
+ 0001:00213d90       ?PushOntoStack@idTypeDef@@UAEXPAVidThread@@PBD@Z 20214d90 f i Script_Compiler.obj
  0001:00213da0       ?LeaveFunction@idInterpreter@@AAEXPAVidVarDef@@@Z 20214da0 f   Script_Interpreter.obj
  0001:00213fa0       ?CallEvent@idInterpreter@@AAEXPBVfunction_t@@H@Z 20214fa0 f   Script_Interpreter.obj
  0001:00214390       ?CallSysEvent@idInterpreter@@AAEXPBVfunction_t@@H@Z 20215390 f   Script_Interpreter.obj
@@ -8232,86 +8232,86 @@
  0001:0021e9d0       ?ListStates@idProgram@@QAEXXZ 2021f9d0 f   Script_Program.obj
  0001:0021ea30       ?Shutdown@idProgram@@QAEXXZ 2021fa30 f   Script_Program.obj
  0001:0021ea40       ?ScriptSummary@idProgram@@QAEIABVidCmdArgs@@@Z 2021fa40 f   Script_Program.obj
- 0001:0021eb40       ??1?$idList@UrvAIAttackAnimInfo_s@@@@QAE@XZ 2021fb40 f i AI.obj
- 0001:0021eb40       ??1?$idList@H@@QAE@XZ      2021fb40 f i AF.obj
- 0001:0021eb40       ??1?$idList@PAVidAFTree@@@@QAE@XZ 2021fb40 f i Physics_AF.obj
- 0001:0021eb40       ??1?$idList@PBVidClass@@@@QAE@XZ 2021fb40 f i SaveGame.obj
- 0001:0021eb40       ??1?$idList@VidAFPoseJointMod@@@@QAE@XZ 2021fb40 f i Anim_Blend.obj
- 0001:0021eb40       ??1?$idList@I@@QAE@XZ      2021fb40 f i Camera.obj
- 0001:0021eb40       ??1?$idList@PAVrvClientMoveable@@@@QAE@XZ 2021fb40 f i Player.obj
- 0001:0021eb40       ??1?$idList@PAVidEntity@@@@QAE@XZ 2021fb40 f i Actor.obj
- 0001:0021eb40       ??1?$idList@PAVrvGravityArea@@@@QAE@XZ 2021fb40 f i Game_local.obj
- 0001:0021eb40       ??1?$idList@VidAttachInfo@@@@QAE@XZ 2021fb40 f i Actor.obj
- 0001:0021eb40       ??1?$idList@PAUjointMod_t@@@@QAE@XZ 2021fb40 f i Anim_Blend.obj
- 0001:0021eb40       ??1?$idList@PAVidMapBrushSide@@@@QAE@XZ 2021fb40 f i idLib:mapfile.obj
- 0001:0021eb40       ??1?$idList@UframeCommand_t@@@@QAE@XZ 2021fb40 f i Camera.obj
- 0001:0021eb40       ??1?$idList@VidBounds@@@@QAE@XZ 2021fb40 f i Anim.obj
- 0001:0021eb40       ??1?$idList@PAVidVarDefName@@@@QAE@XZ 2021fb40 f i Script_Program.obj
- 0001:0021eb40       ??1?$idList@V?$rvPair@PAVrvStat@@H@@@@QAE@XZ 2021fb40 f i StatManager.obj
- 0001:0021eb40       ??1?$idList@PAVidDict@@@@QAE@XZ 2021fb40 f i Player.obj
- 0001:0021eb40       ??1?$idList@UAFCollision_s@@@@QAE@XZ 2021fb40 f i Physics_AF.obj
- 0001:0021eb40       ??1?$idList@V?$rvPair@HM@@@@QAE@XZ 2021fb40 f i MultiplayerGame.obj
- 0001:0021eb40       ??1?$idList@VrvLightningPath@@@@QAE@XZ 2021fb40 f i WeaponLightningGun.obj
- 0001:0021eb40       ??1?$idList@UcopyJoints_t@@@@QAE@XZ 2021fb40 f i AFEntity.obj
- 0001:0021eb40       ??1?$idList@PAVidAFConstraint@@@@QAE@XZ 2021fb40 f i Physics_AF.obj
- 0001:0021eb40       ??1?$idList@UcontactInfo_t@@@@QAE@XZ 2021fb40 f i Physics_Base.obj
- 0001:0021eb40       ??1?$idList@UsurfaceEdge_s@@@@QAE@XZ 2021fb40 f i idLib:mapfile.obj
- 0001:0021eb40       ??1?$idList@V?$idEntityPtr@VrvSplineMover@@@@@@QAE@XZ 2021fb40 f i SplineMover.obj
- 0001:0021eb40       ??1?$idList@V?$idEntityPtr@VidAI@@@@@@QAE@XZ 2021fb40 f i SplineMover.obj
- 0001:0021eb40       ??1?$idList@PAVidFixedWinding@@@@QAE@XZ 2021fb40 f i BrittleFracture.obj
- 0001:0021eb40       ??1?$idList@PAVrvVehiclePart@@@@QAE@XZ 2021fb40 f i VehiclePosition.obj
- 0001:0021eb40       ??1?$idList@PAVidAFConstraint_Contact@@@@QAE@XZ 2021fb40 f i Physics_AF.obj
- 0001:0021eb40       ??1?$idList@V?$rvPair@PAVidPlayer@@H@@@@QAE@XZ 2021fb40 f i Game_local.obj
- 0001:0021eb40       ??1?$idList@PAVidAnim@@@@QAE@XZ 2021fb40 f i Anim_Blend.obj
+ 0001:0021eb40       ??1?$idList@_N@@QAE@XZ     2021fb40 f i BrittleFracture.obj
+ 0001:0021eb40       ??1?$idList@PAUaasFeature_s@@@@QAE@XZ 2021fb40 f i AAS_tactical.obj
+ 0001:0021eb40       ??1?$idList@VidStaticPState@@@@QAE@XZ 2021fb40 f i Physics_StaticMulti.obj
+ 0001:0021eb40       ??1?$idList@PAVidPlayer@@@@QAE@XZ 2021fb40 f i Game_local.obj
  0001:0021eb40       ??1?$idList@PBVidPoolStr@@@@QAE@XZ 2021fb40 f i idLib:Dict.obj
+ 0001:0021eb40       ??1?$idList@V?$rvPair@H_N@@@@QAE@XZ 2021fb40 f i StatManager.obj
+ 0001:0021eb40       ??1?$idList@H@@QAE@XZ      2021fb40 f i AF.obj
+ 0001:0021eb40       ??1?$idList@V?$rvPair@PAVrvIcon@@H@@@@QAE@XZ 2021fb40 f i IconManager.obj
+ 0001:0021eb40       ??1?$idList@V?$rvPair@HM@@@@QAE@XZ 2021fb40 f i MultiplayerGame.obj
+ 0001:0021eb40       ??1?$idList@PBVfunction_t@@@@QAE@XZ 2021fb40 f i Script_Compiler.obj
+ 0001:0021eb40       ??1?$idList@W4jointHandle_t@@@@QAE@XZ 2021fb40 f i Actor.obj
+ 0001:0021eb40       ??1?$idList@PBVidClass@@@@QAE@XZ 2021fb40 f i SaveGame.obj
+ 0001:0021eb40       ??1?$idList@UjointConversion_s@@@@QAE@XZ 2021fb40 f i AF.obj
  0001:0021eb40       ??1?$idList@PAVidPoolStr@@@@QAE@XZ 2021fb40 f i idLib:Dict.obj
- 0001:0021eb40       ??1?$idList@UaiAvoid_s@@@@QAE@XZ 2021fb40 f i AI_Manager.obj
- 0001:0021eb40       ??1?$idList@PAVrvInstance@@@@QAE@XZ 2021fb40 f i Game_local.obj
+ 0001:0021eb40       ??1?$idList@V?$idEntityPtr@VrvSplineMover@@@@@@QAE@XZ 2021fb40 f i SplineMover.obj
+ 0001:0021eb40       ??1?$idList@PAVidTypeDef@@@@QAE@XZ 2021fb40 f i Script_Compiler.obj
+ 0001:0021eb40       ??1?$idList@PAVidVarDefName@@@@QAE@XZ 2021fb40 f i Script_Program.obj
+ 0001:0021eb40       ??1?$idList@PAVidVarDef@@@@QAE@XZ 2021fb40 f i Script_Program.obj
+ 0001:0021eb40       ??1?$idList@UcopyJoints_t@@@@QAE@XZ 2021fb40 f i AFEntity.obj
+ 0001:0021eb40       ??1?$idList@VidDrawVert@@@@QAE@XZ 2021fb40 f i idLib:mapfile.obj
+ 0001:0021eb40       ??1?$idList@PAVidAAS@@@@QAE@XZ 2021fb40 f i Game_local.obj
+ 0001:0021eb40       ??1?$idList@PAVidDict@@@@QAE@XZ 2021fb40 f i Player.obj
  0001:0021eb40       ??1?$idList@VidAngles@@@@QAE@XZ 2021fb40 f i AI.obj
- 0001:0021eb40       ??1?$idList@PAVidMapEntity@@@@QAE@XZ 2021fb40 f i Game_local.obj
- 0001:0021eb40       ??1?$idList@UframeLookup_t@@@@QAE@XZ 2021fb40 f i Camera.obj
- 0001:0021eb40       ??1?$idList@UjointAnimInfo_t@@@@QAE@XZ 2021fb40 f i Anim.obj
- 0001:0021eb40       ??1?$idList@M@@QAE@XZ      2021fb40 f i Actor.obj
- 0001:0021eb40       ??1?$idList@PAUshard_s@@@@QAE@XZ 2021fb40 f i BrittleFracture.obj
+ 0001:0021eb40       ??1?$idList@PAVidStr@@@@QAE@XZ 2021fb40 f i Game_local.obj
+ 0001:0021eb40       ??1?$idList@PAVidAnim@@@@QAE@XZ 2021fb40 f i Anim_Blend.obj
+ 0001:0021eb40       ??1?$idList@PAVrvGravityArea@@@@QAE@XZ 2021fb40 f i Game_local.obj
+ 0001:0021eb40       ??1?$idList@PAVidThread@@@@QAE@XZ 2021fb40 f i Game_local.obj
+ 0001:0021eb40       ??1?$idList@PAVrvVehiclePart@@@@QAE@XZ 2021fb40 f i VehiclePosition.obj
+ 0001:0021eb40       ??1?$idList@PAVidMapPrimitive@@@@QAE@XZ 2021fb40 f i GameEdit.obj
+ 0001:0021eb40       ??1?$idList@VidBounds@@@@QAE@XZ 2021fb40 f i Anim.obj
+ 0001:0021eb40       ??1?$idList@UrvAIAttackAnimInfo_s@@@@QAE@XZ 2021fb40 f i AI.obj
+ 0001:0021eb40       ??1?$idList@PAVrvInstance@@@@QAE@XZ 2021fb40 f i Game_local.obj
+ 0001:0021eb40       ??1?$idList@PAVrvCameraAnimation@@@@QAE@XZ 2021fb40 f i Camera.obj
+ 0001:0021eb40       ??1?$idList@UjointInfo_t@@@@QAE@XZ 2021fb40 f i Anim_Blend.obj
+ 0001:0021eb40       ??1?$idList@PAVidAFConstraint_Contact@@@@QAE@XZ 2021fb40 f i Physics_AF.obj
+ 0001:0021eb40       ??1?$idList@PAVidClipModel@@@@QAE@XZ 2021fb40 f i Physics_StaticMulti.obj
+ 0001:0021eb40       ??1?$idList@PAVidTimer@@@@QAE@XZ 2021fb40 f i idLib:Timer.obj
+ 0001:0021eb40       ??1?$idList@V?$idEntityPtr@VrvCTF_AssaultPoint@@@@@@QAE@XZ 2021fb40 f i Game_local.obj
+ 0001:0021eb40       ??1?$idList@UaasLocation_t@@@@QAE@XZ 2021fb40 f i Player.obj
+ 0001:0021eb40       ??1?$idList@VidAFPoseJointMod@@@@QAE@XZ 2021fb40 f i Anim_Blend.obj
+ 0001:0021eb40       ??1?$idList@PAVrvSplineMover@@@@QAE@XZ 2021fb40 f i SplineMover.obj
+ 0001:0021eb40       ??1?$idList@UcameraFrame_t@@@@QAE@XZ 2021fb40 f i Camera.obj
+ 0001:0021eb40       ??1?$idList@VrvLightningPath@@@@QAE@XZ 2021fb40 f i WeaponLightningGun.obj
+ 0001:0021eb40       ??1?$idList@UspawnSpot_t@@@@QAE@XZ 2021fb40 f i Game_local.obj
  0001:0021eb40       ??1?$idList@V?$idEntityPtr@VidEntity@@@@@@QAE@XZ 2021fb40 f i Entity.obj
  0001:0021eb40       ??1?$idList@V?$idEntityPtr@VrvVehicle@@@@@@QAE@XZ 2021fb40 f i SplineMover.obj
- 0001:0021eb40       ??1?$idList@V?$idEntityPtr@VidDoor@@@@@@QAE@XZ 2021fb40 f i TramGate.obj
- 0001:0021eb40       ??1?$idList@PAVidAFBody@@@@QAE@XZ 2021fb40 f i Physics_AF.obj
- 0001:0021eb40       ??1?$idList@Usignal_t@@@@QAE@XZ 2021fb40 f i Entity.obj
- 0001:0021eb40       ??1?$idList@UcameraFrame_t@@@@QAE@XZ 2021fb40 f i Camera.obj
- 0001:0021eb40       ??1?$idList@PAVidAAS@@@@QAE@XZ 2021fb40 f i Game_local.obj
- 0001:0021eb40       ??1?$idList@UjointConversion_s@@@@QAE@XZ 2021fb40 f i AF.obj
- 0001:0021eb40       ??1?$idList@PAVidTypeDef@@@@QAE@XZ 2021fb40 f i Script_Compiler.obj
- 0001:0021eb40       ??1?$idList@W4jointHandle_t@@@@QAE@XZ 2021fb40 f i Actor.obj
- 0001:0021eb40       ??1?$idList@PAVidVarDef@@@@QAE@XZ 2021fb40 f i Script_Program.obj
- 0001:0021eb40       ??1?$idList@UaasLocation_t@@@@QAE@XZ 2021fb40 f i Player.obj
- 0001:0021eb40       ??1?$idList@PAVidMapPrimitive@@@@QAE@XZ 2021fb40 f i GameEdit.obj
- 0001:0021eb40       ??1?$idList@V?$idEntityPtr@VidGuidedProjectile@@@@@@QAE@XZ 2021fb40 f i Vehicle.obj
- 0001:0021eb40       ??1?$idList@PAVidClipModel@@@@QAE@XZ 2021fb40 f i Physics_StaticMulti.obj
- 0001:0021eb40       ??1?$idList@PAVidMD5Anim@@@@QAE@XZ 2021fb40 f i Anim.obj
- 0001:0021eb40       ??1?$idList@PBVfunction_t@@@@QAE@XZ 2021fb40 f i Script_Compiler.obj
- 0001:0021eb40       ??1?$idList@UjointInfo_t@@@@QAE@XZ 2021fb40 f i Anim_Blend.obj
- 0001:0021eb40       ??1?$idList@PAVidStr@@@@QAE@XZ 2021fb40 f i Game_local.obj
- 0001:0021eb40       ??1?$idList@PAVidTimer@@@@QAE@XZ 2021fb40 f i idLib:Timer.obj
- 0001:0021eb40       ??1?$idList@PAUaasFeature_s@@@@QAE@XZ 2021fb40 f i AAS_tactical.obj
- 0001:0021eb40       ??1?$idList@UspawnSpot_t@@@@QAE@XZ 2021fb40 f i Game_local.obj
- 0001:0021eb40       ??1?$idList@_N@@QAE@XZ     2021fb40 f i BrittleFracture.obj
+ 0001:0021eb40       ??1?$idList@UsurfaceEdge_s@@@@QAE@XZ 2021fb40 f i idLib:mapfile.obj
+ 0001:0021eb40       ??1?$idList@UAFCollision_s@@@@QAE@XZ 2021fb40 f i Physics_AF.obj
+ 0001:0021eb40       ??1?$idList@PAUjointMod_t@@@@QAE@XZ 2021fb40 f i Anim_Blend.obj
+ 0001:0021eb40       ??1?$idList@PAVidFixedWinding@@@@QAE@XZ 2021fb40 f i BrittleFracture.obj
+ 0001:0021eb40       ??1?$idList@UframeCommand_t@@@@QAE@XZ 2021fb40 f i Camera.obj
+ 0001:0021eb40       ??1?$idList@PAVidMapEntity@@@@QAE@XZ 2021fb40 f i Game_local.obj
+ 0001:0021eb40       ??1?$idList@PAVidAFConstraint@@@@QAE@XZ 2021fb40 f i Physics_AF.obj
  0001:0021eb40       ??1?$idList@VidKeyValue@@@@QAE@XZ 2021fb40 f i Actor.obj
- 0001:0021eb40       ??1?$idList@VidDrawVert@@@@QAE@XZ 2021fb40 f i idLib:mapfile.obj
- 0001:0021eb40       ??1?$idList@PAVidRoutingObstacle@@@@QAE@XZ 2021fb40 f i AAS.obj
- 0001:0021eb40       ??1?$idList@PAVidPlayer@@@@QAE@XZ 2021fb40 f i Game_local.obj
+ 0001:0021eb40       ??1?$idList@UaiAvoid_s@@@@QAE@XZ 2021fb40 f i AI_Manager.obj
+ 0001:0021eb40       ??1?$idList@PAVidAFTree@@@@QAE@XZ 2021fb40 f i Physics_AF.obj
+ 0001:0021eb40       ??1?$idList@VidAttachInfo@@@@QAE@XZ 2021fb40 f i Actor.obj
  0001:0021eb40       ??1?$idList@PAVidPlayerStart@@@@QAE@XZ 2021fb40 f i Game_local.obj
- 0001:0021eb40       ??1?$idList@PAVidClip@@@@QAE@XZ 2021fb40 f i Game_local.obj
+ 0001:0021eb40       ??1?$idList@M@@QAE@XZ      2021fb40 f i Actor.obj
  0001:0021eb40       ??1?$idList@PAUrvMarker@@@@QAE@XZ 2021fb40 f i AI_Move.obj
- 0001:0021eb40       ??1?$idList@PAVrvCameraAnimation@@@@QAE@XZ 2021fb40 f i Camera.obj
- 0001:0021eb40       ??1?$idList@V?$rvPair@H_N@@@@QAE@XZ 2021fb40 f i StatManager.obj
- 0001:0021eb40       ??1?$idList@VidJointQuat@@@@QAE@XZ 2021fb40 f i Anim.obj
- 0001:0021eb40       ??1?$idList@PAVrvSplineMover@@@@QAE@XZ 2021fb40 f i SplineMover.obj
- 0001:0021eb40       ??1?$idList@PAVidThread@@@@QAE@XZ 2021fb40 f i Game_local.obj
- 0001:0021eb40       ??1?$idList@V?$idEntityPtr@VrvCTF_AssaultPoint@@@@@@QAE@XZ 2021fb40 f i Game_local.obj
- 0001:0021eb40       ??1?$idList@V?$rvPair@PAVrvIcon@@H@@@@QAE@XZ 2021fb40 f i IconManager.obj
+ 0001:0021eb40       ??1?$idList@V?$idEntityPtr@VidGuidedProjectile@@@@@@QAE@XZ 2021fb40 f i Vehicle.obj
+ 0001:0021eb40       ??1?$idList@PAUshard_s@@@@QAE@XZ 2021fb40 f i BrittleFracture.obj
+ 0001:0021eb40       ??1?$idList@PAVrvClientMoveable@@@@QAE@XZ 2021fb40 f i Player.obj
+ 0001:0021eb40       ??1?$idList@Usignal_t@@@@QAE@XZ 2021fb40 f i Entity.obj
+ 0001:0021eb40       ??1?$idList@V?$idEntityPtr@VidDoor@@@@@@QAE@XZ 2021fb40 f i TramGate.obj
+ 0001:0021eb40       ??1?$idList@V?$idEntityPtr@VidAI@@@@@@QAE@XZ 2021fb40 f i SplineMover.obj
+ 0001:0021eb40       ??1?$idList@PAVidEntity@@@@QAE@XZ 2021fb40 f i Actor.obj
  0001:0021eb40       ??1?$idList@PAVidRenderModel@@@@QAE@XZ 2021fb40 f i AFEntity.obj
- 0001:0021eb40       ??1?$idList@VidStaticPState@@@@QAE@XZ 2021fb40 f i Physics_StaticMulti.obj
+ 0001:0021eb40       ??1?$idList@UcontactInfo_t@@@@QAE@XZ 2021fb40 f i Physics_Base.obj
+ 0001:0021eb40       ??1?$idList@UjointAnimInfo_t@@@@QAE@XZ 2021fb40 f i Anim.obj
+ 0001:0021eb40       ??1?$idList@UframeLookup_t@@@@QAE@XZ 2021fb40 f i Camera.obj
+ 0001:0021eb40       ??1?$idList@PAVidClip@@@@QAE@XZ 2021fb40 f i Game_local.obj
+ 0001:0021eb40       ??1?$idList@I@@QAE@XZ      2021fb40 f i Camera.obj
+ 0001:0021eb40       ??1?$idList@V?$rvPair@PAVidPlayer@@H@@@@QAE@XZ 2021fb40 f i Game_local.obj
+ 0001:0021eb40       ??1?$idList@V?$rvPair@PAVrvStat@@H@@@@QAE@XZ 2021fb40 f i StatManager.obj
+ 0001:0021eb40       ??1?$idList@PAVidMD5Anim@@@@QAE@XZ 2021fb40 f i Anim.obj
+ 0001:0021eb40       ??1?$idList@PAVidMapBrushSide@@@@QAE@XZ 2021fb40 f i idLib:mapfile.obj
+ 0001:0021eb40       ??1?$idList@VidJointQuat@@@@QAE@XZ 2021fb40 f i Anim.obj
+ 0001:0021eb40       ??1?$idList@PAVidAFBody@@@@QAE@XZ 2021fb40 f i Physics_AF.obj
+ 0001:0021eb40       ??1?$idList@PAVidRoutingObstacle@@@@QAE@XZ 2021fb40 f i AAS.obj
  0001:0021eb90       ??1?$idStaticList@Vfunction_t@@$0BIAA@@@QAE@XZ 2021fb90 f i Script_Program.obj
  0001:0021ebb0       ??1function_t@@QAE@XZ      2021fbb0 f i Script_Program.obj
  0001:0021ec40       ??1idCompiler@@QAE@XZ      2021fc40 f i Script_Program.obj
@@ -8630,10 +8630,10 @@
  0001:0022b830       ?Event_ScriptedDone@rvVehicleWalker@@AAEXXZ 2022c830 f   Vehicle_Walker.obj
  0001:0022b850       ?Event_ScriptedStop@rvVehicleWalker@@AAEXXZ 2022c850 f   Vehicle_Walker.obj
  0001:0022b880       ?Register_rvVehicleWalker@@YAXXZ 2022c880 f   Vehicle_Walker.obj
- 0001:0022b890       ??_GrvVehicleWalker@@UAEPAXI@Z 2022c890 f i Vehicle_Walker.obj
  0001:0022b890       ??_GrvVehicleAnimated@@UAEPAXI@Z 2022c890 f i VehicleAnimated.obj
- 0001:0022b890       ??_ErvVehicleWalker@@UAEPAXI@Z 2022c890 f i Vehicle_Walker.obj
+ 0001:0022b890       ??_GrvVehicleWalker@@UAEPAXI@Z 2022c890 f i Vehicle_Walker.obj
  0001:0022b890       ??_ErvVehicleAnimated@@UAEPAXI@Z 2022c890 f i VehicleAnimated.obj
+ 0001:0022b890       ??_ErvVehicleWalker@@UAEPAXI@Z 2022c890 f i Vehicle_Walker.obj
  0001:0022b8c0       ?RegisterClassA@rvVehicleAnimated@@SAXXZ 2022c8c0 f   VehicleAnimated.obj
  0001:0022b950       ?CreateInstance@rvVehicleAnimated@@SAPAVidClass@@XZ 2022c950 f   VehicleAnimated.obj
  0001:0022b9f0       ?GetClassType@rvVehicleAnimated@@SAAAVidTypeInfo@@XZ 2022c9f0 f   VehicleAnimated.obj
@@ -8714,8 +8714,8 @@
  0001:0022fee0       ?Event_SetFollowOffset@rvVehicleDriver@@IAEXABVidVec3@@@Z 20230ee0 f   VehicleDriver.obj
  0001:0022ff00       ?Register_rvVehicleDriver@@YAXXZ 20230f00 f   VehicleDriver.obj
  0001:0022ff10       ??4PathTargetInfo@rvVehicleDriver@@QAEAAU01@AAU01@@Z 20230f10 f i VehicleDriver.obj
- 0001:0022ff80       ??_ErvVehicleDriver@@UAEPAXI@Z 20230f80 f i VehicleDriver.obj
  0001:0022ff80       ??_GrvVehicleDriver@@UAEPAXI@Z 20230f80 f i VehicleDriver.obj
+ 0001:0022ff80       ??_ErvVehicleDriver@@UAEPAXI@Z 20230f80 f i VehicleDriver.obj
  0001:0022fff0       ?LeaderHintsString@rvVehicleDriver@@IBEAAVidStr@@HAAV2@@Z 20230ff0 f i VehicleDriver.obj
  0001:00230040       ?RegisterClassA@rvVehicleMonster@@SAXXZ 20231040 f   VehicleMonster.obj
  0001:002300d0       ?CreateInstance@rvVehicleMonster@@SAPAVidClass@@XZ 202310d0 f   VehicleMonster.obj
@@ -8735,8 +8735,8 @@
  0001:00230dd0       ?GetVectorToEnemy@rvVehicleMonster@@IAE?AVidVec3@@XZ 20231dd0 f   VehicleMonster.obj
  0001:00230f50       ?LookAtEntity@rvVehicleMonster@@IAEXPAVidEntity@@M@Z 20231f50 f   VehicleMonster.obj
  0001:00231090       ?Register_rvVehicleMonster@@YAXXZ 20232090 f   VehicleMonster.obj
- 0001:002310a0       ??_ErvVehicleMonster@@UAEPAXI@Z 202320a0 f i VehicleMonster.obj
  0001:002310a0       ??_GrvVehicleMonster@@UAEPAXI@Z 202320a0 f i VehicleMonster.obj
+ 0001:002310a0       ??_ErvVehicleMonster@@UAEPAXI@Z 202320a0 f i VehicleMonster.obj
  0001:002310e0       ?RegisterClassA@rvVehiclePart@@SAXXZ 202320e0 f   VehicleParts.obj
  0001:00231170       ?CreateInstance@rvVehiclePart@@SAPAVidClass@@XZ 20232170 f   VehicleParts.obj
  0001:00231190       ?GetClassType@rvVehiclePart@@SAAAVidTypeInfo@@XZ 20232190 f   VehicleParts.obj
@@ -8857,8 +8857,8 @@
  0001:0023bfc0       ?Register_rvVehicleUserAnimated@@YAXXZ 2023cfc0 f   VehicleParts.obj
  0001:0023bfd0       ??0rvVehiclePart@@QAE@XZ   2023cfd0 f i VehicleParts.obj
  0001:0023c180       ??1rvVehiclePart@@UAE@XZ   2023d180 f i VehicleParts.obj
- 0001:0023c230       ??_ErvVehicleHoverpad@@UAEPAXI@Z 2023d230 f i VehicleParts.obj
  0001:0023c230       ??_GrvVehicleHoverpad@@UAEPAXI@Z 2023d230 f i VehicleParts.obj
+ 0001:0023c230       ??_ErvVehicleHoverpad@@UAEPAXI@Z 2023d230 f i VehicleParts.obj
  0001:0023c260       ??_ErvVehicleLight@@UAEPAXI@Z 2023d260 f i VehicleParts.obj
  0001:0023c260       ??_GrvVehicleLight@@UAEPAXI@Z 2023d260 f i VehicleParts.obj
  0001:0023c290       ??_GrvVehicleTurret@@UAEPAXI@Z 2023d290 f i VehicleParts.obj
@@ -8871,8 +8871,8 @@
  0001:0023c2f0       ??_GrvVehicleThruster@@UAEPAXI@Z 2023d2f0 f i VehicleParts.obj
  0001:0023c320       ??_GrvVehicleUserAnimated@@UAEPAXI@Z 2023d320 f i VehicleParts.obj
  0001:0023c320       ??_ErvVehicleUserAnimated@@UAEPAXI@Z 2023d320 f i VehicleParts.obj
- 0001:0023c390       ??_ErvVehicleWeapon@@UAEPAXI@Z 2023d390 f i VehicleParts.obj
  0001:0023c390       ??_GrvVehicleWeapon@@UAEPAXI@Z 2023d390 f i VehicleParts.obj
+ 0001:0023c390       ??_ErvVehicleWeapon@@UAEPAXI@Z 2023d390 f i VehicleParts.obj
  0001:0023c3c0       ?Activate@rvVehiclePart@@UAEX_N@Z 2023d3c0 f i VehicleParts.obj
  0001:0023c3e0       ?GetPosition@rvVehiclePart@@UBEPAVrvVehiclePosition@@XZ 2023d3e0 f i VehicleParts.obj
  0001:0023c3f0       ??0rvVehiclePosition@@QAE@XZ 2023d3f0 f   VehiclePosition.obj
@@ -8918,8 +8918,8 @@
  0001:00240360       ?RunPrePhysics@rvVehicleRigid@@MAEXXZ 20241360 f   VehicleRigid.obj
  0001:002403a0       ?RunPostPhysics@rvVehicleRigid@@MAEXXZ 202413a0 f   VehicleRigid.obj
  0001:002404e0       ?Register_rvVehicleRigid@@YAXXZ 202414e0 f   VehicleRigid.obj
- 0001:002404f0       ??_ErvVehicleRigid@@UAEPAXI@Z 202414f0 f i VehicleRigid.obj
  0001:002404f0       ??_GrvVehicleRigid@@UAEPAXI@Z 202414f0 f i VehicleRigid.obj
+ 0001:002404f0       ??_ErvVehicleRigid@@UAEPAXI@Z 202414f0 f i VehicleRigid.obj
  0001:00240520       ?RegisterClassA@rvVehicleSpline@@SAXXZ 20241520 f   VehicleSpline.obj
  0001:002405b0       ?CreateInstance@rvVehicleSpline@@SAPAVidClass@@XZ 202415b0 f   VehicleSpline.obj
  0001:00240650       ?GetClassType@rvVehicleSpline@@SAAAVidTypeInfo@@XZ 20241650 f   VehicleSpline.obj
@@ -8934,8 +8934,8 @@
  0001:00240e90       ?Event_SetSpline@rvVehicleSpline@@QAEXPAVidEntity@@@Z 20241e90 f   VehicleSpline.obj
  0001:00240ef0       ?Event_DoneMoving@rvVehicleSpline@@QAEXXZ 20241ef0 f   VehicleSpline.obj
  0001:00240f00       ?Register_rvVehicleSpline@@YAXXZ 20241f00 f   VehicleSpline.obj
- 0001:00240f10       ??_ErvVehicleSpline@@UAEPAXI@Z 20241f10 f i VehicleSpline.obj
  0001:00240f10       ??_GrvVehicleSpline@@UAEPAXI@Z 20241f10 f i VehicleSpline.obj
+ 0001:00240f10       ??_ErvVehicleSpline@@UAEPAXI@Z 20241f10 f i VehicleSpline.obj
  0001:00240f40       ?RegisterClassA@rvVehicleStatic@@SAXXZ 20241f40 f   VehicleStatic.obj
  0001:00240fd0       ?CreateInstance@rvVehicleStatic@@SAPAVidClass@@XZ 20241fd0 f   VehicleStatic.obj
  0001:00241070       ?GetClassType@rvVehicleStatic@@SAAAVidTypeInfo@@XZ 20242070 f   VehicleStatic.obj
@@ -8950,9 +8950,9 @@
  0001:002411e0       ?Event_ScriptedDone@rvVehicleStatic@@QAEXXZ 202421e0 f   VehicleStatic.obj
  0001:00241200       ?Event_ScriptedStop@rvVehicleStatic@@QAEXXZ 20242200 f   VehicleStatic.obj
  0001:00241250       ?Register_rvVehicleStatic@@YAXXZ 20242250 f   VehicleStatic.obj
- 0001:00241260       ??_ErvVehicleStatic@@UAEPAXI@Z 20242260 f i VehicleStatic.obj
- 0001:00241260       ??_GrvVehicleStatic@@UAEPAXI@Z 20242260 f i VehicleStatic.obj
  0001:00241260       ??_ErvVehicleDropPod@@UAEPAXI@Z 20242260 f i Vehicle_DropPod.obj
+ 0001:00241260       ??_GrvVehicleStatic@@UAEPAXI@Z 20242260 f i VehicleStatic.obj
+ 0001:00241260       ??_ErvVehicleStatic@@UAEPAXI@Z 20242260 f i VehicleStatic.obj
  0001:00241260       ??_GrvVehicleDropPod@@UAEPAXI@Z 20242260 f i Vehicle_DropPod.obj
  0001:00241290       ?RegisterClassA@rvViewWeapon@@SAXXZ 20242290 f   Weapon.obj
  0001:00241320       ?CreateInstance@rvViewWeapon@@SAPAVidClass@@XZ 20242320 f   Weapon.obj
@@ -9100,11 +9100,11 @@
  0001:0024c300       ?Register_rvViewWeapon@@YAXXZ 2024d300 f   Weapon.obj
  0001:0024c310       ?Register_rvWeapon@@YAXXZ  2024d310 f   Weapon.obj
  0001:0024c320       ??4renderLight_s@@QAEAAU0@ABU0@@Z 2024d320 f i Weapon.obj
- 0001:0024c4d0       ??_ErvMonsterTurretFlying@@UAEPAXI@Z 2024d4d0 f i Monster_TurretFlying.obj
+ 0001:0024c4d0       ??_GrvTestTurret@@UAEPAXI@Z 2024d4d0 f i Weapon.obj
  0001:0024c4d0       ??_GrvMonsterTurretFlying@@UAEPAXI@Z 2024d4d0 f i Monster_TurretFlying.obj
  0001:0024c4d0       ??_ErvTestTurret@@UAEPAXI@Z 2024d4d0 f i Weapon.obj
+ 0001:0024c4d0       ??_ErvMonsterTurretFlying@@UAEPAXI@Z 2024d4d0 f i Monster_TurretFlying.obj
  0001:0024c4d0       ??_GrvMonsterTurret@@UAEPAXI@Z 2024d4d0 f i Monster_Turret.obj
- 0001:0024c4d0       ??_GrvTestTurret@@UAEPAXI@Z 2024d4d0 f i Weapon.obj
  0001:0024c4d0       ??_ErvMonsterTurret@@UAEPAXI@Z 2024d4d0 f i Monster_Turret.obj
  0001:0024c540       ??_GrvViewWeapon@@UAEPAXI@Z 2024d540 f i Weapon.obj
  0001:0024c540       ??_ErvViewWeapon@@UAEPAXI@Z 2024d540 f i Weapon.obj
@@ -9183,8 +9183,8 @@
  0001:0024f0d0       ?State_Idle@rvWeaponGauntlet@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 202500d0 f   WeaponGauntlet.obj
  0001:0024f160       ?State_Fire@rvWeaponGauntlet@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 20250160 f   WeaponGauntlet.obj
  0001:0024f2a0       ?Register_rvWeaponGauntlet@@YAXXZ 202502a0 f   WeaponGauntlet.obj
- 0001:0024f2b0       ??_ErvWeaponGauntlet@@UAEPAXI@Z 202502b0 f i WeaponGauntlet.obj
  0001:0024f2b0       ??_GrvWeaponGauntlet@@UAEPAXI@Z 202502b0 f i WeaponGauntlet.obj
+ 0001:0024f2b0       ??_ErvWeaponGauntlet@@UAEPAXI@Z 202502b0 f i WeaponGauntlet.obj
  0001:0024f2e0       ?RegisterClassA@rvWeaponGrenadeLauncher@@SAXXZ 202502e0 f   WeaponGrenadeLauncher.obj
  0001:0024f370       ?CreateInstance@rvWeaponGrenadeLauncher@@SAPAVidClass@@XZ 20250370 f   WeaponGrenadeLauncher.obj
  0001:0024f410       ?GetClassType@rvWeaponGrenadeLauncher@@SAAAVidTypeInfo@@XZ 20250410 f   WeaponGrenadeLauncher.obj
@@ -9213,35 +9213,35 @@
  0001:0024fd40       ?State_Fire@rvWeaponHyperblaster@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 20250d40 f   WeaponHyperblaster.obj
  0001:0024ff10       ?State_Reload@rvWeaponHyperblaster@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 20250f10 f   WeaponHyperblaster.obj
  0001:00250010       ?Register_rvWeaponHyperblaster@@YAXXZ 20251010 f   WeaponHyperblaster.obj
- 0001:00250015       ??_9rvWeaponBlaster@@$BEE@AE 20251015 f i WeaponBlaster.obj
- 0001:00250015       ??_9WeaponNapalmGun@@$BEE@AE 20251015 f i WeaponNapalmGun.obj
- 0001:00250015       ??_9rvWeaponGauntlet@@$BEE@AE 20251015 f i WeaponGauntlet.obj
- 0001:00250015       ??_9rvWeaponRocketLauncher@@$BEE@AE 20251015 f i WeaponRocketLauncher.obj
- 0001:00250015       ??_9rvWeaponHyperblaster@@$BEE@AE 20251015 f i WeaponHyperblaster.obj
- 0001:00250015       ??_9rvWeaponShotgun@@$BEE@AE 20251015 f i WeaponShotgun.obj
- 0001:00250015       ??_9rvWeaponNailgun@@$BEE@AE 20251015 f i WeaponNailgun.obj
- 0001:00250015       ??_9rvWeaponRailgun@@$BEE@AE 20251015 f i WeaponRailgun.obj
- 0001:00250015       ??_9TestWeapon@@$BEE@AE    20251015 f i TestWeapon.obj
- 0001:00250015       ??_9rvWeaponMachinegun@@$BEE@AE 20251015 f i WeaponMachinegun.obj
- 0001:00250015       ??_9rvWeaponGrenadeLauncher@@$BEE@AE 20251015 f i WeaponGrenadeLauncher.obj
  0001:00250015       ??_9rvWeaponDarkMatterGun@@$BEE@AE 20251015 f i WeaponDarkMatterGun.obj
+ 0001:00250015       ??_9rvWeaponTest@@$BEE@AE  20251015 f i WeaponTestWeapon.obj
+ 0001:00250015       ??_9WeaponNapalmGun@@$BEE@AE 20251015 f i WeaponNapalmGun.obj
  0001:00250015       ??_9rvWeaponLightningGun@@$BEE@AE 20251015 f i WeaponLightningGun.obj
- 0001:00250020       ??_GrvWeaponShotgun@@UAEPAXI@Z 20251020 f i WeaponShotgun.obj
+ 0001:00250015       ??_9rvWeaponHyperblaster@@$BEE@AE 20251015 f i WeaponHyperblaster.obj
+ 0001:00250015       ??_9rvWeaponBlaster@@$BEE@AE 20251015 f i WeaponBlaster.obj
+ 0001:00250015       ??_9rvWeaponNailgun@@$BEE@AE 20251015 f i WeaponNailgun.obj
+ 0001:00250015       ??_9rvWeaponRocketLauncher@@$BEE@AE 20251015 f i WeaponRocketLauncher.obj
+ 0001:00250015       ??_9rvWeaponGauntlet@@$BEE@AE 20251015 f i WeaponGauntlet.obj
+ 0001:00250015       ??_9rvWeaponRailgun@@$BEE@AE 20251015 f i WeaponRailgun.obj
+ 0001:00250015       ??_9rvWeaponGrenadeLauncher@@$BEE@AE 20251015 f i WeaponGrenadeLauncher.obj
+ 0001:00250015       ??_9rvWeaponMachinegun@@$BEE@AE 20251015 f i WeaponMachinegun.obj
+ 0001:00250015       ??_9rvWeaponShotgun@@$BEE@AE 20251015 f i WeaponShotgun.obj
  0001:00250020       ??_GrvWeapon@@UAEPAXI@Z    20251020 f i Weapon.obj
- 0001:00250020       ??_ErvWeaponMachinegun@@UAEPAXI@Z 20251020 f i WeaponMachinegun.obj
- 0001:00250020       ??_ETestWeapon@@UAEPAXI@Z  20251020 f i TestWeapon.obj
- 0001:00250020       ??_ErvWeaponShotgun@@UAEPAXI@Z 20251020 f i WeaponShotgun.obj
- 0001:00250020       ??_GrvWeaponHyperblaster@@UAEPAXI@Z 20251020 f i WeaponHyperblaster.obj
  0001:00250020       ??_GrvWeaponGrenadeLauncher@@UAEPAXI@Z 20251020 f i WeaponGrenadeLauncher.obj
- 0001:00250020       ??_ErvWeapon@@UAEPAXI@Z    20251020 f i Weapon.obj
- 0001:00250020       ??_GrvWeaponRailgun@@UAEPAXI@Z 20251020 f i WeaponRailgun.obj
- 0001:00250020       ??_ErvWeaponBlaster@@UAEPAXI@Z 20251020 f i WeaponBlaster.obj
- 0001:00250020       ??_ErvWeaponHyperblaster@@UAEPAXI@Z 20251020 f i WeaponHyperblaster.obj
- 0001:00250020       ??_GTestWeapon@@UAEPAXI@Z  20251020 f i TestWeapon.obj
  0001:00250020       ??_GrvWeaponMachinegun@@UAEPAXI@Z 20251020 f i WeaponMachinegun.obj
  0001:00250020       ??_ErvWeaponRailgun@@UAEPAXI@Z 20251020 f i WeaponRailgun.obj
+ 0001:00250020       ??_ErvWeaponTest@@UAEPAXI@Z 20251020 f i WeaponTestWeapon.obj
  0001:00250020       ??_GrvWeaponBlaster@@UAEPAXI@Z 20251020 f i WeaponBlaster.obj
+ 0001:00250020       ??_ErvWeaponBlaster@@UAEPAXI@Z 20251020 f i WeaponBlaster.obj
+ 0001:00250020       ??_GrvWeaponTest@@UAEPAXI@Z 20251020 f i WeaponTestWeapon.obj
+ 0001:00250020       ??_ErvWeaponShotgun@@UAEPAXI@Z 20251020 f i WeaponShotgun.obj
  0001:00250020       ??_ErvWeaponGrenadeLauncher@@UAEPAXI@Z 20251020 f i WeaponGrenadeLauncher.obj
+ 0001:00250020       ??_ErvWeaponMachinegun@@UAEPAXI@Z 20251020 f i WeaponMachinegun.obj
+ 0001:00250020       ??_ErvWeapon@@UAEPAXI@Z    20251020 f i Weapon.obj
+ 0001:00250020       ??_ErvWeaponHyperblaster@@UAEPAXI@Z 20251020 f i WeaponHyperblaster.obj
+ 0001:00250020       ??_GrvWeaponShotgun@@UAEPAXI@Z 20251020 f i WeaponShotgun.obj
+ 0001:00250020       ??_GrvWeaponHyperblaster@@UAEPAXI@Z 20251020 f i WeaponHyperblaster.obj
+ 0001:00250020       ??_GrvWeaponRailgun@@UAEPAXI@Z 20251020 f i WeaponRailgun.obj
  0001:00250050       ?StopEffects@rvLightningPath@@QAEXXZ 20251050 f   WeaponLightningGun.obj
  0001:00250170       ?UpdateEffects@rvLightningPath@@QAEXABVidVec3@@ABVidDict@@@Z 20251170 f   WeaponLightningGun.obj
  0001:00250590       ?Save@rvLightningPath@@QBEXPAVidSaveGame@@@Z 20251590 f   WeaponLightningGun.obj
@@ -9272,8 +9272,8 @@
  0001:002537e0       ?Event_RestoreHum@rvWeaponLightningGun@@AAEXXZ 202547e0 f   WeaponLightningGun.obj
  0001:00253810       ?Register_rvWeaponLightningGun@@YAXXZ 20254810 f   WeaponLightningGun.obj
  0001:00253820       ??4rvLightningPath@@QAEAAV0@AAV0@@Z 20254820 f i WeaponLightningGun.obj
- 0001:002538a0       ??_ErvWeaponLightningGun@@UAEPAXI@Z 202548a0 f i WeaponLightningGun.obj
  0001:002538a0       ??_GrvWeaponLightningGun@@UAEPAXI@Z 202548a0 f i WeaponLightningGun.obj
+ 0001:002538a0       ??_ErvWeaponLightningGun@@UAEPAXI@Z 202548a0 f i WeaponLightningGun.obj
  0001:002538d0       ?NoFireWhileSwitching@rvWeaponLightningGun@@UBE_NXZ 202548d0 f i WeaponLightningGun.obj
  0001:002538e0       ?RegisterClassA@rvWeaponMachinegun@@SAXXZ 202548e0 f   WeaponMachinegun.obj
  0001:00253970       ?CreateInstance@rvWeaponMachinegun@@SAPAVidClass@@XZ 20254970 f   WeaponMachinegun.obj
@@ -9319,8 +9319,8 @@
  0001:002564a0       ?Frame_ClaspOpen@rvWeaponNailgun@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 202574a0 f   WeaponNailgun.obj
  0001:002564c0       ?Frame_ClaspClose@rvWeaponNailgun@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 202574c0 f   WeaponNailgun.obj
  0001:002564f0       ?Register_rvWeaponNailgun@@YAXXZ 202574f0 f   WeaponNailgun.obj
- 0001:00256500       ??_GrvWeaponNailgun@@UAEPAXI@Z 20257500 f i WeaponNailgun.obj
  0001:00256500       ??_ErvWeaponNailgun@@UAEPAXI@Z 20257500 f i WeaponNailgun.obj
+ 0001:00256500       ??_GrvWeaponNailgun@@UAEPAXI@Z 20257500 f i WeaponNailgun.obj
  0001:00256530       ?RegisterClassA@WeaponNapalmGun@@SAXXZ 20257530 f   WeaponNapalmGun.obj
  0001:002565c0       ?CreateInstance@WeaponNapalmGun@@SAPAVidClass@@XZ 202575c0 f   WeaponNapalmGun.obj
  0001:00256660       ?GetClassType@WeaponNapalmGun@@SAAAVidTypeInfo@@XZ 20257660 f   WeaponNapalmGun.obj
@@ -9382,8 +9382,8 @@
  0001:00258fd0       ?State_Rocket_Reload@rvWeaponRocketLauncher@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 20259fd0 f   WeaponRocketLauncher.obj
  0001:00259180       ?Frame_AddToClip@rvWeaponRocketLauncher@@AAE?AW4stateResult_t@@ABUstateParms_t@@@Z 2025a180 f   WeaponRocketLauncher.obj
  0001:00259190       ?Register_rvWeaponRocketLauncher@@YAXXZ 2025a190 f   WeaponRocketLauncher.obj
- 0001:002591a0       ??_ErvWeaponRocketLauncher@@UAEPAXI@Z 2025a1a0 f i WeaponRocketLauncher.obj
  0001:002591a0       ??_GrvWeaponRocketLauncher@@UAEPAXI@Z 2025a1a0 f i WeaponRocketLauncher.obj
+ 0001:002591a0       ??_ErvWeaponRocketLauncher@@UAEPAXI@Z 2025a1a0 f i WeaponRocketLauncher.obj
  0001:002591d0       ?RegisterClassA@rvWeaponShotgun@@SAXXZ 2025a1d0 f   WeaponShotgun.obj
  0001:00259260       ?CreateInstance@rvWeaponShotgun@@SAPAVidClass@@XZ 2025a260 f   WeaponShotgun.obj
  0001:00259300       ?GetClassType@rvWeaponShotgun@@SAAAVidTypeInfo@@XZ 2025a300 f   WeaponShotgun.obj
@@ -9521,16 +9521,16 @@
  0001:00260a30       ??1rvCTFGameState@@UAE@XZ  20261a30 f i GameState.obj
  0001:00260a40       ??_EriDZGameState@@UAEPAXI@Z 20261a40 f i GameState.obj
  0001:00260a40       ??_GriDZGameState@@UAEPAXI@Z 20261a40 f i GameState.obj
+ 0001:00260a90       ??_GrvCTFGameState@@UAEPAXI@Z 20261a90 f i GameState.obj
  0001:00260a90       ??_ErvTeamDMGameState@@UAEPAXI@Z 20261a90 f i GameState.obj
+ 0001:00260a90       ??_ErvGameState@@UAEPAXI@Z 20261a90 f i GameState.obj
+ 0001:00260a90       ??_GrvDMGameState@@UAEPAXI@Z 20261a90 f i GameState.obj
+ 0001:00260a90       ??_GrvTeamDMGameState@@UAEPAXI@Z 20261a90 f i GameState.obj
+ 0001:00260a90       ??_GrvTourneyGameState@@UAEPAXI@Z 20261a90 f i GameState.obj
+ 0001:00260a90       ??_ErvDMGameState@@UAEPAXI@Z 20261a90 f i GameState.obj
  0001:00260a90       ??_GrvGameState@@UAEPAXI@Z 20261a90 f i GameState.obj
  0001:00260a90       ??_ErvCTFGameState@@UAEPAXI@Z 20261a90 f i GameState.obj
  0001:00260a90       ??_ErvTourneyGameState@@UAEPAXI@Z 20261a90 f i GameState.obj
- 0001:00260a90       ??_ErvDMGameState@@UAEPAXI@Z 20261a90 f i GameState.obj
- 0001:00260a90       ??_GrvTeamDMGameState@@UAEPAXI@Z 20261a90 f i GameState.obj
- 0001:00260a90       ??_ErvGameState@@UAEPAXI@Z 20261a90 f i GameState.obj
- 0001:00260a90       ??_GrvTourneyGameState@@UAEPAXI@Z 20261a90 f i GameState.obj
- 0001:00260a90       ??_GrvDMGameState@@UAEPAXI@Z 20261a90 f i GameState.obj
- 0001:00260a90       ??_GrvCTFGameState@@UAEPAXI@Z 20261a90 f i GameState.obj
  0001:00260b00       ??0rvTourneyArena@@QAE@XZ  20261b00 f   Tourney.obj
  0001:00260b30       ?AddPlayers@rvTourneyArena@@QAEXPAVidPlayer@@0@Z 20261b30 f   Tourney.obj
  0001:00260b60       ?ClearPlayers@rvTourneyArena@@QAEXPAVidPlayer@@@Z 20261b60 f   Tourney.obj
@@ -9578,8 +9578,8 @@
  0001:00263c10       ??0rvStatFlagReturn@@IAE@HHH@Z 20264c10 f   StatEvent.obj
  0001:00263c40       ??0rvStatFlagCapture@@IAE@HHHH@Z 20264c40 f   StatEvent.obj
  0001:00263cb0       ?RegisterInGame@rvStatFlagCapture@@MAEXPAVrvPlayerStat@@@Z 20264cb0 f   StatEvent.obj
- 0001:00263d60       ??1rvStatTeam@@UAE@XZ      20264d60 f i StatEvent.obj
  0001:00263d60       ??1rvStat@@MAE@XZ          20264d60 f i StatEvent.obj
+ 0001:00263d60       ??1rvStatTeam@@UAE@XZ      20264d60 f i StatEvent.obj
  0001:00263db0       ?GetBlock@rvStatAllocator@@IAEPAXIPAH@Z 20264db0 f   StatManager.obj
  0001:00263e40       ??0rvStatAllocator@@QAE@XZ 20264e40 f   StatManager.obj
  0001:00263e50       ?Report@rvStatAllocator@@QAEXXZ 20264e50 f   StatManager.obj
@@ -9643,30 +9643,30 @@
  0001:002698b0       ??1rvPlayerStat@@QAE@XZ    2026a8b0 f i StatManager.obj
  0001:00269910       ??1rvStatManager@@QAE@XZ   2026a910 f i StatManager.obj
  0001:00269a00       ??4rvPlayerStat@@QAEAAV0@ABV0@@Z 2026aa00 f i StatManager.obj
- 0001:00269c10       ??_ErvStatClientConnect@@UAEPAXI@Z 2026ac10 f i StatManager.obj
- 0001:00269c10       ??_GrvStatBeginGame@@UAEPAXI@Z 2026ac10 f i StatManager.obj
- 0001:00269c10       ??_GrvStatDamageDealt@@UAEPAXI@Z 2026ac10 f i StatEvent.obj
- 0001:00269c10       ??_GrvStatFlagCapture@@UAEPAXI@Z 2026ac10 f i StatEvent.obj
- 0001:00269c10       ??_GrvStatDeath@@UAEPAXI@Z 2026ac10 f i StatEvent.obj
- 0001:00269c10       ??_ErvStatFlagCapture@@UAEPAXI@Z 2026ac10 f i StatEvent.obj
  0001:00269c10       ??_ErvStatBeginGame@@UAEPAXI@Z 2026ac10 f i StatManager.obj
- 0001:00269c10       ??_ErvStatHit@@UAEPAXI@Z   2026ac10 f i StatEvent.obj
- 0001:00269c10       ??_ErvStatKill@@UAEPAXI@Z  2026ac10 f i StatEvent.obj
- 0001:00269c10       ??_ErvStatDamageTaken@@UAEPAXI@Z 2026ac10 f i StatEvent.obj
- 0001:00269c10       ??_ErvStatDamageDealt@@UAEPAXI@Z 2026ac10 f i StatEvent.obj
- 0001:00269c10       ??_GrvStat@@MAEPAXI@Z      2026ac10 f i StatEvent.obj
+ 0001:00269c10       ??_ErvStatFlagCapture@@UAEPAXI@Z 2026ac10 f i StatEvent.obj
  0001:00269c10       ??_GrvStatKill@@UAEPAXI@Z  2026ac10 f i StatEvent.obj
- 0001:00269c10       ??_GrvStatHit@@UAEPAXI@Z   2026ac10 f i StatEvent.obj
- 0001:00269c10       ??_ErvStatFlagReturn@@UAEPAXI@Z 2026ac10 f i StatEvent.obj
- 0001:00269c10       ??_ErvStatEndGame@@UAEPAXI@Z 2026ac10 f i StatManager.obj
- 0001:00269c10       ??_GrvStatEndGame@@UAEPAXI@Z 2026ac10 f i StatManager.obj
- 0001:00269c10       ??_ErvStatDeath@@UAEPAXI@Z 2026ac10 f i StatEvent.obj
- 0001:00269c10       ??_ErvStatFlagDrop@@UAEPAXI@Z 2026ac10 f i StatEvent.obj
- 0001:00269c10       ??_GrvStatFlagReturn@@UAEPAXI@Z 2026ac10 f i StatEvent.obj
- 0001:00269c10       ??_GrvStatClientConnect@@UAEPAXI@Z 2026ac10 f i StatManager.obj
+ 0001:00269c10       ??_ErvStatDamageDealt@@UAEPAXI@Z 2026ac10 f i StatEvent.obj
  0001:00269c10       ??_ErvStat@@MAEPAXI@Z      2026ac10 f i StatEvent.obj
- 0001:00269c10       ??_GrvStatDamageTaken@@UAEPAXI@Z 2026ac10 f i StatEvent.obj
+ 0001:00269c10       ??_ErvStatKill@@UAEPAXI@Z  2026ac10 f i StatEvent.obj
+ 0001:00269c10       ??_GrvStatClientConnect@@UAEPAXI@Z 2026ac10 f i StatManager.obj
+ 0001:00269c10       ??_GrvStatFlagReturn@@UAEPAXI@Z 2026ac10 f i StatEvent.obj
+ 0001:00269c10       ??_ErvStatHit@@UAEPAXI@Z   2026ac10 f i StatEvent.obj
+ 0001:00269c10       ??_GrvStatBeginGame@@UAEPAXI@Z 2026ac10 f i StatManager.obj
+ 0001:00269c10       ??_GrvStatFlagCapture@@UAEPAXI@Z 2026ac10 f i StatEvent.obj
+ 0001:00269c10       ??_GrvStat@@MAEPAXI@Z      2026ac10 f i StatEvent.obj
+ 0001:00269c10       ??_GrvStatEndGame@@UAEPAXI@Z 2026ac10 f i StatManager.obj
+ 0001:00269c10       ??_GrvStatDamageDealt@@UAEPAXI@Z 2026ac10 f i StatEvent.obj
+ 0001:00269c10       ??_ErvStatEndGame@@UAEPAXI@Z 2026ac10 f i StatManager.obj
+ 0001:00269c10       ??_ErvStatClientConnect@@UAEPAXI@Z 2026ac10 f i StatManager.obj
+ 0001:00269c10       ??_GrvStatDeath@@UAEPAXI@Z 2026ac10 f i StatEvent.obj
+ 0001:00269c10       ??_ErvStatFlagDrop@@UAEPAXI@Z 2026ac10 f i StatEvent.obj
  0001:00269c10       ??_GrvStatFlagDrop@@UAEPAXI@Z 2026ac10 f i StatEvent.obj
+ 0001:00269c10       ??_ErvStatDamageTaken@@UAEPAXI@Z 2026ac10 f i StatEvent.obj
+ 0001:00269c10       ??_ErvStatDeath@@UAEPAXI@Z 2026ac10 f i StatEvent.obj
+ 0001:00269c10       ??_GrvStatDamageTaken@@UAEPAXI@Z 2026ac10 f i StatEvent.obj
+ 0001:00269c10       ??_ErvStatFlagReturn@@UAEPAXI@Z 2026ac10 f i StatEvent.obj
+ 0001:00269c10       ??_GrvStatHit@@UAEPAXI@Z   2026ac10 f i StatEvent.obj
  0001:00269c60       ??0rvStatWindow@@QAE@XZ    2026ac60 f   StatWindow.obj
  0001:00269d00       ?SetupStatWindow@rvStatWindow@@QAEXPAVidUserInterface@@_N@Z 2026ad00 f   StatWindow.obj
  0001:0026afd0       ?SelectPlayer@rvStatWindow@@QAEXH@Z 2026bfd0 f   StatWindow.obj
@@ -10202,19 +10202,19 @@
  0001:002a8ac0       ?OpenFile@Lexer@@AAE_NPBD_N@Z 202a9ac0 f   idLib:Lexer.obj
  0001:002a8b90       ??$ReadValue@E@TextCompiler@@YAEPAVidFile@@@Z 202a9b90 f i idLib:Lexer.obj
  0001:002a8b90       ??$ReadValue@D@TextCompiler@@YADPAVidFile@@@Z 202a9b90 f i idLib:Lexer.obj
- 0001:002a8bb0       ??$ReadValue@F@TextCompiler@@YAFPAVidFile@@@Z 202a9bb0 f i idLib:Lexer.obj
  0001:002a8bb0       ??$ReadValue@G@TextCompiler@@YAGPAVidFile@@@Z 202a9bb0 f i idLib:Lexer.obj
- 0001:002a8bd0       ??$ReadValue@H@TextCompiler@@YAHPAVidFile@@@Z 202a9bd0 f i idLib:Lexer.obj
+ 0001:002a8bb0       ??$ReadValue@F@TextCompiler@@YAFPAVidFile@@@Z 202a9bb0 f i idLib:Lexer.obj
  0001:002a8bd0       ??$ReadValue@I@TextCompiler@@YAIPAVidFile@@@Z 202a9bd0 f i idLib:Lexer.obj
+ 0001:002a8bd0       ??$ReadValue@H@TextCompiler@@YAHPAVidFile@@@Z 202a9bd0 f i idLib:Lexer.obj
  0001:002a8bf0       ??$ReadValue@M@TextCompiler@@YAMPAVidFile@@@Z 202a9bf0 f i idLib:Lexer.obj
  0001:002a8c10       ??$ReadValue@VidStr@@@TextCompiler@@YA?AVidStr@@PAVidFile@@@Z 202a9c10 f i idLib:Lexer.obj
- 0001:002a8cf0       ??$WriteValue@E@TextCompiler@@YAXEPAVidFile@@_N@Z 202a9cf0 f i idLib:Lexer.obj
  0001:002a8cf0       ??$WriteValue@D@TextCompiler@@YAXDPAVidFile@@_N@Z 202a9cf0 f i idLib:Lexer.obj
+ 0001:002a8cf0       ??$WriteValue@E@TextCompiler@@YAXEPAVidFile@@_N@Z 202a9cf0 f i idLib:Lexer.obj
  0001:002a8d10       ??$WriteValue@F@TextCompiler@@YAXFPAVidFile@@_N@Z 202a9d10 f i idLib:Lexer.obj
  0001:002a8d10       ??$WriteValue@G@TextCompiler@@YAXGPAVidFile@@_N@Z 202a9d10 f i idLib:Lexer.obj
- 0001:002a8d50       ??$WriteValue@H@TextCompiler@@YAXHPAVidFile@@_N@Z 202a9d50 f i idLib:Lexer.obj
  0001:002a8d50       ??$WriteValue@I@TextCompiler@@YAXIPAVidFile@@_N@Z 202a9d50 f i idLib:Lexer.obj
  0001:002a8d50       ??$WriteValue@M@TextCompiler@@YAXMPAVidFile@@_N@Z 202a9d50 f i idLib:Lexer.obj
+ 0001:002a8d50       ??$WriteValue@H@TextCompiler@@YAXHPAVidFile@@_N@Z 202a9d50 f i idLib:Lexer.obj
  0001:002a8d90       ??$WriteValue@VidStr@@@TextCompiler@@YAXQBVidStr@@PAVidFile@@_N@Z 202a9d90 f i idLib:Lexer.obj
  0001:002a8dd0       ?Init@idSIMD@@SAXXZ        202a9dd0 f   idLib:Simd.obj
  0001:002a8e30       ?InitProcessor@idSIMD@@SAXPBD_N@Z 202a9e30 f   idLib:Simd.obj
@@ -10263,20 +10263,20 @@
  0001:002b91d0       ?TestSoundMixing@@YAXXZ    202ba1d0 f   idLib:Simd.obj
  0001:002b9fb0       ?TestMath@@YAXXZ           202bafb0 f   idLib:Simd.obj
  0001:002bc620       ??4idDrawVert@@QAEAAV0@ABV0@@Z 202bd620 f i idLib:Simd.obj
- 0001:002bc6c0       ??_GidSIMD_SSE3@@UAEPAXI@Z 202bd6c0 f i idLib:Simd.obj
- 0001:002bc6c0       ??_EidSIMD_SSE@@UAEPAXI@Z  202bd6c0 f i idLib:Simd.obj
- 0001:002bc6c0       ??_GidSIMD_SSE2@@UAEPAXI@Z 202bd6c0 f i idLib:Simd.obj
  0001:002bc6c0       ??_EidSIMD_SSE3@@UAEPAXI@Z 202bd6c0 f i idLib:Simd.obj
- 0001:002bc6c0       ??_GidSIMD_3DNow@@UAEPAXI@Z 202bd6c0 f i idLib:Simd.obj
- 0001:002bc6c0       ??_GidSIMD_Generic@@UAEPAXI@Z 202bd6c0 f i idLib:Simd.obj
  0001:002bc6c0       ??_GidSIMD_SSE@@UAEPAXI@Z  202bd6c0 f i idLib:Simd.obj
- 0001:002bc6c0       ??_EidSIMD_SSE2@@UAEPAXI@Z 202bd6c0 f i idLib:Simd.obj
- 0001:002bc6c0       ??_EidSIMD_3DNow@@UAEPAXI@Z 202bd6c0 f i idLib:Simd.obj
  0001:002bc6c0       ??_GidSIMD_MMX@@UAEPAXI@Z  202bd6c0 f i idLib:Simd.obj
- 0001:002bc6c0       ??_EidSIMDProcessor@@UAEPAXI@Z 202bd6c0 f i idLib:Simd.obj
- 0001:002bc6c0       ??_GidSIMDProcessor@@UAEPAXI@Z 202bd6c0 f i idLib:Simd.obj
- 0001:002bc6c0       ??_EidSIMD_Generic@@UAEPAXI@Z 202bd6c0 f i idLib:Simd.obj
  0001:002bc6c0       ??_EidSIMD_MMX@@UAEPAXI@Z  202bd6c0 f i idLib:Simd.obj
+ 0001:002bc6c0       ??_EidSIMD_3DNow@@UAEPAXI@Z 202bd6c0 f i idLib:Simd.obj
+ 0001:002bc6c0       ??_GidSIMD_Generic@@UAEPAXI@Z 202bd6c0 f i idLib:Simd.obj
+ 0001:002bc6c0       ??_EidSIMDProcessor@@UAEPAXI@Z 202bd6c0 f i idLib:Simd.obj
+ 0001:002bc6c0       ??_EidSIMD_SSE@@UAEPAXI@Z  202bd6c0 f i idLib:Simd.obj
+ 0001:002bc6c0       ??_GidSIMD_SSE3@@UAEPAXI@Z 202bd6c0 f i idLib:Simd.obj
+ 0001:002bc6c0       ??_GidSIMDProcessor@@UAEPAXI@Z 202bd6c0 f i idLib:Simd.obj
+ 0001:002bc6c0       ??_EidSIMD_SSE2@@UAEPAXI@Z 202bd6c0 f i idLib:Simd.obj
+ 0001:002bc6c0       ??_GidSIMD_SSE2@@UAEPAXI@Z 202bd6c0 f i idLib:Simd.obj
+ 0001:002bc6c0       ??_EidSIMD_Generic@@UAEPAXI@Z 202bd6c0 f i idLib:Simd.obj
+ 0001:002bc6c0       ??_GidSIMD_3DNow@@UAEPAXI@Z 202bd6c0 f i idLib:Simd.obj
  0001:002bc710       ?BlendJoints@idSIMD_Generic@@UAIXPAVidJointQuat@@PBV2@MPBHH@Z 202bd710 f i idLib:Simd.obj
  0001:002bc8c0       ?BaseForPlane@idWinding@@QAEXABVidVec3@@M@Z 202bd8c0 f   idLib:Winding.obj
  0001:002bcb70       ?Split@idWinding@@QBEHABVidPlane@@MPAPAV1@1@Z 202bdb70 f   idLib:Winding.obj
@@ -10436,12 +10436,12 @@
  0001:002c9a90       ??1idMapEntity@@QAE@XZ     202caa90 f i idLib:mapfile.obj
  0001:002c9be0       ??1idMapPatch@@UAE@XZ      202cabe0 f i idLib:mapfile.obj
  0001:002c9db0       ??1idMapPrimitive@@UAE@XZ  202cadb0 f i idLib:mapfile.obj
- 0001:002c9e50       ??1rvStatWindow@@QAE@XZ    202cae50 f i StatManager.obj
  0001:002c9e50       ??1idSurface_Patch@@QAE@XZ 202cae50 f i idLib:mapfile.obj
+ 0001:002c9e50       ??1rvStatWindow@@QAE@XZ    202cae50 f i StatManager.obj
  0001:002c9fa0       ??_EidMapBrush@@UAEPAXI@Z  202cafa0 f i idLib:mapfile.obj
  0001:002c9fa0       ??_GidMapBrush@@UAEPAXI@Z  202cafa0 f i idLib:mapfile.obj
- 0001:002c9ff0       ??_GidMapPatch@@UAEPAXI@Z  202caff0 f i idLib:mapfile.obj
  0001:002c9ff0       ??_EidMapPatch@@UAEPAXI@Z  202caff0 f i idLib:mapfile.obj
+ 0001:002c9ff0       ??_GidMapPatch@@UAEPAXI@Z  202caff0 f i idLib:mapfile.obj
  0001:002ca040       ??_EidMapPrimitive@@UAEPAXI@Z 202cb040 f i idLib:mapfile.obj
  0001:002ca040       ??_GidMapPrimitive@@UAEPAXI@Z 202cb040 f i idLib:mapfile.obj
  0001:002ca110       ?AddPrimitive@idMapEntity@@QAEXPAVidMapPrimitive@@@Z 202cb110 f i idLib:mapfile.obj
@@ -10688,16 +10688,16 @@
  0001:002e7fd0       ?Evaluate@idODE_RK4Adaptive@@UAEMPBMPAMMM@Z 202e8fd0 f   idLib:Ode.obj
  0001:002e8600       ?SetMaxError@idODE_RK4Adaptive@@QAEXM@Z 202e9600 f   idLib:Ode.obj
  0001:002e8620       ??1idODE@@UAE@XZ           202e9620 f i idLib:Ode.obj
- 0001:002e8630       ??_EidODE@@UAEPAXI@Z       202e9630 f i idLib:Ode.obj
  0001:002e8630       ??_GidODE@@UAEPAXI@Z       202e9630 f i idLib:Ode.obj
+ 0001:002e8630       ??_EidODE@@UAEPAXI@Z       202e9630 f i idLib:Ode.obj
  0001:002e8680       ??_EidODE_Euler@@UAEPAXI@Z 202e9680 f i idLib:Ode.obj
  0001:002e8680       ??_GidODE_Euler@@UAEPAXI@Z 202e9680 f i idLib:Ode.obj
  0001:002e86d0       ??_GidODE_Midpoint@@UAEPAXI@Z 202e96d0 f i idLib:Ode.obj
  0001:002e86d0       ??_EidODE_Midpoint@@UAEPAXI@Z 202e96d0 f i idLib:Ode.obj
- 0001:002e8720       ??_EidODE_RK4@@UAEPAXI@Z   202e9720 f i idLib:Ode.obj
  0001:002e8720       ??_GidODE_RK4@@UAEPAXI@Z   202e9720 f i idLib:Ode.obj
- 0001:002e8770       ??_EidODE_RK4Adaptive@@UAEPAXI@Z 202e9770 f i idLib:Ode.obj
+ 0001:002e8720       ??_EidODE_RK4@@UAEPAXI@Z   202e9720 f i idLib:Ode.obj
  0001:002e8770       ??_GidODE_RK4Adaptive@@UAEPAXI@Z 202e9770 f i idLib:Ode.obj
+ 0001:002e8770       ??_EidODE_RK4Adaptive@@UAEPAXI@Z 202e9770 f i idLib:Ode.obj
  0001:002e87c0       ?MD4_BlockChecksum@@YAKPBXH@Z 202e97c0 f   idLib:MD4.obj
  0001:002e8d20       ?MD4_Init@@YAXPAUMD4_CTX@@@Z 202e9d20 f   idLib:MD4.obj
  0001:002e8d60       ?MD4_Update@@YAXPAUMD4_CTX@@PBEI@Z 202e9d60 f   idLib:MD4.obj
@@ -10976,9 +10976,9 @@
  0001:00316fd7       _atoi                      20317fd7 f   LIBCMT:atox.obj
  0001:00316fe0       _atol                      20317fe0 f   LIBCMT:atox.obj
  0001:003170c4       ?_CallCatchBlock2@@YAPAXPAUEHRegistrationNode@@PBU_s_FuncInfo@@PAXHK@Z 203180c4 f   LIBCMT:_trnsctrl_.obj
+ 0001:00317124       ?_CallMemberFunction0@@YGXPAX0@Z 20318124 f   LIBCMT:_trnsctrl_.obj
  0001:00317124       ?_CallMemberFunction1@@YGXPAX00@Z 20318124 f   LIBCMT:_trnsctrl_.obj
  0001:00317124       ?_CallMemberFunction2@@YGXPAX00H@Z 20318124 f   LIBCMT:_trnsctrl_.obj
- 0001:00317124       ?_CallMemberFunction0@@YGXPAX0@Z 20318124 f   LIBCMT:_trnsctrl_.obj
  0001:0031712b       ?_CallSETranslator@@YAHPAUEHExceptionRecord@@PAUEHRegistrationNode@@PAX2PBU_s_FuncInfo@@H1@Z 2031812b f   LIBCMT:_trnsctrl_.obj
  0001:00317202       ?_GetRangeOfTrysToCheck@@YAPBU_s_TryBlockMapEntry@@PBU_s_FuncInfo@@HHPAI1@Z 20318202 f   LIBCMT:_trnsctrl_.obj
  0001:00317280       ?_JumpToContinuation@@YGXPAXPAUEHRegistrationNode@@@Z 20318280 f   LIBCMT:_trnsctrl_.obj
@@ -10997,15 +10997,15 @@
  0001:00317f40       _memset                    20318f40 f   LIBCMT:memset.obj
  0001:00317fd0       ??1type_info@@UAE@XZ       20318fd0 f   LIBCMT:typinfo.obj
  0001:00317fde       ??8type_info@@QBE_NABV0@@Z 20318fde f   LIBCMT:typinfo.obj
- 0001:00317ffc       ??_Gtype_info@@UAEPAXI@Z   20318ffc f i LIBCMT:typinfo.obj
  0001:00317ffc       ??_Etype_info@@UAEPAXI@Z   20318ffc f i LIBCMT:typinfo.obj
+ 0001:00317ffc       ??_Gtype_info@@UAEPAXI@Z   20318ffc f i LIBCMT:typinfo.obj
  0001:0031801b       __fpmath                   2031901b f   LIBCMT:fpinit.obj
  0001:00318032       __cfltcvt_init             20319032 f   LIBCMT:fpinit.obj
  0001:00318092       _sscanf                    20319092 f   LIBCMT:sscanf.obj
  0001:00318130       __alloca_probe_16          20319130 f   LIBCMT:alloca16.obj
  0001:00318146       __alloca_probe_8           20319146     LIBCMT:alloca16.obj
- 0001:00318160       __chkstk                   20319160 f   LIBCMT:chkstk.obj
  0001:00318160       __alloca_probe             20319160 f   LIBCMT:chkstk.obj
+ 0001:00318160       __chkstk                   20319160 f   LIBCMT:chkstk.obj
  0001:00318190       _strstr                    20319190 f   LIBCMT:strstr.obj
  0001:003183f3       _sprintf                   203193f3 f   LIBCMT:sprintf.obj
  0001:00318480       __libm_sse2_sin_precise    20319480 f   LIBCMT:sin_sse2_precise.obj
@@ -11192,18 +11192,18 @@
  0001:00323572       ??0bad_typeid@std@@QAE@PBD@Z 20324572 f   LIBCMT:stdexcpt.obj
  0001:0032358e       ??0exception@std@@QAE@ABQBD@Z 2032458e f   LIBCMT:stdexcpt.obj
  0001:003235b3       ??0exception@std@@QAE@ABV01@@Z 203245b3 f   LIBCMT:stdexcpt.obj
- 0001:003235d6       ??1exception@std@@UAE@XZ   203245d6 f   LIBCMT:stdexcpt.obj
- 0001:003235d6       ??1bad_cast@std@@UAE@XZ    203245d6 f   LIBCMT:stdexcpt.obj
  0001:003235d6       ??1__non_rtti_object@std@@UAE@XZ 203245d6 f   LIBCMT:stdexcpt.obj
+ 0001:003235d6       ??1bad_cast@std@@UAE@XZ    203245d6 f   LIBCMT:stdexcpt.obj
+ 0001:003235d6       ??1exception@std@@UAE@XZ   203245d6 f   LIBCMT:stdexcpt.obj
  0001:003235e1       ??4exception@std@@QAEAAV01@ABV01@@Z 203245e1 f   LIBCMT:stdexcpt.obj
+ 0001:00323614       ??_Gbad_cast@std@@UAEPAXI@Z 20324614 f i LIBCMT:stdexcpt.obj
+ 0001:00323614       ??_Gbad_typeid@std@@UAEPAXI@Z 20324614 f i LIBCMT:stdexcpt.obj
  0001:00323614       ??_Ebad_cast@std@@UAEPAXI@Z 20324614 f i LIBCMT:stdexcpt.obj
  0001:00323614       ??_Ebad_typeid@std@@UAEPAXI@Z 20324614 f i LIBCMT:stdexcpt.obj
- 0001:00323614       ??_G__non_rtti_object@std@@UAEPAXI@Z 20324614 f i LIBCMT:stdexcpt.obj
+ 0001:00323614       ??_Eexception@std@@UAEPAXI@Z 20324614 f i LIBCMT:stdexcpt.obj
  0001:00323614       ??_Gexception@std@@UAEPAXI@Z 20324614 f i LIBCMT:stdexcpt.obj
  0001:00323614       ??_E__non_rtti_object@std@@UAEPAXI@Z 20324614 f i LIBCMT:stdexcpt.obj
- 0001:00323614       ??_Eexception@std@@UAEPAXI@Z 20324614 f i LIBCMT:stdexcpt.obj
- 0001:00323614       ??_Gbad_typeid@std@@UAEPAXI@Z 20324614 f i LIBCMT:stdexcpt.obj
- 0001:00323614       ??_Gbad_cast@std@@UAEPAXI@Z 20324614 f i LIBCMT:stdexcpt.obj
+ 0001:00323614       ??_G__non_rtti_object@std@@UAEPAXI@Z 20324614 f i LIBCMT:stdexcpt.obj
  0001:00323639       ?_Copy_str@exception@std@@AAEXPBD@Z 20324639 f   LIBCMT:stdexcpt.obj
  0001:00323677       ?_Tidy@exception@std@@AAEXXZ 20324677 f   LIBCMT:stdexcpt.obj
  0001:00323693       ?what@exception@std@@UBEPBDXZ 20324693 f   LIBCMT:stdexcpt.obj
@@ -11336,13 +11336,13 @@
  0001:003288d9       __abnormal_termination     203298d9 f   LIBCMT:exsup.obj
  0001:003288fc       __NLG_Notify1              203298fc f   LIBCMT:exsup.obj
  0001:00328905       __NLG_Notify               20329905 f   LIBCMT:exsup.obj
- 0001:0032891c       __NLG_Dispatch2            2032991c     LIBCMT:exsup.obj
  0001:0032891c       __NLG_Dispatch             2032991c     LIBCMT:exsup.obj
+ 0001:0032891c       __NLG_Dispatch2            2032991c     LIBCMT:exsup.obj
  0001:00328924       __NLG_Call                 20329924 f   LIBCMT:exsup.obj
  0001:00328926       __NLG_Return2              20329926     LIBCMT:exsup.obj
  0001:00328927       ?_ValidateRead@@YAHPBXI@Z  20329927 f   LIBCMT:validate.obj
- 0001:00328927       ?_ValidateExecute@@YAHP6GHXZ@Z 20329927 f   LIBCMT:validate.obj
  0001:00328927       ?_ValidateWrite@@YAHPAXI@Z 20329927 f   LIBCMT:validate.obj
+ 0001:00328927       ?_ValidateExecute@@YAHP6GHXZ@Z 20329927 f   LIBCMT:validate.obj
  0001:00328936       __EH_prolog3_catch         20329936 f   LIBCMT:ehprolg3.obj
  0001:00328970       __CIcos_pentium4           20329970 f   LIBCMT:cos_pentium4.obj
  0001:00328988       __cos_pentium4             20329988     LIBCMT:cos_pentium4.obj
@@ -14925,35 +14925,35 @@
  0002:0001d194       ??_C@_09LLGHPMNG@fadeColor?$AA@ 2035e194     Trigger.obj
  0002:0001d1a0       ??_C@_0BA@DOCJPFEM@idTrigger_Touch?$AA@ 2035e1a0     Trigger.obj
  0002:0001d1b0       ??_C@_0L@FEOPMFEH@filterTeam?$AA@ 2035e1b0     Trigger.obj
- 0002:0001d1bc       ??_C@_0L@PALCELJK@Flashlight?$AA@ 2035e1bc     TestWeapon.obj
- 0002:0001d1c8       ??_C@_06MDKBLGPP@Charge?$AA@ 2035e1c8     TestWeapon.obj
- 0002:0001d1d0       ??_C@_05IIDIPOEN@Lower?$AA@ 2035e1d0     TestWeapon.obj
- 0002:0001d1d8       ??_C@_04OHLPDOFO@Fire?$AA@ 2035e1d8     TestWeapon.obj
- 0002:0001d1e0       ??_C@_05KDDKFIDP@Raise?$AA@ 2035e1e0     TestWeapon.obj
- 0002:0001d1e8       ??_C@_04IBDNPPCI@Idle?$AA@ 2035e1e8     TestWeapon.obj
- 0002:0001d1f0       ??_C@_07CMFAOAJI@Charged?$AA@ 2035e1f0     TestWeapon.obj
- 0002:0001d1fc       ??_7TestWeapon@@6B@        2035e1fc     TestWeapon.obj
- 0002:0001d244       ??_C@_08GEEPOFJA@rvWeapon?$AA@ 2035e244     TestWeapon.obj
- 0002:0001d250       ??_C@_0L@EDDGDCHO@TestWeapon?$AA@ 2035e250     TestWeapon.obj
- 0002:0001d25c       ??_C@_0BN@DEFEFPHD@models?1weapons?1blaster?1flare?$AA@ 2035e25c     TestWeapon.obj
- 0002:0001d27c       ??_C@_0L@JEONLKOI@chargeGlow?$AA@ 2035e27c     TestWeapon.obj
- 0002:0001d288       ??_C@_0L@PPADADDF@chargeTime?$AA@ 2035e288     TestWeapon.obj
- 0002:0001d294       ??_C@_0M@NBCCCFLM@chargeDelay?$AA@ 2035e294     TestWeapon.obj
- 0002:0001d2a0       ??_C@_05KEJGFNAJ@raise?$AA@ 2035e2a0     TestWeapon.obj
- 0002:0001d2a8       ??_C@_07PNDMKECN@putaway?$AA@ 2035e2a8     TestWeapon.obj
- 0002:0001d2b0       ??_C@_0L@NPJANAAC@snd_charge?$AA@ 2035e2b0     TestWeapon.obj
- 0002:0001d2bc       ??_C@_08BBPEAODL@charging?$AA@ 2035e2bc     TestWeapon.obj
- 0002:0001d2c8       ??_C@_0BA@JMMLJAJ@snd_charge_loop?$AA@ 2035e2c8     TestWeapon.obj
- 0002:0001d2d8       ??_C@_0BB@HCCBEMIB@snd_charge_click?$AA@ 2035e2d8     TestWeapon.obj
- 0002:0001d2ec       ??_C@_0BA@BKMJHCDN@fx_chargedflash?$AA@ 2035e2ec     TestWeapon.obj
- 0002:0001d2fc       ??_C@_0M@FOOHOKBM@chargedfire?$AA@ 2035e2fc     TestWeapon.obj
- 0002:0001d308       ??_C@_0P@EIMKJLPP@fx_normalflash?$AA@ 2035e308     TestWeapon.obj
- 0002:0001d318       ??_C@_04CGHOBBFK@fire?$AA@ 2035e318     TestWeapon.obj
- 0002:0001d328       ??_7idWorldspawn@@6B@      2035e328     WorldSpawn.obj
- 0002:0001d48c       ??_C@_0N@FIAGKIIN@idWorldspawn?$AA@ 2035e48c     WorldSpawn.obj
- 0002:0001d49c       ??_C@_07PPFPDIDE@?4script?$AA@ 2035e49c     WorldSpawn.obj
- 0002:0001d4a4       ??_C@_0DN@PFHNODF@Function?5?8?$CFs?8?5not?5found?5in?5scrip@ 2035e4a4     WorldSpawn.obj
- 0002:0001d4e4       ??_C@_0BG@LNOJLLMG@Tried?5to?5remove?5world?$AA@ 2035e4e4     WorldSpawn.obj
+ 0002:0001d1bc       ??_C@_0L@PALCELJK@Flashlight?$AA@ 2035e1bc     WeaponTestWeapon.obj
+ 0002:0001d1c8       ??_C@_06MDKBLGPP@Charge?$AA@ 2035e1c8     WeaponTestWeapon.obj
+ 0002:0001d1d0       ??_C@_05IIDIPOEN@Lower?$AA@ 2035e1d0     WeaponTestWeapon.obj
+ 0002:0001d1d8       ??_C@_04OHLPDOFO@Fire?$AA@ 2035e1d8     WeaponTestWeapon.obj
+ 0002:0001d1e0       ??_C@_05KDDKFIDP@Raise?$AA@ 2035e1e0     WeaponTestWeapon.obj
+ 0002:0001d1e8       ??_C@_04IBDNPPCI@Idle?$AA@ 2035e1e8     WeaponTestWeapon.obj
+ 0002:0001d1f0       ??_C@_07CMFAOAJI@Charged?$AA@ 2035e1f0     WeaponTestWeapon.obj
+ 0002:0001d1fc       ??_7rvWeaponTest@@6B@      2035e1fc     WeaponTestWeapon.obj
+ 0002:0001d244       ??_C@_08GEEPOFJA@rvWeapon?$AA@ 2035e244     WeaponTestWeapon.obj
+ 0002:0001d250       ??_C@_0N@PDNIABKF@rvWeaponTest?$AA@ 2035e250     WeaponTestWeapon.obj
+ 0002:0001d260       ??_C@_0BN@DEFEFPHD@models?1weapons?1blaster?1flare?$AA@ 2035e260     WeaponTestWeapon.obj
+ 0002:0001d280       ??_C@_0L@JEONLKOI@chargeGlow?$AA@ 2035e280     WeaponTestWeapon.obj
+ 0002:0001d28c       ??_C@_0L@PPADADDF@chargeTime?$AA@ 2035e28c     WeaponTestWeapon.obj
+ 0002:0001d298       ??_C@_0M@NBCCCFLM@chargeDelay?$AA@ 2035e298     WeaponTestWeapon.obj
+ 0002:0001d2a4       ??_C@_05KEJGFNAJ@raise?$AA@ 2035e2a4     WeaponTestWeapon.obj
+ 0002:0001d2ac       ??_C@_07PNDMKECN@putaway?$AA@ 2035e2ac     WeaponTestWeapon.obj
+ 0002:0001d2b4       ??_C@_0L@NPJANAAC@snd_charge?$AA@ 2035e2b4     WeaponTestWeapon.obj
+ 0002:0001d2c0       ??_C@_08BBPEAODL@charging?$AA@ 2035e2c0     WeaponTestWeapon.obj
+ 0002:0001d2cc       ??_C@_0BA@JMMLJAJ@snd_charge_loop?$AA@ 2035e2cc     WeaponTestWeapon.obj
+ 0002:0001d2dc       ??_C@_0BB@HCCBEMIB@snd_charge_click?$AA@ 2035e2dc     WeaponTestWeapon.obj
+ 0002:0001d2f0       ??_C@_0BA@BKMJHCDN@fx_chargedflash?$AA@ 2035e2f0     WeaponTestWeapon.obj
+ 0002:0001d300       ??_C@_0M@FOOHOKBM@chargedfire?$AA@ 2035e300     WeaponTestWeapon.obj
+ 0002:0001d30c       ??_C@_0P@EIMKJLPP@fx_normalflash?$AA@ 2035e30c     WeaponTestWeapon.obj
+ 0002:0001d31c       ??_C@_04CGHOBBFK@fire?$AA@ 2035e31c     WeaponTestWeapon.obj
+ 0002:0001d32c       ??_7idWorldspawn@@6B@      2035e32c     WorldSpawn.obj
+ 0002:0001d490       ??_C@_0N@FIAGKIIN@idWorldspawn?$AA@ 2035e490     WorldSpawn.obj
+ 0002:0001d4a0       ??_C@_07PPFPDIDE@?4script?$AA@ 2035e4a0     WorldSpawn.obj
+ 0002:0001d4a8       ??_C@_0DN@PFHNODF@Function?5?8?$CFs?8?5not?5found?5in?5scrip@ 2035e4a8     WorldSpawn.obj
+ 0002:0001d4e8       ??_C@_0BG@LNOJLLMG@Tried?5to?5remove?5world?$AA@ 2035e4e8     WorldSpawn.obj
  0002:0001d500       __real@4090a80000000000    2035e500     WorldSpawn.obj
  0002:0001d50c       ??_7idAASCallback@@6B@     2035e50c     AAS.obj
  0002:0001d524       ??_7idAAS@@6B@             2035e524     AAS.obj
@@ -20307,8 +20307,8 @@
  0002:00045988       __FPinit                   20386988     LIBCMT:fpinit.obj
  0002:00046230       ??_C@_0CB@CGKGGDFI@Access?5violation?5?9?5no?5RTTI?5data?$CB@ 20387230     LIBCMT:rtti.obj
  0002:00046254       ??_C@_0BC@JNJNLHBP@Bad?5dynamic_cast?$CB?$AA@ 20387254     LIBCMT:rtti.obj
- 0002:0004e270       __pRawDllMain              2038f270     LIBCMT:dllcrt0.obj
  0002:0004e270       __pDefaultRawDllMain       2038f270     LIBCMT:dllcrt0.obj
+ 0002:0004e270       __pRawDllMain              2038f270     LIBCMT:dllcrt0.obj
  0002:0004f260       ??_C@_1BI@BGOHAHKC@?$AAm?$AAs?$AAc?$AAo?$AAr?$AAe?$AAe?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 20390260     LIBCMT:crt0dat.obj
  0002:0004f278       ??_C@_0P@MIGLKIOC@CorExitProcess?$AA@ 20390278     LIBCMT:crt0dat.obj
  0002:0004f340       ??_C@_1FK@PGACCAFB@?$AAR?$AA6?$AA0?$AA0?$AA2?$AA?$AN?$AA?6?$AA?9?$AA?5?$AAf?$AAl?$AAo?$AAa?$AAt?$AAi?$AAn?$AAg?$AA?5?$AAp?$AAo?$AAi?$AAn?$AAt?$AA?5?$AAs?$AAu?$AAp?$AAp?$AAo?$AAr?$AAt?$AA?5@ 20390340     LIBCMT:crt0msg.obj
@@ -21666,13 +21666,13 @@
  0002:000628a8       ??_R3idTrigger_Touch@@8    203a38a8     Trigger.obj
  0002:000628b8       ??_R2idTrigger_Touch@@8    203a38b8     Trigger.obj
  0002:000628cc       ??_R1A@?0A@EA@idTrigger_Touch@@8 203a38cc     Trigger.obj
- 0002:000628e8       ??_R4TestWeapon@@6B@       203a38e8     TestWeapon.obj
- 0002:000628fc       ??_R3TestWeapon@@8         203a38fc     TestWeapon.obj
- 0002:0006290c       ??_R2TestWeapon@@8         203a390c     TestWeapon.obj
- 0002:0006291c       ??_R1A@?0A@EA@TestWeapon@@8 203a391c     TestWeapon.obj
- 0002:00062938       ??_R1A@?0A@EA@rvWeapon@@8  203a3938     TestWeapon.obj
- 0002:00062954       ??_R3rvWeapon@@8           203a3954     TestWeapon.obj
- 0002:00062964       ??_R2rvWeapon@@8           203a3964     TestWeapon.obj
+ 0002:000628e8       ??_R4rvWeaponTest@@6B@     203a38e8     WeaponTestWeapon.obj
+ 0002:000628fc       ??_R3rvWeaponTest@@8       203a38fc     WeaponTestWeapon.obj
+ 0002:0006290c       ??_R2rvWeaponTest@@8       203a390c     WeaponTestWeapon.obj
+ 0002:0006291c       ??_R1A@?0A@EA@rvWeaponTest@@8 203a391c     WeaponTestWeapon.obj
+ 0002:00062938       ??_R1A@?0A@EA@rvWeapon@@8  203a3938     WeaponTestWeapon.obj
+ 0002:00062954       ??_R3rvWeapon@@8           203a3954     WeaponTestWeapon.obj
+ 0002:00062964       ??_R2rvWeapon@@8           203a3964     WeaponTestWeapon.obj
  0002:00062970       ??_R4idWorldspawn@@6B@     203a3970     WorldSpawn.obj
  0002:00062984       ??_R3idWorldspawn@@8       203a3984     WorldSpawn.obj
  0002:00062994       ??_R2idWorldspawn@@8       203a3994     WorldSpawn.obj
@@ -22564,7 +22564,7 @@
  0003:00001840       ?eventCallbacks@idTrigger_Hurt@@2PAU?$idEventFunc@VidTrigger_Hurt@@@@A 203c3840     Trigger.obj
  0003:00001858       ?eventCallbacks@idTrigger_Fade@@2PAU?$idEventFunc@VidTrigger_Fade@@@@A 203c3858     Trigger.obj
  0003:00001868       ?eventCallbacks@idTrigger_Touch@@2PAU?$idEventFunc@VidTrigger_Touch@@@@A 203c3868     Trigger.obj
- 0003:00001878       ?stateCallbacks@TestWeapon@@1PAU?$rvStateFunc@VTestWeapon@@@@A 203c3878     TestWeapon.obj
+ 0003:00001878       ?stateCallbacks@rvWeaponTest@@1PAU?$rvStateFunc@VrvWeaponTest@@@@A 203c3878     WeaponTestWeapon.obj
  0003:000018b8       ?eventCallbacks@idWorldspawn@@2PAU?$idEventFunc@VidWorldspawn@@@@A 203c38b8     WorldSpawn.obj
  0003:000018d0       ?aiTalkMessageString@@3PAPBDA 203c38d0     AI.obj
  0003:000018e0       ?aiMoveDirectionString@@3PAPBDA 203c38e0     AI_Debug.obj
@@ -23260,8 +23260,8 @@
  0003:0000c950       ??_R0?AVidTrigger_Hurt@@@8 203ce950     Trigger.obj
  0003:0000c970       ??_R0?AVidTrigger_Fade@@@8 203ce970     Trigger.obj
  0003:0000c990       ??_R0?AVidTrigger_Touch@@@8 203ce990     Trigger.obj
- 0003:0000c9b0       ??_R0?AVTestWeapon@@@8     203ce9b0     TestWeapon.obj
- 0003:0000c9cc       ??_R0?AVrvWeapon@@@8       203ce9cc     TestWeapon.obj
+ 0003:0000c9b0       ??_R0?AVrvWeaponTest@@@8   203ce9b0     WeaponTestWeapon.obj
+ 0003:0000c9cc       ??_R0?AVrvWeapon@@@8       203ce9cc     WeaponTestWeapon.obj
  0003:0000c9e4       ??_R0?AVidWorldspawn@@@8   203ce9e4     WorldSpawn.obj
  0003:0000ca00       ??_R0?AVidAAS@@@8          203cea00     AAS.obj
  0003:0000ca14       ??_R0?AVidAASCallback@@@8  203cea14     AAS.obj
@@ -23758,8 +23758,8 @@
  0003:006129b4       ?Type@idTrigger_Touch@@0PAVidTypeInfo@@A 209d49b4     Trigger.obj
  0003:006129b8       ?EV_Enable@@3VidEventDef@@B 209d49b8     Trigger.obj
  0003:006129f8       ?EV_Disable@@3VidEventDef@@B 209d49f8     Trigger.obj
- 0003:00612d34       ?Type@TestWeapon@@0PAVidTypeInfo@@A 209d4d34     TestWeapon.obj
- 0003:00612d38       ?eventCallbacks@TestWeapon@@2PAU?$idEventFunc@VTestWeapon@@@@A 209d4d38     TestWeapon.obj
+ 0003:00612d34       ?Type@rvWeaponTest@@0PAVidTypeInfo@@A 209d4d34     WeaponTestWeapon.obj
+ 0003:00612d38       ?eventCallbacks@rvWeaponTest@@2PAU?$idEventFunc@VrvWeaponTest@@@@A 209d4d38     WeaponTestWeapon.obj
  0003:00612d8c       ?Type@idWorldspawn@@0PAVidTypeInfo@@A 209d4d8c     WorldSpawn.obj
  0003:00612df4       ?mSensor@@3PAUrvAASTacticalSensorLocal@@A 209d4df4     AAS_tactical.obj
  0003:00612df8       ?mDebugRadius@@3MA         209d4df8     AAS_tactical.obj
@@ -25608,7 +25608,7 @@
  0001:000f5117       __catch$?CreateInstance@idTrigger_Hurt@@SAPAVidClass@@XZ$0 200f6117 f   Trigger.obj
  0001:000f54ad       __catch$?CreateInstance@idTrigger_Fade@@SAPAVidClass@@XZ$0 200f64ad f   Trigger.obj
  0001:000f56c7       __catch$?CreateInstance@idTrigger_Touch@@SAPAVidClass@@XZ$0 200f66c7 f   Trigger.obj
- 0001:000f6167       __catch$?CreateInstance@TestWeapon@@SAPAVidClass@@XZ$0 200f7167 f   TestWeapon.obj
+ 0001:000f6167       __catch$?CreateInstance@rvWeaponTest@@SAPAVidClass@@XZ$0 200f7167 f   WeaponTestWeapon.obj
  0001:000f6ddd       __catch$?CreateInstance@idWorldspawn@@SAPAVidClass@@XZ$0 200f7ddd f   WorldSpawn.obj
  0001:00111558       $LN419                     20112558     AI.obj
  0001:001119c8       $LN26                      201129c8     AI.obj
@@ -28261,10 +28261,10 @@
  0001:00335630       __unwindfunclet$??_GidTrigger_Timer@@UAEPAXI@Z$0 20336630 f   Trigger.obj
  0001:00335638       __unwindfunclet$??_GidTrigger_Timer@@UAEPAXI@Z$1 20336638 f   Trigger.obj
  0001:00335646       __ehhandler$??_GidTrigger_Timer@@UAEPAXI@Z 20336646 f   Trigger.obj
- 0001:00335650       __unwindfunclet$?RegisterClassA@TestWeapon@@SAXXZ$0 20336650 f   TestWeapon.obj
- 0001:0033565e       __ehhandler$?RegisterClassA@TestWeapon@@SAXXZ 2033665e f   TestWeapon.obj
- 0001:00335668       __unwindfunclet$?CreateInstance@TestWeapon@@SAPAVidClass@@XZ$2 20336668 f   TestWeapon.obj
- 0001:00335673       __ehhandler$?CreateInstance@TestWeapon@@SAPAVidClass@@XZ 20336673 f   TestWeapon.obj
+ 0001:00335650       __unwindfunclet$?RegisterClassA@rvWeaponTest@@SAXXZ$0 20336650 f   WeaponTestWeapon.obj
+ 0001:0033565e       __ehhandler$?RegisterClassA@rvWeaponTest@@SAXXZ 2033665e f   WeaponTestWeapon.obj
+ 0001:00335668       __unwindfunclet$?CreateInstance@rvWeaponTest@@SAPAVidClass@@XZ$2 20336668 f   WeaponTestWeapon.obj
+ 0001:00335673       __ehhandler$?CreateInstance@rvWeaponTest@@SAPAVidClass@@XZ 20336673 f   WeaponTestWeapon.obj
  0001:00335680       __unwindfunclet$?RegisterClassA@idWorldspawn@@SAXXZ$0 20336680 f   WorldSpawn.obj
  0001:0033568e       __ehhandler$?RegisterClassA@idWorldspawn@@SAXXZ 2033668e f   WorldSpawn.obj
  0001:00335698       __unwindfunclet$?CreateInstance@idWorldspawn@@SAPAVidClass@@XZ$2 20336698 f   WorldSpawn.obj
@@ -31408,7 +31408,7 @@
  0001:0033dc90       ??__Ftype@?1??RegisterClassA@idTrigger_Multi@@SAXXZ@YAXXZ 2033ec90 f   Trigger.obj
  0001:0033dca0       ??__Ftype@?1??RegisterClassA@idTrigger_Timer@@SAXXZ@YAXXZ 2033eca0 f   Trigger.obj
  0001:0033dcb0       ??__Ftype@?1??RegisterClassA@idTrigger_Touch@@SAXXZ@YAXXZ 2033ecb0 f   Trigger.obj
- 0001:0033dcc0       ??__Ftype@?1??RegisterClassA@TestWeapon@@SAXXZ@YAXXZ 2033ecc0 f   TestWeapon.obj
+ 0001:0033dcc0       ??__Ftype@?1??RegisterClassA@rvWeaponTest@@SAXXZ@YAXXZ 2033ecc0 f   WeaponTestWeapon.obj
  0001:0033dcd0       ??__Ftype@?1??RegisterClassA@idWorldspawn@@SAXXZ@YAXXZ 2033ecd0 f   WorldSpawn.obj
  0001:0033dce0       ??__FsearchHeap@?4??Search@rvAASTacticalSensorLocal@@QAEXXZ@YAXXZ 2033ece0 f   AAS_tactical.obj
  0001:0033dd30       ??__Ftype@?1??RegisterClassA@idAI@@SAXXZ@YAXXZ 2033ed30 f   AI_events.obj
@@ -32981,7 +32981,7 @@
  0002:0000fda0       _BOUNCE_SOUND_MIN_VELOCITY 20350da0     Moveable.obj
  0002:0000fda4       _BOUNCE_SOUND_MAX_VELOCITY 20350da4     Moveable.obj
  0002:00015ff0       _BOUNCE_SOUND_MIN_VELOCITY 20356ff0     Projectile.obj
- 0002:0001d320       _DEFAULT_GRAVITY           2035e320     WorldSpawn.obj
+ 0002:0001d324       _DEFAULT_GRAVITY           2035e324     WorldSpawn.obj
  0002:0001d738       _AI_TETHER_MINRANGE        2035e738     AAS_Find.obj
  0002:0001d79c       _maxWalkPathDistance       2035e79c     AAS_pathing.obj
  0002:0001d7a0       _walkPathSampleDistance    2035e7a0     AAS_pathing.obj
@@ -35038,12 +35038,12 @@
  0002:00071ff0       __ehfuncinfo$??_GidTrigger_EntityName@@UAEPAXI@Z 203b2ff0     Trigger.obj
  0002:00072014       __unwindtable$??_GidTrigger_Timer@@UAEPAXI@Z 203b3014     Trigger.obj
  0002:00072024       __ehfuncinfo$??_GidTrigger_Timer@@UAEPAXI@Z 203b3024     Trigger.obj
- 0002:00072048       __unwindtable$?RegisterClassA@TestWeapon@@SAXXZ 203b3048     TestWeapon.obj
- 0002:00072050       __catchsym$?CreateInstance@TestWeapon@@SAPAVidClass@@XZ$3 203b3050     TestWeapon.obj
- 0002:00072060       __tryblocktable$?CreateInstance@TestWeapon@@SAPAVidClass@@XZ 203b3060     TestWeapon.obj
- 0002:00072074       __unwindtable$?CreateInstance@TestWeapon@@SAPAVidClass@@XZ 203b3074     TestWeapon.obj
- 0002:0007208c       __ehfuncinfo$?CreateInstance@TestWeapon@@SAPAVidClass@@XZ 203b308c     TestWeapon.obj
- 0002:000720b0       __ehfuncinfo$?RegisterClassA@TestWeapon@@SAXXZ 203b30b0     TestWeapon.obj
+ 0002:00072048       __unwindtable$?RegisterClassA@rvWeaponTest@@SAXXZ 203b3048     WeaponTestWeapon.obj
+ 0002:00072050       __catchsym$?CreateInstance@rvWeaponTest@@SAPAVidClass@@XZ$3 203b3050     WeaponTestWeapon.obj
+ 0002:00072060       __tryblocktable$?CreateInstance@rvWeaponTest@@SAPAVidClass@@XZ 203b3060     WeaponTestWeapon.obj
+ 0002:00072074       __unwindtable$?CreateInstance@rvWeaponTest@@SAPAVidClass@@XZ 203b3074     WeaponTestWeapon.obj
+ 0002:0007208c       __ehfuncinfo$?CreateInstance@rvWeaponTest@@SAPAVidClass@@XZ 203b308c     WeaponTestWeapon.obj
+ 0002:000720b0       __ehfuncinfo$?RegisterClassA@rvWeaponTest@@SAXXZ 203b30b0     WeaponTestWeapon.obj
  0002:000720d4       __unwindtable$?RegisterClassA@idWorldspawn@@SAXXZ 203b30d4     WorldSpawn.obj
  0002:000720dc       __catchsym$?CreateInstance@idWorldspawn@@SAPAVidClass@@XZ$4 203b30dc     WorldSpawn.obj
  0002:000720ec       __tryblocktable$?CreateInstance@idWorldspawn@@SAPAVidClass@@XZ 203b30ec     WorldSpawn.obj
@@ -37814,8 +37814,8 @@
  0003:00612ce0       ?$S12@?1??RegisterClassA@idTrigger_Fade@@SAXXZ@4IA 209d4ce0     Trigger.obj
  0003:00612ce8       ?type@?1??RegisterClassA@idTrigger_Touch@@SAXXZ@4VidTypeInfo@@A 209d4ce8     Trigger.obj
  0003:00612d30       ?$S13@?1??RegisterClassA@idTrigger_Touch@@SAXXZ@4IA 209d4d30     Trigger.obj
- 0003:00612d40       ?type@?1??RegisterClassA@TestWeapon@@SAXXZ@4VidTypeInfo@@A 209d4d40     TestWeapon.obj
- 0003:00612d88       ?$S6@?1??RegisterClassA@TestWeapon@@SAXXZ@4IA 209d4d88     TestWeapon.obj
+ 0003:00612d40       ?type@?1??RegisterClassA@rvWeaponTest@@SAXXZ@4VidTypeInfo@@A 209d4d40     WeaponTestWeapon.obj
+ 0003:00612d88       ?$S6@?1??RegisterClassA@rvWeaponTest@@SAXXZ@4IA 209d4d88     WeaponTestWeapon.obj
  0003:00612d90       ?type@?1??RegisterClassA@idWorldspawn@@SAXXZ@4VidTypeInfo@@A 209d4d90     WorldSpawn.obj
  0003:00612dd8       ?$S6@?1??RegisterClassA@idWorldspawn@@SAXXZ@4IA 209d4dd8     WorldSpawn.obj
  0003:00612ddc       ?dummy@?4??GetPlane@idAASLocal@@UBEABVidPlane@@H@Z@4V3@A 209d4ddc     AAS.obj
