@@ -635,7 +635,7 @@ entityDef player_marine
 	"copy_joint legs_channel"				"legs_channel"
 
 	// weapon slots
-	"def_weapon0"						"weapon_blaster"
+	"def_weapon0"						"weapon_testblaster"
 	"weapon0_best"						"1"			// whether weapon should be chosen when out of ammo
 	"weapon0_cycle"						"1"			// whether weapon should be selected when using next/prev weapon
 	"weapon0_toggle"					"0"			// whether selecting weapon twice switches between current and previous weapons

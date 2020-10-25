@@ -63,13 +63,13 @@ entityDef weapon_testblaster
 	"editor_usage"				"TestBlaster"
 
 	"spawnclass"				"idItem"
-	"weaponclass"				"rvWeaponTest"
+	"weaponclass"				"rvWeaponRocketLauncher"
 	"weaponname"				"TestBlaster"
 	"size"						"32 32 32"
 
-  	"model_view"				"weapon_blaster_view"
-  	"model_view_strogg"			"weapon_blaster_view_strogg"
-  	"model_world"				"weapon_blaster_world"
+  	"model_view"				"weapon_testblaster_view"
+  	"model_view_strogg"			"weapon_testblaster_view_strogg"
+  	"model_world"				"weapon_testblaster_world"
 	"model" 					"models/weapons/blaster/w_bp.lwo"
 
 	"joint_attach"				"PST_ATTACHER"
@@ -82,11 +82,11 @@ entityDef weapon_testblaster
 	"chargeDelay"				".1"
 	"chargeGlow"				"0 .4"
 	"fireRate"					".15"
-	"spread"					"10"
+	"spread"					".2"
 
-//	"def_projectile"			"projectile_testblaster"
-	"def_hitscan"				"hitscan_testblaster"
-	"def_altprojectile"			"projectile_testblaster_charged"
+//	"def_projectile"			"projectile_blaster"
+	"def_hitscan"				"hitscan_blaster"
+	"def_altprojectile"			"projectile_blaster_charged"
 	"ammoType"					"ammo_blaster"
 	"clipSize"					"0"
 	"ammoRequired"				"0"
@@ -176,7 +176,7 @@ model weapon_testblaster_view
 	anim raise					models/weapons/blaster/raise.md5anim
 	{
 		rate					1.4
-		frame 6					sound_weapon	weapon_testblaster_ready
+		frame 6					sound_weapon	weapon_blaster_ready
 	}		
 	anim putaway				models/weapons/blaster/lower.md5anim
 	{
@@ -185,31 +185,31 @@ model weapon_testblaster_view
 
 	anim fire1 					models/weapons/blaster/fire.md5anim
 	{
-		frame 1					sound_weapon	weapon_testblaster_fire
-		frame 1					sound_item		weapon_testblaster_fire_stereo
+		frame 1					sound_weapon	weapon_blaster_fire
+		frame 1					sound_item		weapon_blaster_fire_stereo
 	}
 	anim fire2 					models/weapons/blaster/fire2.md5anim
 	{
-		frame 1					sound_weapon	weapon_testblaster_fire
-		frame 1					sound_item		weapon_testblaster_fire_stereo
+		frame 1					sound_weapon	weapon_blaster_fire
+		frame 1					sound_item		weapon_blaster_fire_stereo
 	}
 
 	anim flashlight				models/weapons/blaster/flashlight.md5anim
 	{
-		frame 8					sound_weapon	weapon_testblaster_flashlight
+		frame 8					sound_weapon	weapon_blaster_flashlight
 	}
 	
 	anim charging				models/weapons/blaster/charge_up.md5anim
 	anim chargedfire			models/weapons/blaster/big_recoil.md5anim
 	{
-		frame 1					sound_weapon	weapon_testblaster_fire_charged
-		frame 1					sound_item		weapon_testblaster_fire_stereo
+		frame 1					sound_weapon	weapon_blaster_fire_charged
+		frame 1					sound_item		weapon_blaster_fire_stereo
 	}
 }
 
 model weapon_testblaster_view_strogg
 {
-	inherit						weapon_testblaster_view
+	inherit						weapon_blaster_view
 	mesh						models/weapons/blaster/view_strogg.md5mesh
 }
 
@@ -227,7 +227,7 @@ model weapon_testblaster_world
 // Projectile
 //-------------------------------------------------------------------------------------------------------------------0
 
-entityDef hitscan_testblaster
+entityDef hitscan_blaster
 {
 	"range"						"10000"
 
