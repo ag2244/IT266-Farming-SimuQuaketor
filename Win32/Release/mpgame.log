@@ -1,4 +1,4 @@
-﻿Build started 10/20/2020 2:59:27 PM.
+﻿Build started 10/26/2020 1:32:20 PM.
      1>Project "C:\Program Files (x86)\GOG Galaxy\Games\Quake 4\Farming Simu-Quaketor\source\mpgame.vcxproj" on node 3 (Build target(s)).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (../Win32/Release\) contains files shared from another project (Game.vcxproj, idLib.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>ClCompile:
@@ -46,15 +46,8 @@
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(242,5): warning MSB4220: Waiting for the currently executing task "CL" to cancel.
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(242,5): warning MSB4220: Waiting for the currently executing task "CL" to cancel.
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(242,5): warning MSB4220: Waiting for the currently executing task "CL" to cancel.
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(242,5): warning MSB4220: Waiting for the currently executing task "CL" to cancel.
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(242,5): warning MSB4220: Waiting for the currently executing task "CL" to cancel.
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(242,5): warning MSB4220: Waiting for the currently executing task "CL" to cancel.
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(242,5): warning MSB4220: Waiting for the currently executing task "CL" to cancel.
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(242,5): warning MSB4220: Waiting for the currently executing task "CL" to cancel.
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(242,5): warning MSB4220: Waiting for the currently executing task "CL" to cancel.
      0>MSBUILD : error MSB4166: Child node "3" exited prematurely. Shutting down. Diagnostic information may be found in files in the temporary files directory named MSBuild_*.failure.txt.
 
 Build FAILED.
 
-Time Elapsed 00:02:15.77
+Time Elapsed 00:00:54.03
