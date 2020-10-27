@@ -635,13 +635,13 @@ entityDef player_marine
 	"copy_joint legs_channel"				"legs_channel"
 
 	// weapon slots
-	"def_weapon0"						"weapon_testblaster"
+	"def_weapon0"						"weapon_plantergun"
 	"weapon0_best"						"1"			// whether weapon should be chosen when out of ammo
 	"weapon0_cycle"						"1"			// whether weapon should be selected when using next/prev weapon
 	"weapon0_toggle"					"0"			// whether selecting weapon twice switches between current and previous weapons
 	"weapon0_flashlight"					"1"
 
-	"def_weapon1"						"weapon_machinegun"
+	"def_weapon1"						"weapon_breedergun"
 	"weapon1_best"						"1"
 	"weapon1_cycle"						"1"
 	"weapon1_flashlight"					"1"
@@ -799,10 +799,15 @@ entityDef player_marine
 
 	// these used to be hard coded values from id
 	// doom 3 SP values, fatal 65, hard 45, soft 30, no fall 7
-	"fatal_fall_delta"					"65"
-	"hard_fall_delta"					"45"
-	"soft_fall_delta"					"30"
-	"no_fall_delta"						"7" 
+	//"fatal_fall_delta"					"65"
+	//"hard_fall_delta"					"45"
+	//"soft_fall_delta"					"30"
+	//"no_fall_delta"						"7" 
+
+	"fatal_fall_delta"					"0"
+	"hard_fall_delta"					"0"
+	"soft_fall_delta"					"0"
+	"no_fall_delta"						"0" 
 	
 	"def_playerView"					"playerView_marine"
 }
