@@ -3,7 +3,7 @@ BRANCH IS MASTER
 Work for my IT266 project, the Quake 4 mod Farming Simuquaketor, as well as other Quake 4 mod work.
 
 ## How to play:
-(All features can be seen using the cheat "give all weapons" in the cheat menu (ctrl + alt + ~)
+(All features can be seen using the cheat "give all weapons" in the cheat menu (ctrl + alt + ~))
 
 ### Planter Gun:
 Left Mouse: Fires a normal blaster's hitscan bullet
